@@ -1,0 +1,146 @@
+---
+title: "University of Minnesota Policies and Procedures"
+subtitle: "Fall 2023"
+---
+
+```{r}
+#| include: false
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
+
+
+
+## Academic Freedom and Responsibility
+
+Academic freedom is a cornerstone of the University. Within the scope and content of the course as defined by the instructor, it includes the freedom to discuss relevant matters in the classroom. Along with this freedom comes responsibility. Students are encouraged to develop the capacity for critical judgment and to engage in a sustained and independent search for truth. Students are free to take reasoned exception to the views offered in any course of study and to reserve judgment about matters of opinion, but they are responsible for learning the content of any course of study for which they are enrolled.^[Language adapted from the American Association of University Professors “Joint Statement on Rights and Freedoms of Students”.] Reports of concerns about academic freedom are taken seriously, and there are individuals and offices available for help. Contact the instructor (Andrew Zieffler; [zief0002@umn.edu](mailto:zief0002@umn.edu)), the Department Chair (Anne Foegen; [afoegen@umn.edu](mailto:afoegen@umn.edu)), your adviser, the associate dean of the college (Tabitha Grier-Reed; [grier001@umn.edu](mailto:grier001@umn.edu)), or the Vice Provost for Faculty and Academic Affairs in the Office of the Provost (Beth Lewis; [blewis@umn.edu](mailto:blewis@umn.edu)).
+
+<br />
+
+
+## Appropriate Student Use of Class Notes and Course Materials
+
+Taking notes is a means of recording information but more importantly of personally absorbing and integrating the educational experience. However, broadly disseminating class notes beyond the classroom community or accepting compensation for taking and distributing classroom notes undermines instructor interests in their intellectual work product while not substantially furthering instructor and student interests in effective learning. Such actions violate shared norms and standards of the academic community. For additional information, please see: [https://policy.umn.edu/education/studentresp](https://policy.umn.edu/education/studentresp).
+
+<br />
+
+
+## Disability Accommodations
+
+The University of Minnesota views disability as an important aspect of diversity, and is committed to providing equitable access to learning opportunities for all students. The [Disability Resource Center (DRC)](https://disability.umn.edu/) is the campus office that collaborates with students who have disabilities to provide and/or arrange reasonable accommodations.
+
+- If you have, or think you have, a disability in any area such as, mental health, attention, learning, chronic health, sensory, or physical, please contact the DRC office on your campus (612.626.1333) to arrange a confidential discussion regarding equitable access and reasonable accommodations.
+- Students with short-term disabilities, such as a broken arm, can often work with instructors to minimize classroom barriers. In situations where additional assistance is needed, students should contact the DRC as noted above.
+- If you are registered with the DRC and have a disability accommodation letter dated for this semester or this year, please contact your instructor early in the semester to review how the accommodations will be applied in the course.
+- If you are registered with the DRC and have questions or concerns about your accommodations please contact your (access consultant/disability specialist).
+
+Additional information is available on the [DRC website](https://disability.umn.edu/) or e-mail [drc@umn.edu](mailto:drc@umn.edu) with questions.
+
+<br />
+
+
+## Equity, Diversity, Equal Opportunity, and Affirmative Action
+
+The University will provide equal access to and opportunity in its programs and facilities, without regard to race, color, creed, religion, national origin, gender, age, marital status, disability, public assistance status, veteran status, sexual orientation, gender identity, or gender expression. For more information, please consult [Board of Regents Policy](https://policy.umn.edu/policy-regents/1027).
+
+<br />
+
+
+## Makeup Work for Legitimate Absences
+
+Students will not be penalized for absence during the semester due to unavoidable or legitimate circumstances. Such circumstances include verified illness, participation in intercollegiate athletic events, subpoenas, jury duty, military service, bereavement, and religious observances. Such circumstances do not include voting in local, state, or national elections. For complete information, please see: [https://policy.umn.edu/education/makeupwork](https://policy.umn.edu/education/makeupwork).
+
+<br />
+
+
+## Mental Health and Stress Management
+
+As a student you may experience a range of issues that can cause barriers to learning, such as strained relationships, increased anxiety, alcohol/drug problems, feeling down, difficulty concentrating and/ or lack of motivation. These mental health concerns or stressful events may lead to diminished academic performance and may reduce your ability to participate in daily activities. University of Minnesota services are available to assist you. You can learn more about the broad range of confidential mental health services available on campus via the [Student Mental Health Website](https://www.mentalhealth.umn.edu).
+
+<br />
+
+
+## Scholastic Dishonesty
+
+You are expected to do your own academic work and cite sources as necessary. Failing to do so is scholastic dishonesty. Scholastic dishonesty means plagiarizing; cheating on assignments or examinations; engaging in unauthorized collaboration on academic work; taking, acquiring, or using test materials without faculty permission; submitting false or incomplete records of academic achievement; acting alone or in cooperation with another to falsify records or to obtain dishonestly grades, honors, awards, or professional endorsement; altering, forging, or misusing a University academic record; or fabricating or falsifying data, research procedures, or data analysis. ([Student Conduct Code](https://z.umn.edu/policy-student_conduct_code)) 
+
+If it is determined that a student has cheated, the student may be given an "F" or an "N" for the course, and may face additional sanctions from the University. For additional information, please see the [policy statement](http://policy.umn.edu/education/instructorresp). The Office for Community Standards has compiled a useful list of [Frequently Asked Questions pertaining to scholastic dishonesty](https://communitystandards.umn.edu/avoid-violations/avoiding-scholastic-dishonesty). If you have additional questions, please clarify with your instructor for the course. Your instructor can respond to your specific questions regarding what would constitute scholastic dishonesty in the context of a particular class---e.g., whether collaboration on assignments is permitted, requirements and methods for citing sources, if electronic aids are permitted or prohibited during an exam.
+
+<br />
+
+
+## Senate Academic Workload Policy
+
+One conventional credit is hereby defined as equivalent to three hours of learning effort per week, averaged over an appropriate time interval, necessary for an average student taking that course to achieve an average grade in that course. It is expected that the academic work required of graduate and professional students will exceed three hours per credit per week or 45 hours per semester.
+
+<br />
+
+
+## Sexual Harassment, Sexual Assault, Stalking and Relationship Violence
+
+The University prohibits sexual misconduct, and encourages anyone experiencing sexual misconduct to access resources for personal support and reporting. If you want to speak confidentially with someone about an experience of sexual misconduct, please contact your campus resources including the [Aurora Center](https://aurora.umn.edu), [Boynton Mental Health](https://boynton.umn.edu/services/mental-health) or [Student Counseling Services](https://counseling.umn.edu/) <https://eoaa.umn.edu/report-misconduct>. If you want to report sexual misconduct, or have questions about the University's policies and procedures related to sexual misconduct, please contact your campus Title IX office or relevant policy contacts.
+
+Instructors are required to share information they learn about possible sexual misconduct with the campus Title IX office that addresses these concerns. This allows a Title IX staff member to reach out to those who have experienced sexual misconduct to provide information about personal support resources and options for investigation. You may talk to instructors about concerns related to sexual misconduct, and they will provide support and keep the information you share private to the extent possible given their University role.
+<https://regents.umn.edu/sites/regents.umn.edu/files/2019-09/policy_sexual_harassment_sexual_assault_stalking_and_relationship_violence.pdf>
+
+<br />
+
+
+## Sexual Harassment
+
+"Sexual harassment" means unwelcome sexual advances, requests for sexual favors, and/or other verbal or physical conduct of a sexual nature. Such conduct has the purpose or effect of unreasonably interfering with an individual's work or academic performance or creating an intimidating, hostile, or offensive working or academic environment in any University activity or program. Such behavior is not acceptable in the University setting. For additional information, please consult [Board of Regents Policy](https://regents.umn.edu/sites/regents.umn.edu/files/policies/Sexual_Harassment_Sexual_Assault_Stalking_Relationship_Violence.pdf)
+
+<br />
+
+
+## Student Conduct Code
+
+The University seeks an environment that promotes academic achievement and integrity, that is protective of free inquiry, and that serves the educational mission of the University. Similarly, the University seeks a community that is free from violence, threats, and intimidation; that is respectful of the rights, opportunities, and welfare of students, faculty, staff, and guests of the University; and that does not threaten the physical or mental health or safety of members of the University community. As a student at the University you are expected adhere to [Board of Regents Policy: Student Conduct Code](https://z.umn.edu/policy-student_conduct_code).
+
+Note that the conduct code specifically addresses disruptive classroom conduct, which means "engaging in behavior that substantially or repeatedly interrupts either the instructor's ability to teach or student learning. The classroom extends to any setting where a student is engaged in work toward academic credit or satisfaction of program-based requirements or related activities."
+
+<br />
+
+
+## Use of Personal Electronic Devices in the Classroom
+
+Using personal electronic devices in the classroom setting can hinder instruction and learning, not only for the student using the device but also for other students in the class. To this end, the University establishes the right of each faculty member to determine if and how personal electronic devices are allowed to be used in the classroom. For complete information, please reference: [https://policy.umn.edu/education/studentresp](https://policy.umn.edu/education/studentresp).
+
+<br />
+
+
+## Grading and Transcripts
+
+**University Grading Scales**
+The University has two distinct grading scales: A--F and S--N.
+
+**A--F grading scale.** The A–F grading scale allows the following grades and corresponding GPA points:
+
+Grade  | GPA Points | Definitions for undergraduate credit |
+------ | ---------- | ------------------------------------ |
+A      | 4.000      | Represents achievement that significantly exceeds expectations in the course. |
+A-     | 3.667      |  |
+B+     | 3.333      |  |
+B      | 3.000      | Represents achievement that is above the minimum expectations in the course. |
+B-     | 2.667      |  |
+C+     | 2.333      |  |
+C      | 2.000      | Represents achievement that meets the minimum expectations in the course. |
+C-     | 1.667      |  |
+D+     | 1.333      |  |
+D      | 1.000      | Represents achievement that partially meets the minimum expectations in the course. Credit is earned but it may not fulfill major or program requirements. |
+F      | 0.000      | Represents failure in the course and no credit is earned. |
+
+
+**S--N grading scale.** The S--N grading scale allows for the following grades and corresponding GPA points:
+
+Grade  | GPA Points | Definitions for undergraduate credit |
+------ | ---------- | ------------------------------------ |
+S      | 0.000      | Satisfactory (equivalent to a C- or better). |
+N      | 0.667      | Not Satisfactory |
+
+For additional information, please refer to: [https://policy.umn.edu/education/gradingtranscripts](https://policy.umn.edu/education/gradingtranscripts).
+
+<br />
+
+
+
+

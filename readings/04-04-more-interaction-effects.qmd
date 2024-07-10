@@ -1,0 +1,14 @@
+---
+title: "📖 More Interaction Effects"
+format:
+  html:
+    css: ["../assets/sticky-notes.css"]
+date: today
+---
+
+
+**Required**
+
+- Williams, R. (2015). [Interpreting interaction effects; interaction effects and centering](https://www3.nd.edu/~rwilliam/stats2/l53.pdf). 
+
+

@@ -1,0 +1,18 @@
+---
+title: "📖 Introduction to Interaction Effects"
+format:
+  html:
+    css: ["../assets/sticky-notes.css"]
+date: today
+---
+
+
+**Required**
+
+- Brambor, T., Clark, W. R., &amp; Golder, M. (2006). [Understanding interaction models:
+Improving empirical analyses](http://mattgolder.com/files/research/pa_final.pdf). *Political Analysis, 14*, 63&ndash;82.
+
+**Additional resources**
+
+- Frost, J. (2018). [Understanding Interaction Effects in Statistics](http://statisticsbyjim.com/regression/interaction-effects/). [blog post]
+

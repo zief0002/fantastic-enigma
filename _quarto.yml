@@ -1,0 +1,65 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "data/"
+    - "files/"
+    - "handouts/"
+    - "scripts/"
+    - "!admin/"
+    - "!archive/"
+    - "!answer-keys/"
+
+website:
+  title: "EPsy 8251"
+  navbar:
+    background: "#ADCAD6"
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Schedule"
+        file: schedule.qmd
+      # - sidebar:assignments
+      - text: "Assignments"
+        file: assignments.qmd
+      - text: "Data"
+        file: data.qmd
+      - text: "Instructor & TA"
+        file: about.qmd
+      - text: "Mission Statements"
+        file: mission-statements.qmd
+      - text: "University Policies"
+        file: umn-policies.qmd
+        
+  # sidebar:
+  #   - id: assignments
+  #     title: "Assignments"
+  #     style: "docked"
+  #     background: light
+  #     collapse-level: 1
+  #     contents: 
+        # - assignments.qmd
+        # - assignments/assignment-01-introduction-to-quarto.qmd
+        # - assignments/assignment-02-polynomial-effects.qmd
+        # - assignments/assignment-03-evidence-and-model-selection.qmd
+        # - assignments/assignment-04-logarithmic-transformations.qmd
+        # - assignments/assignment-05-logistic-regression.qmd
+        # - assignments/assignment-06-lmer-unconditional-longitudinal-models.qmd
+        # - assignments/assignment-07-longitudinal-analysis-ii.qmd
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - "assets/theme.scss"
+    #linkcolor: "#BC69AA"
+    css: ["assets/sticky-notes.css"]
+    toc: true
+    header-includes: |
+      <script src="https://kit.fontawesome.com/e5da75ca36.js" crossorigin="anonymous"></script>
+    sidebar: false
+
+
+  

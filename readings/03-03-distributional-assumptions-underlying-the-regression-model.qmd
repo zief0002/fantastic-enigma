@@ -1,0 +1,18 @@
+---
+title: "📖 Distributional Assumptions Underlying the Regression Model"
+format:
+  html:
+    css: ["../assets/sticky-notes.css"]
+date: today
+---
+
+
+**Required**
+
+- Re-read Lewis-Beck &amp; Lewis-Beck [Chap. 3]
+
+**Additional Resources**
+
+- [Visualizing Residuals](https://drsimonj.svbtle.com/visualising-residuals) [blog post]
+- Osborne, J. W., &amp; Overbay, A. (2004). [The power of outliers (and why researchers should ALWAYS check for them)](https://scholarworks.umass.edu/pare/vol9/iss1/6/). _Practical Assessment, Research &amp; Evaluation, 9_(6).
+

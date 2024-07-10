@@ -1,0 +1,45 @@
+---
+title: "carbon.csv"
+output: 
+  html:
+    css: '../assets/codebooks.css'
+    df_print: paged
+    code_folding: show
+theme: "lumen"
+highlight-style: "atom-one"
+bibliography: '../assets/epsy8252.bib'
+csl: '../assets/apa-single-spaced.csl'
+---
+
+
+```{r}
+#| include: false
+source("../assets/codebook-setup.R")
+```
+
+
+Carbon dioxide emissions are the primary driver of global climate change. Some of the biggest predictors of these emissions include economic growth, industrialization, and urbanization. The data in [carbon.csv](https://raw.githubusercontent.com/zief0002/bespectacled-antelope/main/data/carbon.csv) are from 2017 and include some predictors of carbon dioxide emissions for several countries around the world. The variables are:
+
+- `country`: Country name
+- `region`: Region of the world
+- `co2`: Carbon dioxide measure from the burning of fossil fuels (metric tons per person)
+- `wealth`: A measure of a country's wealth based on its GDP; higher values indicate wealthier countries
+- `urbanization`: Annual urban population growth (as a percentage)
+
+
+
+### Preview
+
+```{r}
+# Import data
+carbon = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/bespectacled-antelope/main/data/carbon.csv")
+
+# View data
+carbon
+```
+
+
+### References
+
+World Bank (2019). [World Bank open data](https://data.worldbank.org/). 
+

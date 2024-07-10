@@ -1,0 +1,12 @@
+---
+title: "📖 Simple Linear Regression: Description"
+format:
+  html:
+    css: ["../assets/sticky-notes.css"]
+date: today
+---
+
+**Required**
+
+- Lewis-Beck &amp; Lewis-Beck [Chap. 1]
+- Clayton, A. (2020, Oct. 28). [How eugenics shaped statistics: Exposing the damned lies of three science pioneers.](https://nautil.us/how-eugenics-shaped-statistics-238014/) *Nautilus, 92 (Frontiers)*.

@@ -1,0 +1,50 @@
+---
+title: "goodreads.csv"
+output: 
+  rmdformats::html_docco:
+    css: '../assets/codebooks.css'
+    df_print: paged
+    code_folding: show
+bibliography: '../assets/epsy8251.bib'
+csl: '../assets/apa-single-spaced.csl'
+---
+
+
+```{r knitr_init, include=FALSE}
+source("../assets/codebook-setup.R")
+```
+
+Goodreads is a social networking website for bookworms. Users can search the extremely large database of books, annotations, and reviews. Andy has been using Goodreads since late 2010 to catalog the books he has read. This data, stored in [goodreads.csv](https://github.com/zief0002/miniature-garbanzo/raw/master/data/goodreads.csv) includes 14 attributes on 653 entries. The attributes are:
+
+- `title`: Book title
+- `subtitle`: Book subtitle
+- `series`: Book series (and number)
+- `author`: Primary author of the book
+- `my_rating`: Andy's Goodreads rating (on a 5-pt scale)
+- `avg_rating`: Average Goodreads rating (on a 5-pt scale)
+- `publisher`: Publishing company
+- `binding`: Book binding (Hardcover or Paperback)
+- `pages`: Length of the book (in pages)
+- `year_published`: Year the book was published
+- `month_read`: Month Andy finished reading the book
+- `month_read_num`: Numerical code for month Andy finished reading the book
+- `year_read`: Year Andy finished reading the book
+- `bookshelf`: Andy's Goodreads bookshelf (to-read; currently-reading; read; quit-reading)
+
+<br />
+
+
+### Preview
+
+```{r echo=TRUE, class.source = "fold-hide"}
+# Import Data
+goodreads = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/goodreads.csv")
+
+# View data
+goodreads
+```
+
+<br />
+
+
+

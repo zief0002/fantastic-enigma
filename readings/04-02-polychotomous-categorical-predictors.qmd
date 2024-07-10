@@ -1,0 +1,21 @@
+---
+title: "📖 Polychotomous Categorical Predictors"
+format:
+  html:
+    css: ["../assets/sticky-notes.css"]
+date: today
+---
+
+
+**Required**
+
+- [Technical Methods Report: Guidelines for Multiple Testing in Impact Evaluations ](https://ies.ed.gov/ncee/pdf/20084018.pdf)
+
+
+**Additional Resources**
+
+- Gelman, A., Hill, J., & Yajima, M. (2012). [Why we (usually) don’t have to worry about multiple comparisons](http://www.stat.columbia.edu/~gelman/research/published/multiple2f.pdf). _Journal of Research on Educational Effectiveness, 5_, 189&ndash;211.
+- [Science isn't Broken](https://fivethirtyeight.com/features/science-isnt-broken/#part1) [web article]
+- Veazie, P. J. (2006). [When to combine hypotheses and adjust for multiple Tests](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1713204/). _Health Services Research, 41_(3 Pt 1), 804&ndash;818. doi:  10.1111/j.1475-6773.2006.00512.x 
+
+

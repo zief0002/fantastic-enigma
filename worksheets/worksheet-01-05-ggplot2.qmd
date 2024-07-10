@@ -1,0 +1,162 @@
+---
+title: "Learning ggplot2 Worksheet"
+author: "Small Group"
+format:
+  html:
+   css: "../assets/sticky-notes.css"
+date: today
+---
+
+
+## Directions
+
+Work with one or more other students to complete each of the tasks in this document. As you work through these tasks, you may want to refer to the following:
+
+- [Visualizing Data with ggplot2](https://zief0002.github.io/toolkit-quarto/06-visualizing-with-ggplot2.html)
+
+As part of this, include the syntax you use to complete each tasks in a script file. As you write your script file, adhere to good coding practices:
+
+- Include comments
+- Include spaces
+- Include a line break after every pipe operator you use.
+
+You can check in with Andy or the TA at the completion of each task to check your work. 
+
+<br />
+
+
+## Task 1: Import Data
+
+Import the [riverview.csv](https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/riverview.csv) data into an object named `city`. Also, examine the [data codebook](https://zief0002.github.io/rustic-penguin/codebooks/riverview.html) so you are familiar with the different attributes.
+
+<br />
+
+
+## Task 2: Sketch
+
+Make a rough sketch of the plot you think this syntax will produce. Try not to run the syntax until you create a sketch. After you have created your rough sketch, run the syntax to check your work.
+
+```{r}
+#| eval: false
+ggplot(data = city, aes(x = education, y = income)) +
+  geom_point() +
+  xlab("Education level (in years)") +
+  ylab("Annual income (in U.S. dollars)") +
+  theme_bw()
+```
+
+<br />
+
+
+## Task 3: Mimic a Plot
+
+Write syntax to create the following plot, which was created using the `city` (riverview) data. Write this syntax in a script file. Be sure you are using good coding practices and putting each layer on a different line. (Hint: If you want to be exact, use [Tin Eye Lab's Color Extraction tool](https://labs.tineye.com/color/) to extract the hex codes for the color.)
+
+```{r}
+#| echo: false
+#| fig-width: 11
+#| fig-height: 5
+#| fig-align: 'center'
+#| out-width: '90%'
+#| message: false
+
+library(readr)
+library(ggplot2)
+library(scales)
+
+city = read_csv("https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/riverview.csv")
+  
+ggplot(data = city, aes(x = education, y = income)) +
+  geom_point(aes(color = party), size = 4) +
+  scale_color_manual(
+    name = "Political affiliation", 
+    values = c("#00afbb", "#e7b800", "#fc4e07")
+    ) +
+  xlab("Education level (in years)") +
+  scale_y_continuous(
+    name = "Annual income (in U.S. dollars)", 
+    labels = label_number(prefix = "$", suffix = "k")
+    ) +
+  theme_bw() +
+  facet_wrap(~ gender)
+```
+
+
+<br />
+
+
+## Task 4: Export a Plot and Import it into a Document
+
+Export the plot you created in Task 3 as a PNG file. Be sure the aspect ratio of the plot is reasonable (the plot is not scrunched or stretched). Import the exported PNG file into a word-processed document. Re-size the plot so that it is not taking up excess space in the document, and also still readable. Add a figure number and caption to your plot.
+
+<br />
+
+
+## Task 5: Mimic a Plot
+
+Write syntax to create the following plot, which was created using the `city` (riverview) data. Write this syntax in a script file. Be sure you are using good coding practices and putting each layer on a different line.
+
+```{r}
+#| echo: false
+#| fig-width: 7
+#| fig-height: 5
+#| fig-align: 'center'
+#| out-width: '70%'
+#| message: false
+
+ggplot(data = city, aes(x = income)) +
+  geom_histogram(color = "black", fill = "yellow") +
+  scale_x_continuous(
+    name = "Annual income (in U.S. dollars)", 
+    labels = label_number(prefix = "$", suffix = "k")
+    ) +
+  ylab("Frequency") +
+  theme_bw()
+```
+
+<br />
+
+
+## Task 6: Mimic a Plot
+
+Write syntax to create the following plot, which was created using the [gapminder.csv](https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/gapminder.csv) data. Write this syntax in a script file. Be sure you are using good coding practices and putting each layer on a different line.
+
+```{r}
+#| echo: false
+#| fig-width: 8
+#| fig-height: 5
+#| fig-align: 'center'
+#| out-width: '90%'
+#| fig-cap: "Life expectancy versus per-peron income for 193 countries."
+#| message: false
+
+gap = read_csv("https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/gapminder.csv")
+
+ggplot(data = gap, aes(x = income, y = life_exp)) +  
+  geom_point(shape = 21, size = 4, aes(fill = region)) +
+  scale_x_continuous(
+    name = "Per-person income (in international dollars)", 
+    # breaks = c(0.5, 1, 2, 4, 8, 16, 32, 64, 128),
+    labels = label_number(prefix = "$", suffix = "k")
+    ) +
+  scale_y_continuous(
+    name = "Life expectancy (in years)"
+    ) +
+  scale_fill_manual(
+    name = "World Region",
+    values = c("#87CEEB", "#DDA0DD", "#FFA500", "#7FFF00"),
+    labels = c("Africa", "The Americas", "Asia", "Europe")
+  ) +
+  # scale_radius(range = c(1, 15)) +
+  theme_minimal()
+```
+
+<br />
+
+
+## Task 7: Add Text to Label a Point
+
+Add text to the plot you created in Task 6 to label the country with the highest life expectancy.
+
+<br />
+

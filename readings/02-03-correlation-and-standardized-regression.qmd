@@ -1,0 +1,20 @@
+---
+title: "📖 Correlation and Standardized Regression"
+format:
+  html:
+    css: ["../assets/sticky-notes.css"]
+date: today
+---
+
+
+**Required**
+
+- [Easy Correlation Matrix Analysis in R Using Corrr Package](https://www.datanovia.com/en/blog/easy-correlation-matrix-analysis-in-r-using-corrr-package/)
+
+**Additional Resources**
+
+- [corrr Package Vignette](https://github.com/tidymodels/corrr)
+- [Exploring correlations in R with corrr](https://drsimonj.svbtle.com/exploring-correlations-in-r-with-corrr)
+- [Guess the Correlation Game](http://guessthecorrelation.com/) [fun game]
+- Bring, J. (1994). [How to standardize regression coefficients.](https://amstat.tandfonline.com/doi/abs/10.1080/00031305.1994.10476059) *The American Statistician, 48*(3), 209&ndash;213. 
+

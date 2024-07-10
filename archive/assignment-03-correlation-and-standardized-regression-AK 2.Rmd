@@ -1,0 +1,183 @@
+---
+title: "Assignment 03"
+author: "Correlation and Standardized Regression"
+date: Answer Key
+header-includes:
+   - \usepackage{xcolor}
+   - \definecolor{umn}{HTML}{FF2D21}
+   - \usepackage{caption}
+   - \captionsetup[table]{textfont={it}, labelfont={}, singlelinecheck=false, labelsep=newline}
+   - \captionsetup[figure]{textfont={}, labelfont={it}, singlelinecheck=false, labelsep=period}
+   - \usepackage{xfrac}
+output: 
+  pdf_document:
+    highlight: tango
+    latex_engine: xelatex
+    fig_width: 6
+    fig_height: 6
+mainfont: "Sabon"
+sansfont: "Helvetica Neue UltraLight"
+monofont: Inconsolata
+urlcolor: "umn"
+always_allow_html: yes
+---
+
+\frenchspacing
+
+
+
+This assignment is worth 10 points. Each question is worth 1 point unless otherwise noted.
+
+```{r warning=FALSE, message=FALSE, echo=FALSE, tidy=FALSE}
+# Load libraries
+library(corrr)
+library(dplyr)
+library(ggplot2)
+library(readr)
+
+# Read in data
+educ = read_csv(file = "~/Documents/github/epsy-8251/data/state-education.csv") %>% 
+  mutate(salary_thousand = salary_2020_21/1000)
+```
+
+\vspace{3em}
+
+
+
+**1. Compute and report the Pearson correlation coefficient between SAT scores and teacher salaries.**
+
+```{r echo=FALSE}
+educ %>%
+  select(SAT = sat_total, Salary = salary_thousand) %>%
+  correlate() %>%
+  shave()
+```
+
+\vspace{1em}
+
+**2. Is the Pearson correlation coefficient an appropriate summary measure of the relationship? Explain. (Hint: Pay attention to the structural form in the data!)**
+
+Yes. Since the structure of the relationship is linear, the Pearson correlation coefficient is an appropriate summary of the relationship. (Note if students say the relationship is nonlinear, then it would not be an appropriate measure.)
+
+# Part II: Regression with a Mean Centered Predictor
+
+```{r echo=FALSE}
+educ = educ %>% 
+  mutate(center_salary_thousand = salary_thousand - mean(salary_thousand))
+```
+
+**3. Compute and report (a) the mean centered teacher salary, (b) the standard deviation of centered teacher salaries, and (c) the Pearson correlation coefficient between SAT scores and centered teacher salaries. How do these values compare to the values you computed in the previous assignment using the uncentered teacher salaries?**
+
+```{r echo=FALSE}
+x = educ %>% 
+  summarize(
+    M = mean(center_salary_thousand), 
+    SD = sd(center_salary_thousand), 
+    r = cor(center_salary_thousand, sat_total)
+    )
+
+x %>%
+  knitr::kable(
+    digits = 2,
+    format = "latex",
+    booktabs = TRUE
+             ) %>%
+  kableExtra::kable_styling(latex_options = "HOLD_position")
+```
+
+The standard deviation and correlation are exactly the same as the uncentered values. The mean of the centered variable is 0, which is expected since we mean centered the new variable.
+
+\vspace{1em}
+
+**4. Report and interpret the value of Minnesota's centered teacher salary.**
+
+```{r echo=FALSE, eval=FALSE}
+educ %>% 
+  filter(postal == "MN") %>% 
+  select(center_salary_thousand)
+```
+
+Minnesota's value of $2.67$ indicates that the average teacher salary in Minnesota is \$2.67-thousand lower than the average teacher salary in the United States.
+
+\pagebreak
+
+**5. Explain how the slope of the unstandardized regression you found in the previous assignment will compare to the slope of the regression if we regressed SAT scores on the centered teacher salaries by making reference to the values in the mathematical formula for slope, which is:**
+
+$$
+\hat\beta_1 = r_{XY} \times \left( \frac{SD_{Y}}{SD_{X}}\right)
+$$
+
+Since the standard deviations and the correlation for the unstandardized and centered variables are the same, the slope based on using the standardized variables should be identical to the slope from the unstandardized analysis.
+
+\vspace{1em}
+
+**6. Explain how the intercept of the unstandardized regression you found in the previous assignment will compare to the intercept of the regression if we regressed SAT scores on the centered teacher salaries by making reference to the values in the mathematical formula for intercept, which is:**
+
+$$
+\hat\beta_0 = \bar{Y} - \beta_1(\bar{X})
+$$
+
+These will be different. In the centered analysis, since the mean of $X$ is 0, the intercept will then be $\bar{Y}$.
+
+$$
+\hat\beta_0 = \bar{Y} - \beta_1(0) = \bar{Y}
+$$
+This is not the case for the intercept in the unstandardized analysis since where (assuming a positive slope) the intercept will be less than $\bar{Y}$.
+
+\vspace{1em}
+
+**7. Regress SAT scores on the centered teacher salaries. Write the *fitted equation* using Equation Editor (or some other program that correctly types mathematical expressions). (You should be able to now check your previous response as well.)**
+
+```{r include=FALSE}
+lm(sat_total ~ 1 + center_salary_thousand, data = educ)
+```
+
+
+
+$$
+\hat{\mathrm{SAT}_i} = 1100.35 - 2.63(\mathrm{Centered~Salary}_i)
+$$
+
+# Part III: Standardized Regression
+
+```{r echo=FALSE}
+educ = educ %>% 
+  mutate(
+    z_sat = scale(sat_total), 
+    z_salary = scale(salary_thousand)
+    )
+```
+
+**8. Using the mathematical formula for intercept from Question \#6, explain why the intercept from regressing $z_{\mathrm{Outcome}}$ on $z_{\mathrm{Predictor}}$ will be 0.**
+
+When both $X$ and $Y$ are standardized, the mean for both will be 0. Substituting these into the formula: 
+
+$$
+\hat\beta_0 = 0 - \beta_1(0) = 0
+$$
+
+\vspace{1em}
+
+**9. Using the mathematical formula for slope from Question \#5, explain why the slope from regressing $z_{\mathrm{Outcome}}$ on $z_{\mathrm{Predictor}}$ will be the correlation coefficient between the predictor and outcome.**
+
+When both $X$ and $Y$ are standardized, the SD for both will be 1. Substituting these into the formula:
+
+$$
+\hat\beta_1 = r_{XY} \times \left( \frac{1}{1}\right) = r_{XY}
+$$
+
+\pagebreak
+
+**10. Compute and report the residual for Minnesota from the fitted standardized regression equation. Explain what the sign and magnitude of the residual value tells you about how Minnesota's mean SAT score compares to the mean SAT score for other states having the same average teacher salary?**
+
+```{r echo=FALSE, eval=FALSE}
+lm(z_sat ~ 1 + z_salary, data = educ)
+educ %>% filter(postal == "MN") %>% print(width = Inf)
+```
+
+$$
+e_{\mathrm{MN}} = 1.76 - (0.079) = 1.68
+$$
+
+Minnesota's standardized residual of 1.68 indicates that Minnesota's average SAT score is 1.68 standard deviations above the average predicted SAT score for states with an average teacher salary the same as Minnesota's.
+

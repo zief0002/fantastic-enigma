@@ -1,0 +1,47 @@
+---
+title: "mn-schools.csv"
+output: 
+  html:
+    css: '../assets/codebooks.css'
+    df_print: paged
+    code_folding: show
+theme: "lumen"
+highlight-style: "atom-one"
+bibliography: '../assets/epsy8251.bib'
+csl: '../assets/apa-single-spaced.csl'
+---
+
+
+```{r}
+#| include: false
+source("../assets/codebook-setup.R")
+```
+
+
+
+The data in [mnSchools.csv](https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/mn-schools.csv) were collected from [http://www.collegeresults.org](http://www.collegeresults.org) and contain 2011 institutional data for $n=33$ Minnesota colleges and universities. The attributes include:
+
+- `name`: College/university name
+- `grad`: Six-year graduation rate (as a percentage)
+- `sector`: Educational sector (Public; Private)
+- `sat`: Estimated median composite SAT score (in hundreds)
+- `tuition`: Amount of tuition and required fees covering a full academic year for a typical student (in thousands of U.S. dollars)
+
+
+<br />
+
+
+### Preview
+
+```{r}
+# Import Data
+mn = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/mn-schools.csv")
+
+# View data
+mn
+```
+
+
+<br />
+
+

@@ -1,0 +1,35 @@
+---
+title: "Instructor/TA"
+---
+
+```{r}
+#| echo: false
+#| fig-align: 'center'
+#| layout-ncol: 2
+knitr::include_graphics(c("img/andy-avatar.png"))
+```
+
+
+**Instructor:** Andrew Zieffler <br />
+**Email:** [zief0002@umn.edu](mailto://zief0002@umn.edu) <br />
+**Office:** [Education Sciences Building 178](https://www.google.com/maps/place/Education+Sciences+Building/@44.9784043,-93.2394586,15z/data=!4m2!3m1!1s0x0:0x45656dac481b9150)  <br />
+**Office Hours:** Tuesday 11:30 AM&ndash;12:30 PM; and by appointment <br />
+**Virtual Office:** If you want to meet virtually, send me a Google calendar invite and include a Zoom link in the invite. 
+
+<br />
+
+
+```{r}
+#| echo: false
+#| fig-align: 'center'
+#| layout-ncol: 2
+knitr::include_graphics(c("img/shelby.jpg"))
+```
+
+**TA:** Shelby Weisen  <br />
+**Email:** [weise207@umn.edu](mailto://weise207@umn.edu) <br />
+**Office:** [Education Sciences Building 197](https://www.google.com/maps/place/Education+Sciences+Building/@44.9784043,-93.2394586,15z/data=!4m2!3m1!1s0x0:0x45656dac481b9150)  <br />
+**Office Hours:** Wednesday 12:00 PM&ndash;1:00 PM; and by appointment
+**Virtual Office:** If you want to meet Shelby virtually, send her a Google calendar invite and include a Zoom link in the invite.
+
+<br />

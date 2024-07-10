@@ -1,0 +1,13 @@
+---
+title: "📖 Dichotomous Categorical Predictors"
+format:
+  html:
+    css: ["../assets/sticky-notes.css"]
+date: today
+---
+
+
+**Required**
+
+- [What is Dummy Coding?](https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faqwhat-is-dummy-coding/) [web article]
+

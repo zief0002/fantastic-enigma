@@ -1,0 +1,161 @@
+---
+title: "Assignment Due Dates"
+---
+
+
+Below are the due dates for the assignments, as well as links to each assignment. *All assignments are due by 5:00 PM on the due date.* The due dates may change at the instructor's discretion. Any revised due dates will be announced in class and posted to the website. 
+
+<br />
+
+<table class="table">
+
+<thead>
+<tr>
+<th style="width:50%;">Assignment</th>
+<!-- <th style="width:15%;">Due Date (T/R)</th> -->
+<th style="width:30%;">Due Date</th>
+<th style="width:10%;text-align:center">HTML</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Assignment \#1: *Introduction to Statistical Computing* 
+  <!-- <span style="margin-left:20px; color:red;">*[Updated 09-13-2021]*</span> -->
+</td>
+<!-- <td>Sept. 19</td> -->
+<td>Sept. 27</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-01-introduction-to-statistical-computing.html)
+</td>
+</tr>
+
+
+
+<tr>
+<td>Assignment \#2: *Simple Regression: Description*</td>
+<!-- <td>Oct. 01</td> -->
+<td>Oct. 09</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-02-simple-regression-description.html)
+</td>
+</tr>
+
+<!-- <tr> -->
+<!-- <td>Assignment \#3: *Correlation and Standardized Regression*</td> -->
+<!-- <!-- <td>Oct. 10</td> -->
+<!-- <td>Oct. 11</td> -->
+<!-- <td align="center" style="vertical-align:middle;"> -->
+<!--   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/f21-assignment-03-correlation-and-standardized-regression.html) -->
+<!-- </td> -->
+<!-- </tr> -->
+
+<tr>
+<td>Assignment \#3: *Simple Regression: Inference*</td>
+<!-- <span style="margin-left:20px; color:red;">*[Updated 10-11-2023]*</span> -->
+<!-- <td>Oct. 22</td> -->
+<td>Oct. 25</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-03-simple-regression-inference.html)
+</td>
+</tr>
+
+<tr>
+<td>Assignment \#4: *Introduction to Multiple Regression*</td>
+<!-- <td>Oct. 31</td> -->
+<td>Nov. 08</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-04-introduction-to-multiple-regression.html)
+</td>
+</tr>
+
+<tr>
+<td>Assignment \#5: *Regression Assumptions*</td>
+<!-- <td>Nov. 12</td> -->
+<td>Nov. 15</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-05-regression-assumptions.html)
+</td>
+</td>
+</tr>
+
+
+
+<tr>
+<td>Assignment \#6: *Dichotomous Categorical Predictors*</td>
+<!-- <td>Nov. 19</td> -->
+<td>Nov. 29</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-06-dichotomous-categorical-predictors.html)
+</td>
+</tr>
+
+
+<tr>
+<td>Assignment \#7: *Polychotomous Categorical Predictors*
+  <!-- <span style="margin-left:20px; color:red;">*[Updated 11-12-2019]*</span> -->
+  </td>
+<!-- <td>Dec. 03</td> -->
+<td>Dec. 06</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-07-polychotomous-categorical-predictors.html)
+</td>
+</tr>
+
+
+<tr>
+<td>Assignment \#8: *Interaction Models*</td>
+<td>Dec. 15 (due at 12:00pm)</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-08-interactions.html)
+</td>
+</tr>
+
+</tbody>
+</table>
+
+
+<br />
+
+
+## FAQs
+
+**How do I submit the assignment?**
+
+Create a PDF of your responses and submit the PDF via email to both the instructor and TA. Also cc any group members. Before you submit the assignment check that:
+
+- [ ] All group members' names are on the assignment.
+- [ ] All tables are numbered and have a caption.
+- [ ] All figures are numbered and have a caption.
+- [ ] All figures are re-sized to not take up more page space than is necessary to read them.
+- [ ] No R syntax is included unless the question specifically asked for the syntax to be included. If there is R syntax included, be sure that it is typeset in a monospaced font (e.g., Courier, Inconsolata).
+- [ ] Do not submit the script file you used unless the directions specifically ask you to submit it.
+
+
+
+**Do I need to turn in the script file?**
+
+No...unless the directions specifically ask you to submit the script file. The script file is for your reference. Future assignments will sometimes have questions that reference older assignments, so an organized and well-commented script file is a good idea. Moreover, the TA or myself may ask you to submit your syntax after you submit the assignment to help us interpret mistakes you made on the assignment so that we can provide more thorough feedback.
+
+
+**Will you provide answer keys to the assignments?**
+
+No. You will get back several comments on your assignments that address what you did wrong. The educational research is pretty clear that feedback is more helpful to student learning than providing correct answers. If you have further questions or need additional clarification, you are welcome to come to office hours or make an appointment with the instructor or TA.
+
+
+**Will you go over the answers in class?**
+
+No. I will address broad concepts if several students/groups made the same mistake, but otherwise, since each student/group makes unique mistakes going over the assignments more broadly is not a good use of our limited class time. The feedback should be helpful in understanding any mistakes you made, but if it isn't, you are welcome to come to office hours or make an appointment with the instructor or TA.
+
+
+**Will you look at our assignment prior to us submitting it?**
+
+The instructor or TA will not "pre-grade" your assignment. If there is a "Preparation" part of the assignment we can ensure that you did that part correctly, and we can also give you feedback about syntax, but we will not tell you if an answer is correct or not. We can also answer clarifying questions (e.g., 'I know Question 8 is asking about […], but I’m not sure what this question is looking for. Is there another way to restate this question?'). If you completed the assignment without any trouble, then be confident in your work and simply submit the assignment! 😄 If you are unsure about something specific, then ask about that specific thing rather than a general 'did I do this right'! 
+
+
+**Will we be able to re-do the assignment?**
+
+Generally no. Since you have the opportunity to work in groups on the assignments, you should be able offset any of the issues that come up that would necessitate a re-submission. The exception to this is that we may allow you to re-do Assignment 1. If we do this, we will send you an email requesting that you resubmit part, or all of Assignment 1. You will not receive much feedback on your assignment prior to your re-submission. This is because during the first assignment you are learning not only content, but also expectations around how to respond to the questions we ask.
+
+

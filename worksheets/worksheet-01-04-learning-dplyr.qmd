@@ -1,0 +1,84 @@
+---
+title: "Learning dplyr Worksheet"
+author: "Small Group"
+format:
+  html:
+   css: "../assets/sticky-notes.css"
+date: today
+---
+
+
+## Directions
+
+Work with one or more other students to complete each of the tasks in this document. As you work through these tasks, you may want to refer to the following:
+
+- [Data Wrangling with dplyr](https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html)
+
+As part of this, include the syntax you use to complete each tasks in a script file. As you write your script file, adhere to good coding practices:
+
+- Include comments
+- Include spaces
+- Include a line break after every pipe operator you use.
+
+You can check in with Andy or the TA at the completion of each task to check your work. 
+
+<br />
+
+
+## Task 1: Import Data
+
+Import the [comic-characters.csv](https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/comic-characters.csv) data into an object named `comics`. Also, examine the [data codebook](https://zief0002.github.io/rustic-penguin/codebooks/comic-characters.html) so you are familiar with the different variables.
+
+
+<br />
+
+
+## Task 2: Arranging
+
+Use the `arrange()` function to determine whether Marvel and DC introduced LGBTQ characters around the same time, or whether one company was more progressive?
+
+<br />
+
+
+## Task 3: More Arranging
+
+Use the `arrange()` function to determine the first appearance of an LGBTQ female character in DC comics.
+
+<br />
+
+
+## Task 4: Filtering Rows
+
+Use the `filter()` function and `nrow()` to determine the percentage of female comic characters.
+
+<br />
+
+
+## Task 5: More Filtering
+
+Use the `filter()` function and `nrow()` to determine the percentage of LGBTQ comic characters introduced in 1970 or later. Based on the result is there evidence that the Pride Movement may have had an impact on LGBTQ representation?
+
+<br />
+
+
+## Task 6: Selecting Columns
+
+The [Selecting a Subset of Columns](https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html#selecting-a-subset-of-columns) section of *Data Wrangling with dplyr* included syntax for selecting a subset of data and exporting it to a directory on your computer. Modify the syntax to export a CSV of the LGBTQ character data to the desktop on your computer. 
+
+Also try modifying the syntax to export the CSV file to another folder/directory on your computer.
+
+<br />
+
+
+## Task 7: Mutating Columns
+
+Create a new column called `first_appearance_pride` that indicates how many years before or after the Pride Movement (1970) the character's first appearance happened. For example a character that first appeared in 1980 would have a value of 10, and a character that first appeared in 1968 would have a value of -2. Assign the data that includes this column into an object called `comics2`.
+
+<br />
+
+
+## Task 8: Grouping and Summarizing
+
+Modify the syntax in the [Computations on Groups](https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html#computations-on-groups) section of *Data Wrangling with dplyr* to determine the average number of appearances for both DC and Marvel LGBTQ and non-LGBTQ characters (as well as the standard deviation and sample size) before and after the Pride Movement.
+
+<br />

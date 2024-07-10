@@ -1,0 +1,48 @@
+---
+title: "keith-gpa.csv"
+output: 
+  html:
+    css: '../assets/codebooks.css'
+    df_print: paged
+    code_folding: show
+theme: "lumen"
+highlight-style: "atom-one"
+bibliography: '../assets/epsy8251.bib'
+csl: '../assets/apa-single-spaced.csl'
+---
+
+
+```{r}
+#| include: false
+source("../assets/codebook-setup.R")
+```
+
+
+
+The data, stored in [keith-gpa.csv](https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/keith-gpa.csv) includes three attributes on $n = 100$ 8th-grade students. These data come from @Keith:2015. The attributes are:
+
+- `gpa`: Overall Grade-point average (GPA) in all subjects (on a standard 100-point scale)
+- `homework`: Average time spent on homework per week across all subjects (in hours)
+- `parent_ed`: Education-level (in years of schooling) for the parent with the highest level of education
+
+
+<br />
+
+
+### Preview
+
+```{r}
+# Import Data
+keith = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/keith-gpa.csv")
+
+# View data
+keith
+```
+
+<br />
+
+
+### References
+
+<!-- <p style="padding-left: 50px; text-indent: -50px;"> -->
+
