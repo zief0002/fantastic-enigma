@@ -98,13 +98,13 @@
   padding: 1em;
   margin: 1em 0;
   padding-left: 100px;
-  background-image: url("../img/unite.png");
+  background-image: url("../img/scoobydoo_friends.png");
   background-size: 70px;
   background-repeat: no-repeat;
   background-position: 15px 50px;
   min-height: 120px;
   box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
-  background-color: #f9f3c2;
+  background-color: #d7f4a4;
   border-top-left-radius: 255px 15px;
   border-top-right-radius: 15px 225px;
   border-bottom-right-radius: 225px 15px;
@@ -195,4 +195,109 @@
   border-bottom-left-radius:15px 255px;
   border: solid 5px #41403E;
   }  
+  
+
+/* -----------Syllabus Technology Note------------- */
+
+.technology {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-image: url("../img/scooby.png");
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 10px 40px;
+  min-height: 120px;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  background-color: #dbe58a;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius:15px 255px;
+  border: solid 5px #41403E;
+  }  
+  
+
+/* -----------Syllabus CEHD Recording Note------------- */
+
+.recording {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-image: url("../img/underdog.png");
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px 50px;
+  min-height: 120px;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  background-color: #d7f3fe;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius:15px 255px;
+  border: solid 5px #41403E;
+  }  
+  
+
+/* -----------Syllabus Absence Policy Note------------- */
+
+.absence {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-image: url("../img/huckleberry-hound.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: 5px 50px;
+  min-height: 120px;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  background-color: #faeff4;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius:15px 255px;
+  border: solid 5px #41403E;
+  }  
+
+
+/* -----------Syllabus AI Note------------- */
+
+.ai {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-image: url("../img/yogi.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: 5px 50px;
+  min-height: 120px;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  background-color: #fee7b2;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius:15px 255px;
+  border: solid 5px #41403E;
+  }  
+  
+
+/* -----------Syllabus Collaboration Tips Note------------- */
+
+.collaboration {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-image: url("../img/snagglepuss.png");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: 15px 50px;
+  min-height: 120px;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  background-color: #e8e6d8;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius:15px 255px;
+  border: solid 5px #41403E;
+  } 
   

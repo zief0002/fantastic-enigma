@@ -1,6 +1,5 @@
 ---
 title: "University of Minnesota Policies and Procedures"
-subtitle: "Fall 2023"
 ---
 
 ```{r}

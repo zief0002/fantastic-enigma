@@ -117,8 +117,13 @@ tidy(lm.b)                        # Coefficient-level
 ### Adjusted p-values
 ##################################################
 
+unadj_p = c(0.079, 0.005, 0.609)
+
 # Dunn-Bonferonni adjustment to p-values (naive)
 c(0.079, 0.005, 0.609) * 3
+
+p.adjust(unadj_p, method = "BH")
+
 
 
 # Dunn-Bonferroni adjustment to p-values
@@ -137,6 +142,7 @@ data.frame(
   unadjusted_p = c(0.079, 0.005, 0.609)
 ) %>%
   mutate(
+    bonferroni_p = p.adjust(unadjusted_p, method = "bonferroni"),
     bh_p = p.adjust(unadjusted_p, method = "BH")
   )
 
@@ -166,7 +172,7 @@ tidy(lm.d) # Coefficient-level
 
 data.frame(
   comparison = c("Two-parent vs. Parent/guardian", "Two-parent vs. Single-parent", "Parent/guardian vs. Single-parent"),
-  unadjusted_p = c(0.092, 0.007, 0.092)
+  unadjusted_p = c(0.092, 0.007, 0.635)
 ) %>%
   mutate(
     bh_p = p.adjust(unadjusted_p, method = "BH")

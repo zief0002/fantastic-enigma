@@ -39,7 +39,8 @@ lm.a = lm(gpa ~ 1 + homework, data = keith)
 ### Model-level output
 ##################################################
 
-glance(lm.a)
+glance(lm.a) |>
+  print(width = Inf)
 
 
 

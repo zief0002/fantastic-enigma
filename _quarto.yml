@@ -22,12 +22,14 @@ website:
       - text: "Schedule"
         file: schedule.qmd
       # - sidebar:assignments
-      - text: "Assignments"
+      - text: "Assignments & Grading"
         file: assignments.qmd
       - text: "Data"
         file: data.qmd
       - text: "Instructor & TA"
         file: about.qmd
+      - text: "Class Policies"
+        file: class-policies.qmd
       - text: "Mission Statements"
         file: mission-statements.qmd
       - text: "University Policies"

@@ -22,7 +22,7 @@ options(pillar.sigfig = 6)
 ##################################################
 
 keith = read_csv(file = "https://raw.githubusercontent.com/zief0002/modeling/master/data/keith-gpa.csv")
-head(keith)
+keith
 
 
 
@@ -84,6 +84,8 @@ keith %>%
 # Standardize the outcome and predictor
 keith = keith %>%
   mutate(
+    c_gpa = gpa - mean(gpa),
+    c_homework = homework - mean(homework),
     z_gpa = (gpa - mean(gpa)) / sd(gpa),
     z_homework = (homework - mean(homework)) / sd(homework)
   )

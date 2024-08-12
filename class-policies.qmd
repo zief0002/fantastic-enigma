@@ -1,0 +1,63 @@
+---
+title: "Class Policies"
+---
+
+
+:::absence
+### Policy for Missing Class and Making up Missed/Late Work
+
+Students are responsible for planning their schedules to avoid excessive conflicts with course requirements and must notify the instructor of unavoidable scheduling conflicts as early as possible. For circumstances where absences are unavoidable, accommodations for makeup work will be made according to [University Policy](https://policy.umn.edu/education/makeupwork). If you miss class:
+
+- Email the instructor as soon as you know you will be missing class.
+- Students are expected to obtain notes from a classmate of class material missed.
+- Please note that I will not be recording class sessions at the request of individual students, nor will I be Zooming students in to the class. Although, if you can arrange it with a classmate, they can Zoom you in.
+  + If you are zooming in a classmate, please let the instructor know.
+- If you will be gone the day an assignment is due, you will need to make arrangements with the instructor about when you will turn in the assignment. 
+
+If you do not communicate with the instructor and make arrangements for turning in work when you are absent, the assignment will receive a 0. 
+:::
+
+
+<br />
+
+
+:::ai
+### ChatGPT and Other AI Policy
+
+Artificial intelligence (AI) language models, such as ChatGPT, are emerging tools that we will all need to consider in the next few years. These tools may be used to help you write R syntax, but not for answering any of the other questions on the assignment. If you are in doubt as to whether you are using AI language models appropriately in this course, I encourage you to discuss your situation with me or the TA. If you do use any AI to help write syntax for any of the assignment questions you need to do the following:
+
+- Cite this in the assignment; failure to do so is in violation of the academic integrity policy at UMN. *Please include a paragraph at the end of any assignment that uses AI explaining what you used the AI for and what prompts you used to get the results.* More examples of citing AI language models are available at: <https://libguides.umn.edu/chatgpt>.
+- Include a statement about what you will do to offset the environmental impact of the energy use incurred by using the AI. Be specific in this statement. For example: I will bike to school for the next week (Jan. 01--Jan 07) rather than drive or bus.
+
+You are also responsible for ensuring any syntax composed by AI is correct. I would not trust anything AI says. If it gives you a number, fact, or code, assume it is wrong unless you either know the answer or can check in with another source. For this reason, using AI works best for topics you understand and can quality check. Here are a couple of other things to be aware of if you decide to use AI:
+
+- The environmental impact of AI should not be ignored. The building and usage of AI tools consumes a lot of energy (see [here](https://www.nature.com/articles/s42256-020-0219-9) and [here](https://www.cfr.org/blog/artificial-intelligences-environmental-costs-and-promise)).
+- The development of AI has been associated with labor abuse and other dicey ethical issues (see [here](https://www.aljazeera.com/opinions/2023/1/23/sweatshops-are-making-our-digital-age-work) and [here](https://www.rollingstone.com/culture/culture-features/women-warnings-ai-danger-risk-before-chatgpt-1234804367/)).
+
+If you are caught using AI to answer questions on any of the assignments, you will be given a 0 on that assignment and a Scholastic Dishonesty Report Form will be filled out and reported to the [Office of Community Standards](https://communitystandards.umn.edu/). Depending on the severity of the offense, the instructor also reserves the right to give you an "F" in the course.
+:::
+
+<br />
+
+
+:::technology
+### Technology Policy
+
+The course uses technology on a regular basis during both instruction and assessments (e.g., homework assignments, exams, etc.). Student difficulty with obtaining or operating the various software programs and technologies---including printer trouble---will not be acceptable as an excuse for late work. Due to the variation in computer types and systems, the instructor or TA may not be able to assist in trouble shooting all problems you may have.
+
+<!-- <p style="font-size:70%;">gg_goldy created by Rita Sandidge, CSPP</p> -->
+:::
+
+<br />
+
+
+:::recording
+### CEHD Policy on Recording Classes
+
+All class sessions may be recorded by the instructor using the procedures in the CEHD Policy on Recording Classes, with or without prior notice. Students should assume that a class session is being recorded unless otherwise notified. No person (student or otherwise) may record a class without express written permission from the instructor or an authorized administrator implementing a disability accommodation. All permitted recordings are governed by this policy’s limits on distribution and redistribution of recordings.
+
+<!-- <p style="font-size:70%;">gg_goldy created by Rita Sandidge, CSPP</p> -->
+:::
+
+<br />
+
