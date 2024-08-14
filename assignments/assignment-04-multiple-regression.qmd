@@ -1,0 +1,101 @@
+---
+title: "Assignment 04"
+subtitle: "INTRODUCTION TO MULTIPLE REGRESSION"
+description: This goal of this assignment is to give you experience fitting and interpreting multiple regression models. This assignment is worth 13 points. Each question is worth 1 point unless otherwise noted. <br /><br /> *Copyright EPSY 8251, 2024*
+format:
+  html:
+   highlight-style: atom-one
+date: today
+---
+
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| out-width: "60%"
+knitr::include_graphics("../img/assign-05.png")
+```
+
+
+Human overpopulation is a growing concern and has been associated with depletion of Earth’s natural resources (water is a big one) and degredation of the environment. This, in turn, has social and economic consequences such as global tension over resources such as water and food, higher cost of living and higher unemployment rates. 
+
+Fertility rate is a measure directly linked to population and has been useful to explore hypotheses about factors related to combating overpopulation. For this assignment, you will use the file *fertility.csv* to examine the effects of the rate of contraception (a factor that can be manipulated through targeted intervention) on fertility rates. 
+
+- [[CSV]](https://raw.githubusercontent.com/zief0002/fantastic-enigma/main/data/fertility.csv)
+- [[Data Codebook]](https://zief0002.github.io/fantastic-enigma/codebooks/fertility.html)
+
+
+Submit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption. This assignment is worth 18 points. (Each question is worth 1 point unless otherwise noted.)
+
+<br />
+
+
+## Part I: Correlations
+
+
+1. Create a path model of the correlations between fertility rate, contraception rate, infant mortality rate, and female education level.
+
+
+Consider the following hypotheses about different potential predictors of fertility rates:
+
+- **Hypothesis 1:** Countries with higher contraception rates tend to have lower fertility rates.
+- **Hypothesis 2:** Countries with lower infant mortality rates tend to have higher fertility rates.
+- **Hypothesis 3:** Countries with higher female education rates tend to have lower fertility rates.
+
+2. Use the correlations computed in Question 1 to evaluate each of the three hypotheses. For each hypothesis indicate whether the empirical results support that hypothesis or not by referencing the appropriate correlation(s).
+
+
+
+
+<br />
+
+
+## Part II: Regression Analysis
+
+You will fit three regression models to study the effect of contraceptive rates (focal predictor) on fertility rate (outcome). Because infant mortality rate and female education level (our two covariates) are related to both the focal predictor and outcome, they may confound the effect of contraceptive rates on fertility rate (see hypothesized path model).
+
+```{r}
+#| fig-align: center
+#| echo: false
+knitr::include_graphics("../img/assignment-04-path-model.png")
+```
+
+To remove the confounding and evaluate the effect of contraceptive rates on fertility rate, you will fit a series of regression models.
+
+- **Model 1:** Contraceptive rate as the sole predictor of variation in fertility rate.
+- **Model 2:** Contraceptive rate and infant mortality rate as predictors of variation in fertility rate.
+- **Model 3:** Contraceptive rate and female education level as predictors of variation in fertility rate.
+- **Model 4:** Contraceptive rate, infant mortality rate, and female education level as predictors of variation in fertility rate.
+
+3. Examine the structure and formatting of Table 9 at <https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html>. Mimic the format and structure of this table to create a table to present the numerical information from the three models you fitted. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to "Landscape", rather than changing the size of the font. **(2pts.)**
+
+4. Indicate whether the two covariates are actually confounders by indicating whether the size and direction of the effect of contraceptive rate on fertility rate in Models 2--4  differs from that in Model 1. (Be sure to comment on both covariates.)
+
+
+
+
+<br />
+
+
+## Model 3: Interpreting Results from the "Final" Model
+
+The research literature suggests that all three predictors are substantively important in predicting variation in fertility rates. Moreover, from the CIs produced in Model 3, we see that all three effects included in the model are statistically relevant (none of the CIs span 0). Because of this, we will adopt Model 3 as our "final" model. **Use the results from Model 3 to answer the remainder of the questions on this assignment.**
+
+5. Report the regression equation from fitting Model 3. Use Equation Editor (or some other program that correctly types mathematical expressions) to typeset the equation correctly.
+
+6. Report and interpret the value of the model $R^2$ using the context of the data.
+
+7. Using symbols, write the omnibus null hypothesis that is tested by the model-level *F*-statistic in this analysis in two different manners: (1) using the coefficient parameters used in the regression model, and (2) using the variance accounted for parameter.
+
+8. Based on the results of the model-level *F*-test, does the model seem to explain variation in fertility rates? Explain. *Note:* Here you can use the *p*-value as evidence, but do not compare this to 0.05.
+
+9. Interpret the estimated coefficient value associated with the partial effect of contraception.
+
+10. Based on the 95% confidence interval for the partial effect of contraception on fertility rate, which parameter values are reasonably compatible with the empirical data? Explain what this implies about the magnitude of the partial effect. 
+
+11. Create a publication quality plot that displays the results from Model 3. For this plot, put the contraception predictor on the *x*-axis. Control out the effect of education level by setting this to the mean level of education. Display two separate lines to show the effect of infant mortality rate; a small and large rate based on the data. The two lines should be displayed using different linetypes or colors (or both) so that they can be easily differentiated in the plot. Be sure that the figure is appropriately captioned. **(2pts.)**
+
+
+
+<br />
+

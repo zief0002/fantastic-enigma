@@ -1,19 +1,12 @@
 ---
 title: "Assignment 01"
 subtitle: "INTRODUCTION TO STATISTICAL COMPUTING"
+description: This goal of this assignment is to give you experience working with the R statistical computing environment. This assignment is worth 11 points. Each question is worth 1 point unless otherwise noted. <br /><br /> *Copyright EPSY 8251, 2024*
 format:
   html:
-   css: "../assets/sticky-notes.css"
+   highlight-style: atom-one
 date: today
 ---
-
-
-The goal of this assignment is to give you experience working with the R statistical computing environment. In this assignment, you will use the data from the file *broadband.csv* to examine broadband access in the United States.
-
-
-
-- [[CSV]](https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/broadband.csv)
-- [[Data Codebook]](https://zief0002.github.io/rustic-penguin/codebooks/broadband.html)
 
 
 ```{r}
@@ -24,16 +17,18 @@ knitr::include_graphics("../img/assign-01.png")
 ```
 
 
-
 ## Instructions
+
+In this assignment, you will use the data from the file *broadband.csv* to examine broadband access in the United States.
+
+- [[CSV]](https://raw.githubusercontent.com/zief0002/fantastic-enigma/main/data/broadband.csv)
+- [[Data Codebook]](https://zief0002.github.io/fantastic-enigma/codebooks/broadband.html)
+
 
 Submit a PDF document of your responses to the following questions. Please adhere to the following guidelines for further formatting your assignment:
 
 - All plots should be resized so that they do not take up more room than necessary. 
 - All figures and tables should have a name (e.g., Figure 1) *and* an appropriate caption.
-
-This assignment is worth 11 points.
-
 
 <br />
 

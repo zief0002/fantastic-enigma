@@ -144,7 +144,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "The calendar below lists the tentative course topics. The dates listed are subject to change at the instructor’s discretion.\nAs part of the course, there are several articles, papers and technical reports that you will need to read during the semester. Most of the articles themselves are accessible through the University of Minnesota library website. In order to access the full text of some of the articles, you will need to log in using your University x500 username and password. More detailed information, including references or links to specific readings, are linked under the day’s “Reading”.\n\n\n\n\n\n\n\n\nDate\n\n\nReading\n\n\nTopic\n\n\nNotes\n\n\nScript\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nSept. 03\n\n\n\n\n\nWelcome to EPsy 8251\n\n\n\n\n\n\n\n\n\n\n\nUnit 01: Introduction to Statistical Computing\n\n\n\n\n\n\n\nSept. 05\n\n\n\n\n\nIntroduction to R and RStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\nSept. 10\n\n\n\n\n\nData Wrangling with dplyr\n\n\n\n\n\n\n\n\n\n\n\n\n\nSept. 12\n\n\n\n\n\nPlotting with ggplot2\n\n\n\n\n\n\n\n\n\n\n\nUnit 02: Regression Basics\n\n\n\n\n\n\n\nSept. 17\n\n\n\n\n\nSimple Linear Regression: Description\n\n\n\n\n\n\n\n\n\n\n\n\nSept. 19\n\n\n\n\n\n\n\nSept. 24\n\n\n\n\n\nOrdinary Least Squares (OLS) Estimation\n\n\n\n\n\n\n\n\n\n\n\n\nSept. 26\n\n\n\n\n\nCorrelation (and Standardized Regression)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOct. 01\n\n\n\n\n\nCoefficient-Level Inference\n\n\n\n\n\n\n\n\n\n\n\n\n\nOct. 03\n\n\n\n\n\n\n\nOct. 08\n\n\n\n\n\nModel-Level Inference\n\n\n\n\n\n\n\n\n\n\n\n\n\nOct. 10\n\n\n\n\n\n\n\nOct. 15\n\n\n\n\n\n\n\nNO CLASS—Mental Health Day\n\n\n\n\n\n\n\n\nUnit 03: Deeper Understanding\n\n\n\n\n\n\n\nOct. 17\n\n\n\n\n\nIntroduction to Multiple Linear Regression\n\n\n\n\n\n\n\n\n\n\n\n\n\nOct. 22\n\n\n\n\n\n\n\n\nOct. 24\n\n\n\n\n\nUnderstanding Statistical Control\n\n\n\n\n\n\n\n\n\n\n\n\n\nOct. 29\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOct. 31\n\n\n\n\n\nAssumptions of the Regression Model\n\n\n\n\n\n\n\n\n\n\n\n\n\nNov. 05\n\n\n\n\n\nUnit 04: Extending the Regression Model\n\n\n\n\n\n\n\nNov. 07\n\n\n\n\n\nDummy Coding Categorical Predictors\n\n\n\n\n\n\n\n\n\n\n\n\n\nNov. 12\n\n\n\n\n\n\n\nNov. 14\n\n\n\n\n\nPolychotomous Categorical Predictors\n\n\n\n\n\n\n\n\n\n\n\n\n\nNov. 19\n\n\n\n\n\n\n\nNO CLASS—Mental Health Day\n\n\n\n\n\n\n\n\n\n\nNov. 21\n\n\n\n\n\nPolychotomous Categorical Predictors\n\n\n\n\n\n\n\n\n\n\n\n\n\nNov. 26\n\n\n\n\n\n\n\nNov. 28\n\n\n\n\n\n\n\nNO CLASS—Thanksgiving Break\n\n\n\n\n\n\n\n\n\n\nDec. 03\n\n\n\n\n\nIntroduction to Interaction Effects\n\n\n\n\n\n\n\n\n\n\n\n\n\nDec. 05\n\n\n\n\n\n\n\nDec. 10\n\n\n\n\n\nMore Interaction Effects"
+    "text": "The calendar below lists the tentative course topics. The dates listed are subject to change at the instructor’s discretion.\nAs part of the course, there are several articles, papers and technical reports that you will need to read during the semester. Most of the articles themselves are accessible through the University of Minnesota library website. In order to access the full text of some of the articles, you will need to log in using your University x500 username and password. More detailed information, including references or links to specific readings, are linked under the day’s “Reading”.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nM/W\n\n\nT/R\n\n\nReading\n\n\nTopic/Slides\n\n\nScript\n\n\n\n\n\n\n\n \n\n\nSpt. 04\n\n\nSpt. 03\n\n\n\n\n\nWelcome to EPsy 8251\n\n\n\n\n\n\n\n\nUnit 01: Introduction to Statistical Computing\n\n\n\n\n\n\nSpt. 09\n\n\nSpt. 05\n\n\nCh. 1–3\n\n\nIntroduction to R and RStudio\n\n\n\n\n\n\n\n\n\nSpt. 11\n\n\nSpt. 10\n\n\nCh. 4\n\n\nData Wrangling with dplyr\n\n\n\n\n\n\n\n\n\nSpt. 16\n\n\nSpt. 12\n\n\nCh. 5\n\n\nPlotting with ggplot2\n\n\n\n\n\n\n\n\nUnit 02: Introduction to Regression\n\n\n\n\n\n\nSpt. 18\n\n\nSpt. 17\n\n\nCh. 6–7\n\n\nData Exploration for RegressionSimple Linear Regression and Correlation\n\n  \n\n\n\n\n\n\nSpt. 23\n\n\nSpt. 19\n\n\n\n\n\n\nSpt. 25\n\n\nSpt. 24\n\n\nCh. 8–9\n\n\nOrdinary Least Squares (OLS) EstimationANOVA Decomposition and \\(R^2\\)\n\n  \n\n\n\n\n\n\nSpt. 30\n\n\nSpt. 26\n\n\n\n\n\nUnit 03: Regression Inference\n\n\n\n\n\n\nOct. 02\n\n\nOct. 01\n\n\nCh. 11\n\n\nCoefficient-Level Inference\n\n\n\n\n\n\n\n\n\nOct. 07\n\n\nOct. 03\n\n\n\n\n\n\nOct. 09\n\n\nOct. 08\n\n\nCh. 12\n\n\nModel-Level Inference\n\n\n\n\n\n\n\n\n\nOct. 14\n\n\nOct. 10\n\n\n\n\n\n\nOct. 16\n\n\nOct. 15\n\n\nCh. 13\n\n\nAssumptions Underlying the Regression Model\n\n\n\n\n\n\n\n\n\nOct. 21\n\n\nOct. 17\n\n\n\n\n\n\nOct. 23\n\n\nOct. 22\n\n\n\n\nNO CLASS—Mental Health Day 🛌 🍷\n\n\n\n\n\n\n\nUnit 04: Multiple Regression\n\n\n\n\n\n\nOct. 28\n\n\nOct. 24\n\n\nCh. 14–15\n\n\nIntroduction to Multiple Linear Regression/Multiple Regression: ANOVA Decomposition\n\n\n\n\n\n\n\n\n\nOct. 30\n\n\nOct. 29\n\n\n\n\n\n\nNov. 04\n\n\nOct. 31\n\n\nCh. 16\n\n\nUnderstanding Statistical Control\n\n\n\n\n\n\n\n\n\nNov. 06\n\n\nNov. 05\n\n\n\n\n\n\nNov. 11\n\n\nNov. 07\n\n\nCh. 17\n\n\nAssumptions: Multiple Regression\n\n\n\n\n\n\n\n\nUnit 05: Categorical Predictors\n\n\n\n\n\n\nNov. 13\n\n\nNov. 12\n\n\nCh. 18\n\n\nDichotomous Categorical Predictors\n\n\n\n\n\n\n\n\n\nNov. 18\n\n\nNov. 14\n\n\n\n\n\n\nNov. 20\n\n\nNov. 19\n\n\nCh. 19\n\n\nPolychotomous Categorical Predictors\n\n\n\n\n\n\n\n\n\nNov. 20\n\n\nNov. 19\n\n\n\n\n\n\nNov. 25\n\n\nNov. 21\n\n\nCh. 20\n\n\nMultiple Comparisons\n\n\n\n\n\n\n\n\n\nDec. 02\n\n\nNov. 26\n\n\n\n\n\n\nNov. 27\n\n\nNov. 28\n\n\n\n\nNO CLASS—Thanksgiving Break 🦃 🌽 🥧\n\n\n\n\n\n\n\nUnit 06: Interaction Effects\n\n\n\n\n\n\nDec. 04\n\n\nDec. 03\n\n\nCh. 21–22\n\n\nIntroduction to Interaction Effects/More Interaction Effects\n\n\n\n\n\n\n\n\n\nDec. 09\n\n\nDec. 05\n\n\n\n\n\n\nDec. 11\n\n\nDec. 10"
   },
   {
     "objectID": "readings/04-03-introduction-to-interaction-effects.html",
@@ -452,7 +452,7 @@
     "href": "assignments.html#assignment-due-dates",
     "title": "Assignments and Grading",
     "section": "Assignment Due Dates",
-    "text": "Assignment Due Dates\nBelow are the due dates for the assignments, as well as links to each assignment. All assignments are due by 5:00 PM on the due date. The due dates may change at the instructor’s discretion. Any revised due dates will be announced in class and posted to the website.\n\n\n\n\n\nAssignment\n\n\n\nDue Date\n\n\nHTML\n\n\n\n\n\n\nAssignment #1: Introduction to Statistical Computing \n\n\n\nSept. 27\n\n\n\n\n\n\n\nAssignment #2: Simple Regression: Description\n\n\n\nOct. 09\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssignment #3: Simple Regression: Inference\n\n\n\n\nOct. 25\n\n\n\n\n\n\n\nAssignment #4: Multiple Regression\n\n\n\nNov. 15\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssignment #5: Categorical Predictors \n\n\n\nDec. 06\n\n\n\n\n\n\n\nAssignment #6: Interaction Models\n\n\nDec. 15 (due at 12:00pm)\n\n\n\n\n\n\n\n\n\nStress Management\nStress management is an important piece of the skill set needed for success in graduate school. Pet Away Worry & Stress (PAWS) is one of the many resources available to students. Find out more at https://boynton.umn.edu/paws.\n\nYou can follow Tilly the Therapy Chicken on Twitter (@TherapyChicken)."
+    "text": "Assignment Due Dates\nBelow are the due dates for the assignments, as well as links to each assignment. All assignments are due by 5:00 PM on the due date. The due dates may change at the instructor’s discretion. Any revised due dates will be announced in class and posted to the website.\n\n\n\n\n\nAssignment\n\n\nDue Date (M/W)\n\n\nDue Date (T/R)\n\n\nHTML\n\n\n\n\n\n\nAssignment #1: Introduction to Statistical Computing \n\n\nSpt. 25\n\n\nSpt. 24\n\n\n\n\n\n\n\nAssignment #2: Introduction to Regression\n\n\nOct. 14\n\n\nOct. 10\n\n\n\n\n\n\n\nAssignment #3: Regression Inference\n\n\n\nNov. 06\n\n\nNov. 05\n\n\n\n\n\n\n\nAssignment #4: Multiple Regression\n\n\nNov. 25\n\n\nNov. 21\n\n\n\n\n\n\n\nAssignment #5: Categorical Predictors \n\n\nDec. 04\n\n\nDec. 03\n\n\n\n\n\n\n\nAssignment #6: Interaction Models\n\n\nDec. 16 (due at 12:00pm)\n\n\n\n\n\n\n\n\n\nStress Management\nStress management is an important piece of the skill set needed for success in graduate school. Pet Away Worry & Stress (PAWS) is one of the many resources available to students. Find out more at https://boynton.umn.edu/paws.\n\nYou can follow Tilly the Therapy Chicken on Twitter (@TherapyChicken)."
   },
   {
     "objectID": "assignments.html#evaluation-of-student-performance",
@@ -487,7 +487,7 @@
     "href": "assignments/assignment-01-introduction-to-statistical-computing.html#instructions",
     "title": "Assignment 01",
     "section": "Instructions",
-    "text": "Instructions\nSubmit a PDF document of your responses to the following questions. Please adhere to the following guidelines for further formatting your assignment:\n\nAll plots should be resized so that they do not take up more room than necessary.\nAll figures and tables should have a name (e.g., Figure 1) and an appropriate caption.\n\nThis assignment is worth 11 points."
+    "text": "Instructions\nIn this assignment, you will use the data from the file broadband.csv to examine broadband access in the United States.\n\n[CSV]\n[Data Codebook]\n\nSubmit a PDF document of your responses to the following questions. Please adhere to the following guidelines for further formatting your assignment:\n\nAll plots should be resized so that they do not take up more room than necessary.\nAll figures and tables should have a name (e.g., Figure 1) and an appropriate caption."
   },
   {
     "objectID": "assignments/assignment-01-introduction-to-statistical-computing.html#preparation",
@@ -950,5 +950,194 @@
     "title": "Hospitalizations and Astrological Sign",
     "section": "",
     "text": "Discuss the following study with your group. Do you believe the findings? Why or why not?\n\nMethods\nA study was conducted of 5,337,472 residents of Ontario aged between 18 and 100 years in 2000 using the Registered Person’s Database. These residents were classified according to their astrological sign. The researchers then searched through 223 of the most common diagnoses for hospitalization and identified 72 (32.3%) for which residents born under one astrological sign had a significantly higher probability of hospitalization compared to residents born under the other astrological signs combined. For example, Libras were 1.37 times more likely to be hospitalized for a fractured pelvis than people born under other astrological signs (\\(p=.0108\\)).\nThe p-values for the 72 significant associations ranged from 0.0003 to 0.0488. The two most frequently occurring diagnoses for which each astrological sign had a higher probability of hospitalization compared to the other astrological signs combined are described in Table 1."
+  },
+  {
+    "objectID": "assignments/assignment-02-introduction-to-regression.html",
+    "href": "assignments/assignment-02-introduction-to-regression.html",
+    "title": "Assignment 02",
+    "section": "",
+    "text": "Should more money be spent on public schools or should that money be spent elsewhere? Both sides of this ongoing public debate have been argued passionately, using a multitude of anecdotal evidence. Although we will not settle this debate, we will examine data akin to the types of data that policy makers use to make funding decisions. Specifically, you will use the data from the file state-education.csv to examine whether teacher salaries are related to SAT scores at the state level.\nSubmit a PDF document of your responses to the following questions. Please adhere to the following guidelines for further formatting your assignment:"
+  },
+  {
+    "objectID": "assignments/assignment-02-introduction-to-regression.html#instructions",
+    "href": "assignments/assignment-02-introduction-to-regression.html#instructions",
+    "title": "Assignment 02",
+    "section": "Instructions",
+    "text": "Instructions\nSubmit a PDF document of your responses to the following questions. Please adhere to the following guidelines for further formatting your assignment:\n\nAll plots should be resized so that they do not take up more room than necessary.\nAll figures and tables should have a name (e.g., Figure 1) and an appropriate caption.\n\nThis assignment is worth 13 points."
+  },
+  {
+    "objectID": "assignments/assignment-02-introduction-to-regression.html#preparation",
+    "href": "assignments/assignment-02-introduction-to-regression.html#preparation",
+    "title": "Assignment 02",
+    "section": "Preparation",
+    "text": "Preparation\nBefore carrying out any analyses, create a predictor called salary_thousand that indicates the average 2020–21 state salary in thousands of dollars (e.g., salary = 52143; salary_thousand = 52.143). This variable (not salary) should be used in all analyses in the assignment."
+  },
+  {
+    "objectID": "assignments/assignment-02-introduction-to-regression.html#questions",
+    "href": "assignments/assignment-02-introduction-to-regression.html#questions",
+    "title": "Assignment 02",
+    "section": "Questions",
+    "text": "Questions\n\nCreate a density plot of the distribution of total SAT scores. Make sure your plot has a caption.\nExamine the structure and formatting of Table 1 at https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html. Mimic the format and structure of this table to create a table to present the numerical summary information for the distributions of SAT total scores and salaries. Provide the same measures for these variables as is given in Table 1 in the article. Re-create the formatting of Table 1 as closely as you can. Finally, make sure the table you create also has an appropriate caption.\nCreate a scatterplot of the distribution of SAT total scores (Y) conditioned on teacher salaries (X). Make sure your plot has a caption.\nDescribe the relationship between teacher salaries and SAT total scores. Be sure to comment on the structural form, direction and strength of the relationship. Also comment on any potential observations that deviate from following this relationship (unusual observations or clusters of observations).\nCompute and report the correlation coefficient.\nIs the correlation coefficient and appropriate measure for this relationship? Explain by referring to the functional form you described in Question 4.\nRegress total SAT scores on teacher salaries. Write the fitted equation using Equation Editor (or some other program that correctly types mathematical expressions).\nInterpret the value of the intercept from the regression equation using the context of the data.\nInterpret the value of the slope from the regression equation using the context of the data.\nCompute, report, and interpret the value for \\(R^2\\) based on values from the ANOVA decomposition. Show your work for full credit.\nCompute and report the predicted mean total SAT score for Minnesota students based on the average teacher salary in the state using the fitted regression equation. Show your work for full credit.\nCompute and report the residual for Minnesota. Show your work for full credit.\nExplain what the sign and magnitude of the residual value you computed in Question 10 tells you about how Minnesota’s mean SAT score compares to the mean SAT score for states having the same average teacher salary as Minnesota."
+  },
+  {
+    "objectID": "assignments/assignment-03-regression-inference.html",
+    "href": "assignments/assignment-03-regression-inference.html",
+    "title": "Assignment 03",
+    "section": "",
+    "text": "Should more money be spent on public schools or should that money be spent elsewhere? Both sides of this ongoing public debate have been argued passionately, using a multitude of anecdotal evidence. Although we will not settle this debate, we will examine data akin to the types of data that policy makers use to make funding decisions. Specifically, you will use the data from the file state-education.csv to examine whether teacher salaries are related to SAT scores at the state level.\n\n[CSV]\n[Data Codebook]\n\n\n\nPart I: Unstandardized Regression\nBefore carrying out any analyses, create a predictor called salary_thousand that indicates the average state salary in thousands of dollars (e.g., if salary = 52143; salary_thousand = 52.143). This variable (not salary) should be used in all analyses for Part I. Fit a regression model using teacher salaries to predict SAT scores.\n\nUsing symbols, write the null hypothesis that is tested by the F-statistic in this analysis.\nWrite no more than three sentences (to be included in a publication) that summarizes the results of the omnibus analysis. A summary of the results includes a written description of what is being tested by the F-test and the statistical results. At a minimum report the F-statistic, df, and p-value. A summary should also indicate what the statistical results suggest about the compatibility of the empirical data to the null hypothesis and what this means about the potential relationship between states’ average teacher salaries and average SAT scores.\nUsing symbols, write the null hypothesis that is tested by the t-statistic for the slope.\nBased on the results of the t-test for the slope, are the empirical data consistent with the null hypothesis that the sample slope is entirely due to sampling error? Explain.\nCompute and interpret the 95% compatibility interval for the slope.\nCreate a plot that displays the regression line from the unstandardized regression analysis. This plot should also include a confidence envelope (uncertainty) for the regression line. Be sure to give your plot an appropriate caption.\n\n\n\n\n\n\n\n\n\nPart III: Standardized Regression\nFor Parts II and III, you will need to read Chapter 10: Standardized Regression in the textbook.\nConvert the teacher salaries (salary_thousand) into z-scores by subtracting the mean salary and dividing by the standard deviation. Call this new variable z_salary (e.g., z_salary = (salary_thousand - mean(salary_thousand)) / sd(salary_thousand)). Also convert the SAT scores into z-scores and call that variable z_sat (e.g., z_sat = (sat - mean(sat)) / sd(sat)).\n\nReport and interpret the z_sat score for Minnesota.\nRegress the SAT z-scores on the salary z-scores. Report the fitted regression equation.\nExplain how we can use the coefficients from the standardized fitted regression equation to compute the \\(R^2\\) value.\nUsing symbols, write the null hypothesis that is tested by the t-statistic for the intercept in this analysis.\nThe p-value of the t-test for the intercept in this analysis is one. Explain why this is expected by referring to the hypothesis being tested in this analysis. (Hint: Think about what the intercept is and how that relates to what is being tested.)\nReport and interpret the 95% compatibility interval for the slope from the standardized regression analysis.\n\n\n\n\nPart IV: Study Design and Causation\n\nThe test of the slope (regardless of analysis) suggests that teacher salaries seem to be related to SAT scores. Unfortunately this relationship is negative, indicating that higher teacher salaries are associated with lower SAT scores. A public-policy wonk wants to use this data to support the de-funding of public schools. Write a couple sentences that explain to this person why your analysis does not support this causal conclusion based on the study design. (Hint: Recall that inferring causation requires particular study designs. You may need to draw on information from your prerequisite stat course here. You could also read ahead into Chapter 14!)"
+  },
+  {
+    "objectID": "assignments/assignment-04-multiple-regression.html",
+    "href": "assignments/assignment-04-multiple-regression.html",
+    "title": "Assignment 04",
+    "section": "",
+    "text": "Human overpopulation is a growing concern and has been associated with depletion of Earth’s natural resources (water is a big one) and degredation of the environment. This, in turn, has social and economic consequences such as global tension over resources such as water and food, higher cost of living and higher unemployment rates.\nFertility rate is a measure directly linked to population and has been useful to explore hypotheses about factors related to combating overpopulation. For this assignment, you will use the file fertility.csv to examine the effects of the rate of contraception (a factor that can be manipulated through targeted intervention) on fertility rates.\nSubmit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption. This assignment is worth 18 points. (Each question is worth 1 point unless otherwise noted.)"
+  },
+  {
+    "objectID": "assignments/assignment-04-multiple-regression.html#part-i-correlations",
+    "href": "assignments/assignment-04-multiple-regression.html#part-i-correlations",
+    "title": "Assignment 04",
+    "section": "Part I: Correlations",
+    "text": "Part I: Correlations\n\nCreate a path model of the correlations between fertility rate, contraception rate, infant mortality rate, and female education level.\n\nConsider the following hypotheses about different potential predictors of fertility rates:\n\nHypothesis 1: Countries with higher contraception rates tend to have lower fertility rates.\nHypothesis 2: Countries with lower infant mortality rates tend to have higher fertility rates.\nHypothesis 3: Countries with higher female education rates tend to have lower fertility rates.\n\n\nUse the correlations computed in Question 1 to evaluate each of the three hypotheses. For each hypothesis indicate whether the empirical results support that hypothesis or not by referencing the appropriate correlation(s)."
+  },
+  {
+    "objectID": "assignments/assignment-04-multiple-regression.html#part-ii-regression-analysis",
+    "href": "assignments/assignment-04-multiple-regression.html#part-ii-regression-analysis",
+    "title": "Assignment 04",
+    "section": "Part II: Regression Analysis",
+    "text": "Part II: Regression Analysis\nYou will fit three regression models to study the effect of contraceptive rates (focal predictor) on fertility rate (outcome). Because infant mortality rate and female education level (our two covariates) are related to both the focal predictor and outcome, they may confound the effect of contraceptive rates on fertility rate (see hypothesized path model).\n\n\n\n\n\n\n\n\n\nTo remove the confounding and evaluate the effect of contraceptive rates on fertility rate, you will fit a series of regression models.\n\nModel 1: Contraceptive rate as the sole predictor of variation in fertility rate.\nModel 2: Contraceptive rate and infant mortality rate as predictors of variation in fertility rate.\nModel 3: Contraceptive rate and female education level as predictors of variation in fertility rate.\nModel 4: Contraceptive rate, infant mortality rate, and female education level as predictors of variation in fertility rate.\n\n\nExamine the structure and formatting of Table 9 at https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html. Mimic the format and structure of this table to create a table to present the numerical information from the three models you fitted. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to “Landscape”, rather than changing the size of the font. (2pts.)\nIndicate whether the two covariates are actually confounders by indicating whether the size and direction of the effect of contraceptive rate on fertility rate in Models 2–4 differs from that in Model 1. (Be sure to comment on both covariates.)"
+  },
+  {
+    "objectID": "assignments/assignment-04-multiple-regression.html#model-3-interpreting-results-from-the-final-model",
+    "href": "assignments/assignment-04-multiple-regression.html#model-3-interpreting-results-from-the-final-model",
+    "title": "Assignment 04",
+    "section": "Model 3: Interpreting Results from the “Final” Model",
+    "text": "Model 3: Interpreting Results from the “Final” Model\nThe research literature suggests that all three predictors are substantively important in predicting variation in fertility rates. Moreover, from the CIs produced in Model 3, we see that all three effects included in the model are statistically relevant (none of the CIs span 0). Because of this, we will adopt Model 3 as our “final” model. Use the results from Model 3 to answer the remainder of the questions on this assignment.\n\nReport the regression equation from fitting Model 3. Use Equation Editor (or some other program that correctly types mathematical expressions) to typeset the equation correctly.\nReport and interpret the value of the model \\(R^2\\) using the context of the data.\nUsing symbols, write the omnibus null hypothesis that is tested by the model-level F-statistic in this analysis in two different manners: (1) using the coefficient parameters used in the regression model, and (2) using the variance accounted for parameter.\nBased on the results of the model-level F-test, does the model seem to explain variation in fertility rates? Explain. Note: Here you can use the p-value as evidence, but do not compare this to 0.05.\nInterpret the estimated coefficient value associated with the partial effect of contraception.\nBased on the 95% confidence interval for the partial effect of contraception on fertility rate, which parameter values are reasonably compatible with the empirical data? Explain what this implies about the magnitude of the partial effect.\nCreate a publication quality plot that displays the results from Model 3. For this plot, put the contraception predictor on the x-axis. Control out the effect of education level by setting this to the mean level of education. Display two separate lines to show the effect of infant mortality rate; a small and large rate based on the data. The two lines should be displayed using different linetypes or colors (or both) so that they can be easily differentiated in the plot. Be sure that the figure is appropriately captioned. (2pts.)"
+  },
+  {
+    "objectID": "assignments/assignment-06-categorical-predictors.html",
+    "href": "assignments/assignment-06-categorical-predictors.html",
+    "title": "Assignment 06",
+    "section": "",
+    "text": "For this assignment, you will be fitting several regression models to examine whether there are differences in the engagement level of reviewers on IMDb for Scooby-Doo episodes/movies based on which members of Mystery Inc caught the villain. To do so, you will use the data in the file scoobydoo.csv.\nSubmit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption. This assignment is worth 15 points. (Each question is worth 1 point unless otherwise noted.)"
+  },
+  {
+    "objectID": "assignments/assignment-06-categorical-predictors.html#preparation-create-dummy-variables",
+    "href": "assignments/assignment-06-categorical-predictors.html#preparation-create-dummy-variables",
+    "title": "Assignment 06",
+    "section": "Preparation: Create Dummy Variables",
+    "text": "Preparation: Create Dummy Variables\nCreate four dummy variables for the analysis; one for each condition of the caught_by attribute. Also create another dummy variable to represent media format."
+  },
+  {
+    "objectID": "assignments/assignment-06-categorical-predictors.html#unadjusted-group-differences-model-anova",
+    "href": "assignments/assignment-06-categorical-predictors.html#unadjusted-group-differences-model-anova",
+    "title": "Assignment 06",
+    "section": "Unadjusted Group Differences Model: ANOVA",
+    "text": "Unadjusted Group Differences Model: ANOVA\nFit the regression model that uses the dummy predictors for which Mystery Inc. members caught the villain to predict variation in IMDb engagement. In this model, use Shaggy/Scooby as the reference group.\n\nWrite the fitted regression equation.\nWhich conditions of caught_by, if any, differ from Shaggy/Scooby in the average engagement on IMDb produced (more than we expect because of sampling variation)? Explain.\nReport and interpret the \\(R^2\\) value for this model.\nWhich comparisons of the caught_by condition reflected in the omnibus null hypothesis are not represented in this fitted model?"
+  },
+  {
+    "objectID": "assignments/assignment-06-categorical-predictors.html#adjusted-group-differences-model-ancova",
+    "href": "assignments/assignment-06-categorical-predictors.html#adjusted-group-differences-model-ancova",
+    "title": "Assignment 06",
+    "section": "Adjusted Group Differences Model: ANCOVA",
+    "text": "Adjusted Group Differences Model: ANCOVA\nAgain, fit the regression model that uses the dummy predictors for which Mystery Inc. members caught the villain to predict variation in average IMDb engagement, but this time control for differences in (1) IMDb rating, (2) number of catchphrases uttered, and (3) media format. Again, use Shaggy/Scooby as the reference group.\n\nWrite the fitted regression equation.\nWhich conditions of caught_by, if any, differ from Shaggy/Scooby in the average IMDb engagment (more than we expect because of sampling variation) after controlling for differences in these other predictors? Explain\nReport and interpret the \\(R^2\\) value for this model.\nCreate a visualization to show the adjusted mean engagement levels for different members of Mystery Inc that caught the villain. This visualization should mimic that of Figure 19.7 in the textbook. (This should be based on the unadjusted p-values.) Feel free to use any software tool you want to create this visualization."
+  },
+  {
+    "objectID": "assignments/assignment-06-categorical-predictors.html#assumptions",
+    "href": "assignments/assignment-06-categorical-predictors.html#assumptions",
+    "title": "Assignment 06",
+    "section": "Assumptions",
+    "text": "Assumptions\n\nCreate the density plot of the marginal distribution of the standardized residuals from the ANCOVA model. Add the confidence envelope for the normal distribution. Explain whether or not this plot suggests problems about meeting the normality assumption.\nCreate the scatterplot of the standardized residuals versus the fitted values from the ANCOVA model. Include any smoothers and confidence envelopes that will allow you to evaluate the linearity assumption. In the plot identify observation with extreme residuals (\\(\\leq-3\\) or \\(\\geq3\\)) by indicating the row number of that observation in the plot.\nExplain whether or not this plot suggests problems about meeting the linearity and homogeneity of variance assumptions."
+  },
+  {
+    "objectID": "assignments/assignment-06-categorical-predictors.html#pairwise-differences-and-adjusted-means",
+    "href": "assignments/assignment-06-categorical-predictors.html#pairwise-differences-and-adjusted-means",
+    "title": "Assignment 06",
+    "section": "Pairwise Differences and Adjusted Means",
+    "text": "Pairwise Differences and Adjusted Means\nUse the results from comparing the pairwise differences between the conditions of caught_by in the ANCOVA model to answer the questions in this section.\n\nCreate a table (suitable for publication) that presents each of the possible pairwise contrasts (null hypotheses) of interest, the unadjusted p-values from the controlled model, and the Benjamini–Hochberg adjusted p-values for the controlled differences. (Note: To obtain all of these, you may need to fit additional models.)\nCreate a visualization to show the adjusted mean engagement levels for different members of Mystery Inc that caught the villain. This visualization should mimic that of Figure 20.2 in the textbook. (This should be based on the Benjamini–Hochberg adjusted p-values.) Feel free to use any software tool you want to create this visualization."
+  },
+  {
+    "objectID": "assignments/assignment-05-categorical-predictors.html",
+    "href": "assignments/assignment-05-categorical-predictors.html",
+    "title": "Assignment 05",
+    "section": "",
+    "text": "For this assignment, you will be fitting several regression models to examine whether there are differences in the engagement level of reviewers on IMDb for Scooby-Doo episodes/movies based on which members of Mystery Inc caught the villain. To do so, you will use the data in the file scoobydoo.csv.\nSubmit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption. This assignment is worth 15 points. (Each question is worth 1 point unless otherwise noted.)"
+  },
+  {
+    "objectID": "assignments/assignment-05-categorical-predictors.html#preparation-create-dummy-variables",
+    "href": "assignments/assignment-05-categorical-predictors.html#preparation-create-dummy-variables",
+    "title": "Assignment 05",
+    "section": "Preparation: Create Dummy Variables",
+    "text": "Preparation: Create Dummy Variables\nCreate four dummy variables for the analysis; one for each condition of the caught_by attribute. Also create another dummy variable to represent media format."
+  },
+  {
+    "objectID": "assignments/assignment-05-categorical-predictors.html#unadjusted-group-differences-model-anova",
+    "href": "assignments/assignment-05-categorical-predictors.html#unadjusted-group-differences-model-anova",
+    "title": "Assignment 05",
+    "section": "Unadjusted Group Differences Model: ANOVA",
+    "text": "Unadjusted Group Differences Model: ANOVA\nFit the regression model that uses the dummy predictors for which Mystery Inc. members caught the villain to predict variation in IMDb engagement. In this model, use Shaggy/Scooby as the reference group.\n\nWrite the fitted regression equation.\nWhich conditions of caught_by, if any, differ from Shaggy/Scooby in the average engagement on IMDb produced (more than we expect because of sampling variation)? Explain.\nReport and interpret the \\(R^2\\) value for this model.\nWhich comparisons of the caught_by condition reflected in the omnibus null hypothesis are not represented in this fitted model?"
+  },
+  {
+    "objectID": "assignments/assignment-05-categorical-predictors.html#adjusted-group-differences-model-ancova",
+    "href": "assignments/assignment-05-categorical-predictors.html#adjusted-group-differences-model-ancova",
+    "title": "Assignment 05",
+    "section": "Adjusted Group Differences Model: ANCOVA",
+    "text": "Adjusted Group Differences Model: ANCOVA\nAgain, fit the regression model that uses the dummy predictors for which Mystery Inc. members caught the villain to predict variation in average IMDb engagement, but this time control for differences in (1) IMDb rating, (2) number of catchphrases uttered, and (3) media format. Again, use Shaggy/Scooby as the reference group.\n\nWrite the fitted regression equation.\nWhich conditions of caught_by, if any, differ from Shaggy/Scooby in the average IMDb engagment (more than we expect because of sampling variation) after controlling for differences in these other predictors? Explain\nReport and interpret the \\(R^2\\) value for this model.\nCreate a visualization to show the adjusted mean engagement levels for different members of Mystery Inc that caught the villain. This visualization should mimic that of Figure 19.7 in the textbook. (This should be based on the unadjusted p-values.) Feel free to use any software tool you want to create this visualization."
+  },
+  {
+    "objectID": "assignments/assignment-05-categorical-predictors.html#assumptions",
+    "href": "assignments/assignment-05-categorical-predictors.html#assumptions",
+    "title": "Assignment 05",
+    "section": "Assumptions",
+    "text": "Assumptions\n\nCreate the density plot of the marginal distribution of the standardized residuals from the ANCOVA model. Add the confidence envelope for the normal distribution. Explain whether or not this plot suggests problems about meeting the normality assumption.\nCreate the scatterplot of the standardized residuals versus the fitted values from the ANCOVA model. Include any smoothers and confidence envelopes that will allow you to evaluate the linearity assumption. In the plot identify observation with extreme residuals (\\(\\leq-3\\) or \\(\\geq3\\)) by indicating the row number of that observation in the plot.\nExplain whether or not this plot suggests problems about meeting the linearity and homogeneity of variance assumptions."
+  },
+  {
+    "objectID": "assignments/assignment-05-categorical-predictors.html#pairwise-differences-and-adjusted-means",
+    "href": "assignments/assignment-05-categorical-predictors.html#pairwise-differences-and-adjusted-means",
+    "title": "Assignment 05",
+    "section": "Pairwise Differences and Adjusted Means",
+    "text": "Pairwise Differences and Adjusted Means\nUse the results from comparing the pairwise differences between the conditions of caught_by in the ANCOVA model to answer the questions in this section.\n\nCreate a table (suitable for publication) that presents each of the possible pairwise contrasts (null hypotheses) of interest, the unadjusted p-values from the controlled model, and the Benjamini–Hochberg adjusted p-values for the controlled differences. (Note: To obtain all of these, you may need to fit additional models.)\nCreate a visualization to show the adjusted mean engagement levels for different members of Mystery Inc that caught the villain. This visualization should mimic that of Figure 20.2 in the textbook. (This should be based on the Benjamini–Hochberg adjusted p-values.) Feel free to use any software tool you want to create this visualization."
+  },
+  {
+    "objectID": "assignments/assignment-06-interaction-models.html",
+    "href": "assignments/assignment-06-interaction-models.html",
+    "title": "Assignment 06",
+    "section": "",
+    "text": "For this assignment, you will be fitting several regression models to examine whether there are differences in the engagement level of reviewers on IMDb for Scooby-Doo episodes/movies based on which members of Mystery Inc caught the villain. To do so, you will use the data in the file scoobydoo.csv.\nSubmit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption. This assignment is worth 12 points. (Each question is worth 1 point unless otherwise noted.)"
+  },
+  {
+    "objectID": "assignments/assignment-06-interaction-models.html#preparation-fitting-models",
+    "href": "assignments/assignment-06-interaction-models.html#preparation-fitting-models",
+    "title": "Assignment 06",
+    "section": "Preparation: Fitting Models",
+    "text": "Preparation: Fitting Models\nCreate the following dummy variables for the analysis;\n\nA set of three dummy variables to represent the the caught_by attribute: Shaggy/Scooby, Fred/Daphne/Velma, and Other/Combo.\nA dummy variable to represent media format.\n\nThen fit the following regression models. For all models, use IMDb engagement as the response variable.\n\nModel A: Main effects of caught_by (use the other/combo group as your reference group), IMDb rating, number of catchphrases uttered, and media format.\nModel B: The same main effects included in Model A; and an interaction effect between media format and IMDb rating.\nModel C: The same main effects included in Model A; and an interaction effect between number of catchphrases uttered and IMDb rating.\n\nYou will use the output from these fitted models to answer the questions in the assignment."
+  },
+  {
+    "objectID": "assignments/assignment-06-interaction-models.html#description",
+    "href": "assignments/assignment-06-interaction-models.html#description",
+    "title": "Assignment 06",
+    "section": "Description",
+    "text": "Description\n\nCreate and report a table of pairwise correlations between engagement, each of the three dummy variables you created to represent caught_by, IMDb rating, number of catchphrases uttered, and the media format dummy variable. To create this table mimic the formatting of Table 4 in the “Presenting Correlation Coefficients” section here.\nBased on the correlation table, can you infer whether or not there will be a sample interaction between between IMDb rating and number of catchphrases uttered? Explain."
+  },
+  {
+    "objectID": "assignments/assignment-06-interaction-models.html#table-of-regression-results",
+    "href": "assignments/assignment-06-interaction-models.html#table-of-regression-results",
+    "title": "Assignment 06",
+    "section": "Table of Regression Results",
+    "text": "Table of Regression Results\n\n(2pts.) Examine the structure and formatting of Table 9 in the “Presenting Results from Many Fitted Regression Models” section here. Mimic the format and structure of this table to create a table to present the numerical information from the three models you fitted in this assignment. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to ``Landscape’’, rather than changing the size of the font."
+  },
+  {
+    "objectID": "assignments/assignment-06-interaction-models.html#model-b",
+    "href": "assignments/assignment-06-interaction-models.html#model-b",
+    "title": "Assignment 06",
+    "section": "Model B",
+    "text": "Model B\n\nWrite the fitted regression equation for Model B.\nBased on the inferential results from fitting this model, is there an interaction effect between media format and IMDb rating? Explain.\nInterpret the coefficient associated with the interaction effect between media format and IMDb rating.\nRe-write the fitted regression equation, by writing two fitted equations: one for TV episodes and one for movies. Be sure each equation is identified with the appropriate subgroup.\nCreate and include a plot of the fitted model showing the pertinent results from Model B. Be sure to appropriately differentiate between lines that you include in the plot (e.g., do not differentiate by color unless you plan to print in color). If you partial out any variables, be sure to note this in the caption."
+  },
+  {
+    "objectID": "assignments/assignment-06-interaction-models.html#model-c",
+    "href": "assignments/assignment-06-interaction-models.html#model-c",
+    "title": "Assignment 06",
+    "section": "Model C",
+    "text": "Model C\n\nWrite the fitted regression equation for Model C.\nBased on the inferential results from fitting this model, is there an interaction effect between number of catchphrases uttered and IMDb rating? Explain.\nCreate and include a plot of the fitted model showing the pertinent results from Model C. Be sure to appropriately differentiate between lines that you include in the plot (e.g., do not differentiate by color unless you plan to print in color). If you partial out any variables, be sure to note this in the caption.\nUse the plot you created in Question 11 to help interpret the interaction effect between number of catchphrases uttered and IMDb rating."
   }
 ]
