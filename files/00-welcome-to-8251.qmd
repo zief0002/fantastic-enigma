@@ -1,0 +1,25 @@
+---
+title: "📖 Welcome to EPsy 8251"
+format:
+  html:
+   css: "../assets/sticky-notes.css"
+date: today
+---
+
+Here are some things to do before the first class:
+
+**Required**
+
+- Read through and familiarize yourself with the course website. This website acts as the syllabus for the course.
+<!-- - Read [Preface for Statistical Modeling and Computation for Educational Scientists](https://zief0002.github.io/modeling/preface.html#preface) [*Computational Toolkit*] -->
+
+- Install R and RStudio:
+  + Download and install the most recent version of [R (version 4.4.1; *Race for Your Life*)](https://www.r-project.org/) on your computer.
+  + Download and install the most recent version of and [RStudio Desktop (version 2024.04.2+764)](https://posit.co/download/rstudio-desktop/) on your computer. 
+
+
+
+<br />
+
+
+

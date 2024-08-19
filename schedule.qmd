@@ -5,7 +5,11 @@ title: "Schedule"
 
 The calendar below lists the tentative course topics. The dates listed are subject to change at the instructor's discretion.
 
-As part of the course, there are several articles, papers and technical reports that you will need to read during the semester. Most of the articles themselves are accessible through the [University of Minnesota library website](http://www.lib.umn.edu). In order to access the full text of some of the articles, you will need to log in using your University x500 username and password. More detailed information, including references or links to specific readings, are linked under the day's "Reading".
+
+The readings indicate chapters in the [Zieffler, A. (2024)](https://zief0002.github.io/modeling/) textbook. These should be read prior to class. There also might be articles, papers, etc. that you will need to read during the semester. These will be emailed to you. (Most articles are also accessible through the [University of Minnesota library website](http://www.lib.umn.edu). In order to access the full text of some of the articles, you will need to log in using your University x500 username and password.)
+
+
+<!-- As part of the course, there are several articles, papers and technical reports that you will need to read during the semester. Most of the articles themselves are accessible through the [University of Minnesota library website](http://www.lib.umn.edu). In order to access the full text of some of the articles, you will need to log in using your University x500 username and password. More detailed information, including references or links to specific readings, are linked under the day's "Reading". -->
 
 <br /><br />
 
@@ -32,7 +36,7 @@ As part of the course, there are several articles, papers and technical reports 
 <th style="width:10%;">M/W</th>
 <th style="width:10%;">T/R</th>
 <th style="width:15%;text-align:center">Reading</th>
-<th style="width:50%;">Topic/Slides</th>
+<th style="width:50%;">Topic/In-Class Materials</th>
 <th style="width:10%;text-align:center">Script</th>
 </tr>
 </thead>
@@ -48,7 +52,7 @@ As part of the course, there are several articles, papers and technical reports 
 <td>Spt. 04</td>
 <td>Spt. 03</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa fa-book" style="font-size: 20px;"></span>](readings/00-welcome-to-8251.html)
+  [<span class="fa fa-book" style="font-size: 20px;"></span>](files/00-welcome-to-8251.html)
 </td>
 <td>Welcome to EPsy 8251</td>
 <td align="center" style="vertical-align:middle;">
@@ -68,7 +72,7 @@ As part of the course, there are several articles, papers and technical reports 
 <td>Spt. 09</td>
 <td>Spt. 05</td>
 <td align="center" style="vertical-align:middle;">
-  [Ch. 1--3](readings/01-01-introduction-to-r-and-rstudio.html)
+  [Ch. 1--3](https://zief0002.github.io/modeling/01-01-r-and-rstudio-installation.html)
 </td>
 <td>[Introduction to R and RStudio](worksheets/worksheet-01-01-using-R.html)</td>
 
@@ -82,7 +86,7 @@ As part of the course, there are several articles, papers and technical reports 
 <td>Spt. 11</td>
 <td>Spt. 10</td>
 <td align="center" style="vertical-align:middle;">
-  [Ch. 4](readings/01-04-data-wrangling-with-dplyr.html)
+  [Ch. 4](https://zief0002.github.io/modeling/01-04-data-wrangling-with-dplyr.html)
 </td>
 <td>[Data Wrangling with dplyr](worksheets/worksheet-01-04-learning-dplyr.html)</td>
 <td align="center" style="vertical-align:middle;">
@@ -95,9 +99,9 @@ As part of the course, there are several articles, papers and technical reports 
 <td>Spt. 16</td>
 <td>Spt. 12</td>
 <td align="center" style="vertical-align:middle;">
-  [Ch. 5](readings/01-05-plotting-with-ggplot2)
+  [Ch. 5](https://zief0002.github.io/modeling/01-05-visualizing-with-ggplot2.html)
 </td>
-<td>[Plotting with ggplot2](worksheets/worksheet-01-05-ggplot2.html)</td>
+<td>[Visualizing Data with ggplot2](worksheets/worksheet-01-05-ggplot2.html)</td>
 <td align="center" style="vertical-align:middle;">
   <!-- [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/01-05-plotting-with-ggplot2.R) -->
 </td>
@@ -111,16 +115,20 @@ As part of the course, there are several articles, papers and technical reports 
 </tr>
 
 <tr>
+<td colspan="7">Read the following article: Clayton, A. (2020, Oct. 28). [How eugenics shaped statistics: Exposing the damned lies of three science pioneers.](https://nautil.us/how-eugenics-shaped-statistics-238014/) *Nautilus, 92 (Frontiers)*.</td>
+</tr>
+
+<tr>
 <td align="center" style="vertical-align:middle;"></td>
 <td>Spt. 18</td>
 <td>Spt. 17</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [Ch. 6--7](readings/02-01-simple-linear-regression-description.html)
+  [Ch. 6--7](https://zief0002.github.io/modeling/02-02-simple-regression-and-correlation.html)
 </td>
 <td style="vertical-align:middle;" rowspan="2">Data Exploration for Regression<br />Simple Linear Regression and Correlation
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/02-01-simple-linear-regression-description.R) <br />
-  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/02-01-simple-linear-regression-description.R)
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/02-01-data-exploration-for-regression-description.R) <br />
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/02-02-simple-linear-regression-and-correlation.R)
 </td>
 </tr>
 
@@ -136,12 +144,12 @@ As part of the course, there are several articles, papers and technical reports 
 <td>Spt. 25</td>
 <td>Spt. 24</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [Ch. 8--9](readings/02-02-ols-estimation.html)
+  [Ch. 8--9](https://zief0002.github.io/modeling/02-03-ols-estimation.html)
 </td>
 <td style="vertical-align:middle;" rowspan="2">Ordinary Least Squares (OLS) Estimation<br />ANOVA Decomposition and $R^2$
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/02-02-ols-estimation.R) <br />
-  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/02-02-ols-estimation.R)
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/02-03-ols-estimation.R) <br />
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/02-04-anova-decomposition.R)
 </td>
 </tr>
 
@@ -159,6 +167,10 @@ As part of the course, there are several articles, papers and technical reports 
 <td colspan="7"><b>Unit 03: Regression Inference</b></td>
 </tr>
 
+<tr>
+<td colspan="7">Read the following article: Amrhein, V., Greenland, S., &amp; McShane, B. (2019). [Comment: Retire statistical significance.](https://www.nature.com/articles/d41586-019-00857-9) *Nature, 567*, 305&ndash;307.</td>
+</tr>
+
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
@@ -169,7 +181,7 @@ As part of the course, there are several articles, papers and technical reports 
 </td>
 <td style="vertical-align:middle;" rowspan="2">Coefficient-Level Inference</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  <!-- [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/02-03-correlation-and-standardized-regression.R) -->
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/03-01-coefficient-level-inference.R)
 </td>
 </tr>
 
@@ -189,7 +201,7 @@ As part of the course, there are several articles, papers and technical reports 
 </td>
 <td style="vertical-align:middle;" rowspan="2">Model-Level Inference</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  <!-- [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/02-04-coefficient-level-inference.R) -->
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/03-02-model-level-inference.R)
 </td>
 </tr>
 
@@ -210,7 +222,7 @@ As part of the course, there are several articles, papers and technical reports 
 </td>
 <td style="vertical-align:middle;" rowspan="2">Assumptions Underlying the Regression Model</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  <!-- [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/02-05-model-level-inference.R) -->
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/03-03-assumptions-underlying-the-regression-model.R)
 </td>
 </tr>
 
@@ -247,7 +259,8 @@ As part of the course, there are several articles, papers and technical reports 
 </td>
 <td style="vertical-align:middle;" rowspan="2">Introduction to Multiple Linear Regression/Multiple Regression: ANOVA Decomposition</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  <!-- [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/03-01-introduction-to-multiple-regression.R) -->
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/04-01-introduction-to-multiple-regression.R)<br />
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/04-02-multiple-regression-anova-decomposition.R)
 </td>
 </tr>
 
@@ -267,7 +280,7 @@ As part of the course, there are several articles, papers and technical reports 
 </td>
 <td style="vertical-align:middle;" rowspan="2">Understanding Statistical Control</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  <!-- [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/03-02-understanding-statistical-control.R) -->
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/04-03-understanding-statistical-control.R)
 </td>
 </tr>
 
@@ -287,7 +300,7 @@ As part of the course, there are several articles, papers and technical reports 
 </td>
 <td style="vertical-align:middle;">Assumptions: Multiple Regression</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/03-03-distributional-assumptions-underlying-the-regression-model.R) -->
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/04-04-assumptions-multiple-regression.R)
 </td>
 </tr>
 
@@ -308,7 +321,7 @@ As part of the course, there are several articles, papers and technical reports 
 </td>
 <td style="vertical-align:middle;" rowspan="2">Dichotomous Categorical Predictors</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  <!-- [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/04-01-dichotomous-categorical-predictors.R) -->
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/05-01-dichotomous-categorical-predictors.R)
 </td>
 </tr>
 
@@ -328,7 +341,7 @@ As part of the course, there are several articles, papers and technical reports 
 </td>
 <td style="vertical-align:middle;" rowspan="2">Polychotomous Categorical Predictors</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  <!-- [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/04-02-polychotomous-categorical-predictors.R) -->
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/05-02-polychotomous-categorical-predictors.R)
 </td>
 </tr>
 
@@ -339,6 +352,9 @@ As part of the course, there are several articles, papers and technical reports 
 <td>Nov. 19</td>
 </tr>
 
+<tr>
+<td colspan="7">Read the following article: Aschwanden, C. (2019). [Science isn't broken: It’s just a hell of a lot harder than we give it credit for.](https://fivethirtyeight.com/features/science-isnt-broken/#part1) *Fivethirtyeight*.</td>
+</tr>
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
@@ -349,7 +365,7 @@ As part of the course, there are several articles, papers and technical reports 
 </td>
 <td style="vertical-align:middle;" rowspan="2">Multiple Comparisons</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  <!-- [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/04-02-polychotomous-categorical-predictors.R) -->
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/05-03-multiple-comparisons.R)
 </td>
 </tr>
 
@@ -377,6 +393,14 @@ As part of the course, there are several articles, papers and technical reports 
 <td colspan="7"><b>Unit 06: Interaction Effects</b></td>
 </tr>
 
+<tr>
+<td colspan="7">Read the following article: Brambor T., Clark, W. R., &amp; Golder, M. (2006). [Understanding interaction models: Improving empirical analyses.](https://primo.lib.umn.edu/permalink/01UMN_INST/oqqrhb/cdi_proquest_miscellaneous_59706415) *Political Analysis, 14*(1), 63--82. doi:10.1093/pan/mpi014.</td>
+</tr>
+
+
+
+
+
 
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
@@ -387,7 +411,8 @@ As part of the course, there are several articles, papers and technical reports 
 </td>
 <td style="vertical-align:middle;"  rowspan="3">Introduction to Interaction Effects/More Interaction Effects</td>
 <td align="center" style="vertical-align:middle;"  rowspan="3">
-  <!-- [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/04-02-polychotomous-categorical-predictors.R) -->
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/06-01-introduction-to-interaction-effects.R)<br />
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/06-02-more-interaction-effects.R)
 </td>
 </tr>
 

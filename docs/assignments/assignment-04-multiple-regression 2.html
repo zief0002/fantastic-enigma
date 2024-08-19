@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Small Group">
 <meta name="dcterms.date" content="2024-08-19">
+<meta name="description" content="This goal of this assignment is to give you experience fitting and interpreting multiple regression models. This assignment is worth 13 points. Each question is worth 1 point unless otherwise noted.   Copyright EPSY 8251, 2024">
 
-<title>EPsy 8251 - Learning dplyr Worksheet</title>
+<title>EPsy 8251 - Assignment 04</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <script src="https://kit.fontawesome.com/e5da75ca36.js" crossorigin="anonymous"></script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../assets/sticky-notes.css">
 </head>
@@ -139,15 +168,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#directions" id="toc-directions" class="nav-link active" data-scroll-target="#directions">Directions</a></li>
-  <li><a href="#task-1-import-data" id="toc-task-1-import-data" class="nav-link" data-scroll-target="#task-1-import-data">Task 1: Import Data</a></li>
-  <li><a href="#task-2-arranging" id="toc-task-2-arranging" class="nav-link" data-scroll-target="#task-2-arranging">Task 2: Arranging</a></li>
-  <li><a href="#task-3-more-arranging" id="toc-task-3-more-arranging" class="nav-link" data-scroll-target="#task-3-more-arranging">Task 3: More Arranging</a></li>
-  <li><a href="#task-4-filtering-rows" id="toc-task-4-filtering-rows" class="nav-link" data-scroll-target="#task-4-filtering-rows">Task 4: Filtering Rows</a></li>
-  <li><a href="#task-5-more-filtering" id="toc-task-5-more-filtering" class="nav-link" data-scroll-target="#task-5-more-filtering">Task 5: More Filtering</a></li>
-  <li><a href="#task-6-selecting-columns" id="toc-task-6-selecting-columns" class="nav-link" data-scroll-target="#task-6-selecting-columns">Task 6: Selecting Columns</a></li>
-  <li><a href="#task-7-mutating-columns" id="toc-task-7-mutating-columns" class="nav-link" data-scroll-target="#task-7-mutating-columns">Task 7: Mutating Columns</a></li>
-  <li><a href="#task-8-grouping-and-summarizing" id="toc-task-8-grouping-and-summarizing" class="nav-link" data-scroll-target="#task-8-grouping-and-summarizing">Task 8: Grouping and Summarizing</a></li>
+  <li><a href="#part-i-correlations" id="toc-part-i-correlations" class="nav-link active" data-scroll-target="#part-i-correlations">Part I: Correlations</a></li>
+  <li><a href="#part-ii-regression-analysis" id="toc-part-ii-regression-analysis" class="nav-link" data-scroll-target="#part-ii-regression-analysis">Part II: Regression Analysis</a></li>
+  <li><a href="#model-3-interpreting-results-from-the-final-model" id="toc-model-3-interpreting-results-from-the-final-model" class="nav-link" data-scroll-target="#model-3-interpreting-results-from-the-final-model">Model 3: Interpreting Results from the “Final” Model</a></li>
   </ul>
 </nav>
     </div>
@@ -156,19 +179,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Learning dplyr Worksheet</h1>
+<h1 class="title">Assignment 04</h1>
+<p class="subtitle lead">INTRODUCTION TO MULTIPLE REGRESSION</p>
 </div>
 
+<div>
+  <div class="description">
+    This goal of this assignment is to give you experience fitting and interpreting multiple regression models. This assignment is worth 13 points. Each question is worth 1 point unless otherwise noted. <br><br> <em>Copyright EPSY 8251, 2024</em>
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Small Group </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -185,60 +208,76 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="directions" class="level2">
-<h2 class="anchored" data-anchor-id="directions">Directions</h2>
-<p>Work with one or more other students to complete each of the tasks in this document. As you work through these tasks, you may want to refer to the following:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/assign-05.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Human overpopulation is a growing concern and has been associated with depletion of Earth’s natural resources (water is a big one) and degredation of the environment. This, in turn, has social and economic consequences such as global tension over resources such as water and food, higher cost of living and higher unemployment rates.</p>
+<p>Fertility rate is a measure directly linked to population and has been useful to explore hypotheses about factors related to combating overpopulation. For this assignment, you will use the file <em>fertility.csv</em> to examine the effects of the rate of contraception (a factor that can be manipulated through targeted intervention) on fertility rates.</p>
 <ul>
-<li><a href="https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html">Data Wrangling with dplyr</a></li>
+<li><a href="https://raw.githubusercontent.com/zief0002/fantastic-enigma/main/data/fertility.csv">[CSV]</a></li>
+<li><a href="https://zief0002.github.io/fantastic-enigma/codebooks/fertility.html">[Data Codebook]</a></li>
 </ul>
-<p>As part of this, include the syntax you use to complete each tasks in a script file. As you write your script file, adhere to good coding practices:</p>
+<p>Submit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption. This assignment is worth 18 points. (Each question is worth 1 point unless otherwise noted.)</p>
+<p><br></p>
+<section id="part-i-correlations" class="level2">
+<h2 class="anchored" data-anchor-id="part-i-correlations">Part I: Correlations</h2>
+<ol type="1">
+<li>Create a path model of the correlations between fertility rate, contraception rate, infant mortality rate, and female education level.</li>
+</ol>
+<p>Consider the following hypotheses about different potential predictors of fertility rates:</p>
 <ul>
-<li>Include comments</li>
-<li>Include spaces</li>
-<li>Include a line break after every pipe operator you use.</li>
+<li><strong>Hypothesis 1:</strong> Countries with higher contraception rates tend to have lower fertility rates.</li>
+<li><strong>Hypothesis 2:</strong> Countries with lower infant mortality rates tend to have higher fertility rates.</li>
+<li><strong>Hypothesis 3:</strong> Countries with higher female education rates tend to have lower fertility rates.</li>
 </ul>
-<p>You can check in with Andy or the TA at the completion of each task to check your work.</p>
+<ol start="2" type="1">
+<li>Use the correlations computed in Question 1 to evaluate each of the three hypotheses. For each hypothesis indicate whether the empirical results support that hypothesis or not by referencing the appropriate correlation(s).</li>
+</ol>
 <p><br></p>
 </section>
-<section id="task-1-import-data" class="level2">
-<h2 class="anchored" data-anchor-id="task-1-import-data">Task 1: Import Data</h2>
-<p>Import the <a href="https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/comic-characters.csv">comic-characters.csv</a> data into an object named <code>comics</code>. Also, examine the <a href="https://zief0002.github.io/rustic-penguin/codebooks/comic-characters.html">data codebook</a> so you are familiar with the different variables.</p>
+<section id="part-ii-regression-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="part-ii-regression-analysis">Part II: Regression Analysis</h2>
+<p>You will fit three regression models to study the effect of contraceptive rates (focal predictor) on fertility rate (outcome). Because infant mortality rate and female education level (our two covariates) are related to both the focal predictor and outcome, they may confound the effect of contraceptive rates on fertility rate (see hypothesized path model).</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/assignment-04-path-model.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="512"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>To remove the confounding and evaluate the effect of contraceptive rates on fertility rate, you will fit a series of regression models.</p>
+<ul>
+<li><strong>Model 1:</strong> Contraceptive rate as the sole predictor of variation in fertility rate.</li>
+<li><strong>Model 2:</strong> Contraceptive rate and infant mortality rate as predictors of variation in fertility rate.</li>
+<li><strong>Model 3:</strong> Contraceptive rate and female education level as predictors of variation in fertility rate.</li>
+<li><strong>Model 4:</strong> Contraceptive rate, infant mortality rate, and female education level as predictors of variation in fertility rate.</li>
+</ul>
+<ol start="3" type="1">
+<li><p>Examine the structure and formatting of Table 9 at <a href="https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html" class="uri">https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html</a>. Mimic the format and structure of this table to create a table to present the numerical information from the three models you fitted. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to “Landscape”, rather than changing the size of the font. <strong>(2pts.)</strong></p></li>
+<li><p>Indicate whether the two covariates are actually confounders by indicating whether the size and direction of the effect of contraceptive rate on fertility rate in Models 2–4 differs from that in Model 1. (Be sure to comment on both covariates.)</p></li>
+</ol>
 <p><br></p>
 </section>
-<section id="task-2-arranging" class="level2">
-<h2 class="anchored" data-anchor-id="task-2-arranging">Task 2: Arranging</h2>
-<p>Use the <code>arrange()</code> function to determine whether Marvel and DC introduced LGBTQ characters around the same time, or whether one company was more progressive?</p>
-<p><br></p>
-</section>
-<section id="task-3-more-arranging" class="level2">
-<h2 class="anchored" data-anchor-id="task-3-more-arranging">Task 3: More Arranging</h2>
-<p>Use the <code>arrange()</code> function to determine the first appearance of an LGBTQ female character in DC comics.</p>
-<p><br></p>
-</section>
-<section id="task-4-filtering-rows" class="level2">
-<h2 class="anchored" data-anchor-id="task-4-filtering-rows">Task 4: Filtering Rows</h2>
-<p>Use the <code>filter()</code> function and <code>nrow()</code> to determine the percentage of female comic characters.</p>
-<p><br></p>
-</section>
-<section id="task-5-more-filtering" class="level2">
-<h2 class="anchored" data-anchor-id="task-5-more-filtering">Task 5: More Filtering</h2>
-<p>Use the <code>filter()</code> function and <code>nrow()</code> to determine the percentage of LGBTQ comic characters introduced in 1970 or later. Based on the result is there evidence that the Pride Movement may have had an impact on LGBTQ representation?</p>
-<p><br></p>
-</section>
-<section id="task-6-selecting-columns" class="level2">
-<h2 class="anchored" data-anchor-id="task-6-selecting-columns">Task 6: Selecting Columns</h2>
-<p>The <a href="https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html#selecting-a-subset-of-columns">Selecting a Subset of Columns</a> section of <em>Data Wrangling with dplyr</em> included syntax for selecting a subset of data and exporting it to a directory on your computer. Modify the syntax to export a CSV of the LGBTQ character data to the desktop on your computer.</p>
-<p>Also try modifying the syntax to export the CSV file to another folder/directory on your computer.</p>
-<p><br></p>
-</section>
-<section id="task-7-mutating-columns" class="level2">
-<h2 class="anchored" data-anchor-id="task-7-mutating-columns">Task 7: Mutating Columns</h2>
-<p>Create a new column called <code>first_appearance_pride</code> that indicates how many years before or after the Pride Movement (1970) the character’s first appearance happened. For example a character that first appeared in 1980 would have a value of 10, and a character that first appeared in 1968 would have a value of -2. Assign the data that includes this column into an object called <code>comics2</code>.</p>
-<p><br></p>
-</section>
-<section id="task-8-grouping-and-summarizing" class="level2">
-<h2 class="anchored" data-anchor-id="task-8-grouping-and-summarizing">Task 8: Grouping and Summarizing</h2>
-<p>Modify the syntax in the <a href="https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html#computations-on-groups">Computations on Groups</a> section of <em>Data Wrangling with dplyr</em> to determine the average number of appearances for both DC and Marvel LGBTQ and non-LGBTQ characters (as well as the standard deviation and sample size) before and after the Pride Movement.</p>
+<section id="model-3-interpreting-results-from-the-final-model" class="level2">
+<h2 class="anchored" data-anchor-id="model-3-interpreting-results-from-the-final-model">Model 3: Interpreting Results from the “Final” Model</h2>
+<p>The research literature suggests that all three predictors are substantively important in predicting variation in fertility rates. Moreover, from the CIs produced in Model 3, we see that all three effects included in the model are statistically relevant (none of the CIs span 0). Because of this, we will adopt Model 3 as our “final” model. <strong>Use the results from Model 3 to answer the remainder of the questions on this assignment.</strong></p>
+<ol start="5" type="1">
+<li><p>Report the regression equation from fitting Model 3. Use Equation Editor (or some other program that correctly types mathematical expressions) to typeset the equation correctly.</p></li>
+<li><p>Report and interpret the value of the model <span class="math inline">\(R^2\)</span> using the context of the data.</p></li>
+<li><p>Using symbols, write the omnibus null hypothesis that is tested by the model-level <em>F</em>-statistic in this analysis in two different manners: (1) using the coefficient parameters used in the regression model, and (2) using the variance accounted for parameter.</p></li>
+<li><p>Based on the results of the model-level <em>F</em>-test, does the model seem to explain variation in fertility rates? Explain. <em>Note:</em> Here you can use the <em>p</em>-value as evidence, but do not compare this to 0.05.</p></li>
+<li><p>Interpret the estimated coefficient value associated with the partial effect of contraception.</p></li>
+<li><p>Based on the 95% confidence interval for the partial effect of contraception on fertility rate, which parameter values are reasonably compatible with the empirical data? Explain what this implies about the magnitude of the partial effect.</p></li>
+<li><p>Create a publication quality plot that displays the results from Model 3. For this plot, put the contraception predictor on the <em>x</em>-axis. Control out the effect of education level by setting this to the mean level of education. Display two separate lines to show the effect of infant mortality rate; a small and large rate based on the data. The two lines should be displayed using different linetypes or colors (or both) so that they can be easily differentiated in the plot. Be sure that the figure is appropriately captioned. <strong>(2pts.)</strong></p></li>
+</ol>
 <p><br></p>
 
 

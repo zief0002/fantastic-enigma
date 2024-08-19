@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Small Group">
 <meta name="dcterms.date" content="2024-08-19">
 
-<title>EPsy 8251 - Learning dplyr Worksheet</title>
+<title>EPsy 8251 - 📖 Welcome to EPsy 8251</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -135,40 +134,20 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#directions" id="toc-directions" class="nav-link active" data-scroll-target="#directions">Directions</a></li>
-  <li><a href="#task-1-import-data" id="toc-task-1-import-data" class="nav-link" data-scroll-target="#task-1-import-data">Task 1: Import Data</a></li>
-  <li><a href="#task-2-arranging" id="toc-task-2-arranging" class="nav-link" data-scroll-target="#task-2-arranging">Task 2: Arranging</a></li>
-  <li><a href="#task-3-more-arranging" id="toc-task-3-more-arranging" class="nav-link" data-scroll-target="#task-3-more-arranging">Task 3: More Arranging</a></li>
-  <li><a href="#task-4-filtering-rows" id="toc-task-4-filtering-rows" class="nav-link" data-scroll-target="#task-4-filtering-rows">Task 4: Filtering Rows</a></li>
-  <li><a href="#task-5-more-filtering" id="toc-task-5-more-filtering" class="nav-link" data-scroll-target="#task-5-more-filtering">Task 5: More Filtering</a></li>
-  <li><a href="#task-6-selecting-columns" id="toc-task-6-selecting-columns" class="nav-link" data-scroll-target="#task-6-selecting-columns">Task 6: Selecting Columns</a></li>
-  <li><a href="#task-7-mutating-columns" id="toc-task-7-mutating-columns" class="nav-link" data-scroll-target="#task-7-mutating-columns">Task 7: Mutating Columns</a></li>
-  <li><a href="#task-8-grouping-and-summarizing" id="toc-task-8-grouping-and-summarizing" class="nav-link" data-scroll-target="#task-8-grouping-and-summarizing">Task 8: Grouping and Summarizing</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Learning dplyr Worksheet</h1>
+<h1 class="title">📖 Welcome to EPsy 8251</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Small Group </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -185,64 +164,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="directions" class="level2">
-<h2 class="anchored" data-anchor-id="directions">Directions</h2>
-<p>Work with one or more other students to complete each of the tasks in this document. As you work through these tasks, you may want to refer to the following:</p>
+<p>Here are some things to do before the first class:</p>
+<p><strong>Required</strong></p>
 <ul>
-<li><a href="https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html">Data Wrangling with dplyr</a></li>
-</ul>
-<p>As part of this, include the syntax you use to complete each tasks in a script file. As you write your script file, adhere to good coding practices:</p>
+<li><p>Read through and familiarize yourself with the course website. This website acts as the syllabus for the course. <!-- - Read [Preface for Statistical Modeling and Computation for Educational Scientists](https://zief0002.github.io/modeling/preface.html#preface) [*Computational Toolkit*] --></p></li>
+<li><p>Install R and RStudio:</p>
 <ul>
-<li>Include comments</li>
-<li>Include spaces</li>
-<li>Include a line break after every pipe operator you use.</li>
+<li>Download and install the most recent version of <a href="https://www.r-project.org/">R (version 4.4.1; <em>Race for Your Life</em>)</a> on your computer.</li>
+<li>Download and install the most recent version of and <a href="https://posit.co/download/rstudio-desktop/">RStudio Desktop (version 2024.04.2+764)</a> on your computer.</li>
+</ul></li>
 </ul>
-<p>You can check in with Andy or the TA at the completion of each task to check your work.</p>
-<p><br></p>
-</section>
-<section id="task-1-import-data" class="level2">
-<h2 class="anchored" data-anchor-id="task-1-import-data">Task 1: Import Data</h2>
-<p>Import the <a href="https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/comic-characters.csv">comic-characters.csv</a> data into an object named <code>comics</code>. Also, examine the <a href="https://zief0002.github.io/rustic-penguin/codebooks/comic-characters.html">data codebook</a> so you are familiar with the different variables.</p>
-<p><br></p>
-</section>
-<section id="task-2-arranging" class="level2">
-<h2 class="anchored" data-anchor-id="task-2-arranging">Task 2: Arranging</h2>
-<p>Use the <code>arrange()</code> function to determine whether Marvel and DC introduced LGBTQ characters around the same time, or whether one company was more progressive?</p>
-<p><br></p>
-</section>
-<section id="task-3-more-arranging" class="level2">
-<h2 class="anchored" data-anchor-id="task-3-more-arranging">Task 3: More Arranging</h2>
-<p>Use the <code>arrange()</code> function to determine the first appearance of an LGBTQ female character in DC comics.</p>
-<p><br></p>
-</section>
-<section id="task-4-filtering-rows" class="level2">
-<h2 class="anchored" data-anchor-id="task-4-filtering-rows">Task 4: Filtering Rows</h2>
-<p>Use the <code>filter()</code> function and <code>nrow()</code> to determine the percentage of female comic characters.</p>
-<p><br></p>
-</section>
-<section id="task-5-more-filtering" class="level2">
-<h2 class="anchored" data-anchor-id="task-5-more-filtering">Task 5: More Filtering</h2>
-<p>Use the <code>filter()</code> function and <code>nrow()</code> to determine the percentage of LGBTQ comic characters introduced in 1970 or later. Based on the result is there evidence that the Pride Movement may have had an impact on LGBTQ representation?</p>
-<p><br></p>
-</section>
-<section id="task-6-selecting-columns" class="level2">
-<h2 class="anchored" data-anchor-id="task-6-selecting-columns">Task 6: Selecting Columns</h2>
-<p>The <a href="https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html#selecting-a-subset-of-columns">Selecting a Subset of Columns</a> section of <em>Data Wrangling with dplyr</em> included syntax for selecting a subset of data and exporting it to a directory on your computer. Modify the syntax to export a CSV of the LGBTQ character data to the desktop on your computer.</p>
-<p>Also try modifying the syntax to export the CSV file to another folder/directory on your computer.</p>
-<p><br></p>
-</section>
-<section id="task-7-mutating-columns" class="level2">
-<h2 class="anchored" data-anchor-id="task-7-mutating-columns">Task 7: Mutating Columns</h2>
-<p>Create a new column called <code>first_appearance_pride</code> that indicates how many years before or after the Pride Movement (1970) the character’s first appearance happened. For example a character that first appeared in 1980 would have a value of 10, and a character that first appeared in 1968 would have a value of -2. Assign the data that includes this column into an object called <code>comics2</code>.</p>
-<p><br></p>
-</section>
-<section id="task-8-grouping-and-summarizing" class="level2">
-<h2 class="anchored" data-anchor-id="task-8-grouping-and-summarizing">Task 8: Grouping and Summarizing</h2>
-<p>Modify the syntax in the <a href="https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html#computations-on-groups">Computations on Groups</a> section of <em>Data Wrangling with dplyr</em> to determine the average number of appearances for both DC and Marvel LGBTQ and non-LGBTQ characters (as well as the standard deviation and sample size) before and after the Pride Movement.</p>
 <p><br></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

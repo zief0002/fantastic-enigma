@@ -1,7 +1,7 @@
-Spring 2023 -- EPsy 8252
+Fall 2024 -- EPsy 8251
 =========
 
-This GitHub repository includes materials (e.g., syllabus, assignments, data, script files) used in the Spring 2023 course _EPsy 8252: Methods in Data Analysis for Educational Research II_.
+This GitHub repository includes materials (e.g., assignments, data, script files) used in the Fall 2024 course _EPsy 8251: Methods in Data Analysis for Educational Research I_.
 
 
 ### Downloading the Materials
@@ -20,14 +20,17 @@ What is included in this repository (and your download)? The primary files and d
 
 
 - **README.md:** This is a plain text file that basically includes the information you are reading right now.
-- **data:** This directory includes the data sets we will use in the course.
-- **docs:** This directory includes the RMD and HTML files to generate the course website.
-  - **assignments:** This directory includes RMD and HTML versions of the course assignments.
-  - **codebooks:** This directory includes RMD and HTML versions of the data codebooks.
-  - **notes:** This directory includes RMD and HTML versions of the course notes.
+- **assets:** This directory includes the website's assets (e.g., BIB, CSL, SCSS, and CSS files).
+- **assignments:** This directory includes QMD versions of the course assignments.
+- **data:** This directory includes extra instructional data sets used in the course.
+- **docs:** This directory includes the HTML files to generate the course website.
+- **files:** This directory includes extraneous QMD files.
+- **img:** This directory includes images for the website.
 - **scripts:** This directory includes the R script files associated with each unit.
-- **syllabus:** This directory includes a PDF file of the course syllabus.
-- **worksheets:** This directory includes RMD and HTML versions of in-class worksheets.
+- **worksheets:** This directory includes QMD versions of in-class worksheets.
+
+There are also several QMD files (e.g., index.qmd), each making up a particular page on the website.
+
 
 
 <br />

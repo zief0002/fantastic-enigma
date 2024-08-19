@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Small Group">
 <meta name="dcterms.date" content="2024-08-19">
+<meta name="description" content="This goal of this assignment is to give you experience working with the R statistical computing environment. This assignment is worth 11 points. Each question is worth 1 point unless otherwise noted.   Copyright EPSY 8251, 2024">
 
-<title>EPsy 8251 - Learning dplyr Worksheet</title>
+<title>EPsy 8251 - Assignment 01</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -139,15 +139,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#directions" id="toc-directions" class="nav-link active" data-scroll-target="#directions">Directions</a></li>
-  <li><a href="#task-1-import-data" id="toc-task-1-import-data" class="nav-link" data-scroll-target="#task-1-import-data">Task 1: Import Data</a></li>
-  <li><a href="#task-2-arranging" id="toc-task-2-arranging" class="nav-link" data-scroll-target="#task-2-arranging">Task 2: Arranging</a></li>
-  <li><a href="#task-3-more-arranging" id="toc-task-3-more-arranging" class="nav-link" data-scroll-target="#task-3-more-arranging">Task 3: More Arranging</a></li>
-  <li><a href="#task-4-filtering-rows" id="toc-task-4-filtering-rows" class="nav-link" data-scroll-target="#task-4-filtering-rows">Task 4: Filtering Rows</a></li>
-  <li><a href="#task-5-more-filtering" id="toc-task-5-more-filtering" class="nav-link" data-scroll-target="#task-5-more-filtering">Task 5: More Filtering</a></li>
-  <li><a href="#task-6-selecting-columns" id="toc-task-6-selecting-columns" class="nav-link" data-scroll-target="#task-6-selecting-columns">Task 6: Selecting Columns</a></li>
-  <li><a href="#task-7-mutating-columns" id="toc-task-7-mutating-columns" class="nav-link" data-scroll-target="#task-7-mutating-columns">Task 7: Mutating Columns</a></li>
-  <li><a href="#task-8-grouping-and-summarizing" id="toc-task-8-grouping-and-summarizing" class="nav-link" data-scroll-target="#task-8-grouping-and-summarizing">Task 8: Grouping and Summarizing</a></li>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link active" data-scroll-target="#instructions">Instructions</a></li>
+  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a></li>
+  <li><a href="#part-i-minnesota-broadband-access" id="toc-part-i-minnesota-broadband-access" class="nav-link" data-scroll-target="#part-i-minnesota-broadband-access">Part I: Minnesota Broadband Access</a></li>
+  <li><a href="#part-ii-state-level-broadband-access" id="toc-part-ii-state-level-broadband-access" class="nav-link" data-scroll-target="#part-ii-state-level-broadband-access">Part II: State-Level Broadband Access</a></li>
+  <li><a href="#part-iii-state-level-broadband-access-versus-poverty" id="toc-part-iii-state-level-broadband-access-versus-poverty" class="nav-link" data-scroll-target="#part-iii-state-level-broadband-access-versus-poverty">Part III: State-Level Broadband Access versus Poverty</a></li>
+  <li><a href="#how-do-i-submit-the-assignment" id="toc-how-do-i-submit-the-assignment" class="nav-link" data-scroll-target="#how-do-i-submit-the-assignment">How do I submit the assignment?</a></li>
   </ul>
 </nav>
     </div>
@@ -156,19 +153,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Learning dplyr Worksheet</h1>
+<h1 class="title">Assignment 01</h1>
+<p class="subtitle lead">INTRODUCTION TO STATISTICAL COMPUTING</p>
 </div>
 
+<div>
+  <div class="description">
+    This goal of this assignment is to give you experience working with the R statistical computing environment. This assignment is worth 11 points. Each question is worth 1 point unless otherwise noted. <br><br> <em>Copyright EPSY 8251, 2024</em>
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Small Group </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -185,60 +182,85 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="directions" class="level2">
-<h2 class="anchored" data-anchor-id="directions">Directions</h2>
-<p>Work with one or more other students to complete each of the tasks in this document. As you work through these tasks, you may want to refer to the following:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/assign-01.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="instructions" class="level2">
+<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
+<p>In this assignment, you will use the data from the file <em>broadband.csv</em> to examine broadband access in the United States.</p>
 <ul>
-<li><a href="https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html">Data Wrangling with dplyr</a></li>
+<li><a href="https://raw.githubusercontent.com/zief0002/fantastic-enigma/main/data/broadband.csv">[CSV]</a></li>
+<li><a href="https://zief0002.github.io/fantastic-enigma/codebooks/broadband.html">[Data Codebook]</a></li>
 </ul>
-<p>As part of this, include the syntax you use to complete each tasks in a script file. As you write your script file, adhere to good coding practices:</p>
+<p>Submit a PDF document of your responses to the following questions. Please adhere to the following guidelines for further formatting your assignment:</p>
 <ul>
-<li>Include comments</li>
-<li>Include spaces</li>
-<li>Include a line break after every pipe operator you use.</li>
+<li>All plots should be resized so that they do not take up more room than necessary.</li>
+<li>All figures and tables should have a name (e.g., Figure 1) <em>and</em> an appropriate caption.</li>
 </ul>
-<p>You can check in with Andy or the TA at the completion of each task to check your work.</p>
 <p><br></p>
 </section>
-<section id="task-1-import-data" class="level2">
-<h2 class="anchored" data-anchor-id="task-1-import-data">Task 1: Import Data</h2>
-<p>Import the <a href="https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/comic-characters.csv">comic-characters.csv</a> data into an object named <code>comics</code>. Also, examine the <a href="https://zief0002.github.io/rustic-penguin/codebooks/comic-characters.html">data codebook</a> so you are familiar with the different variables.</p>
+<section id="preparation" class="level2">
+<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
+<p>If you have not already installed them, you will need to install the <code>{dplyr}</code> and <code>{ggplot2}</code> packages to complete this assignment. Once these have been installed successfully, you should not need to install them again. Remember: Install once; load every session.</p>
+<p>Open a new script file. Save the script file as <code>Assignment-01.R</code>. Save all of the R syntax you use to answer the questions on this assignment in this script file.</p>
+<p>Denote each question in the script file using comments. For example,</p>
+<pre><code>##################################################
+### Question 1
+##################################################
+
+&lt;&lt; syntax &gt;&gt;</code></pre>
+<p>Add comments throughout your syntax as liberally as you feel is necessary to help you recall what the syntax does in the future. Although you do <em>not need to submit this in with your assignment</em>, it will be useful for building good coding habits and potentially for future assignments.</p>
 <p><br></p>
 </section>
-<section id="task-2-arranging" class="level2">
-<h2 class="anchored" data-anchor-id="task-2-arranging">Task 2: Arranging</h2>
-<p>Use the <code>arrange()</code> function to determine whether Marvel and DC introduced LGBTQ characters around the same time, or whether one company was more progressive?</p>
+<section id="part-i-minnesota-broadband-access" class="level2">
+<h2 class="anchored" data-anchor-id="part-i-minnesota-broadband-access">Part I: Minnesota Broadband Access</h2>
+<p>After importing the broadband data into RStudio, create a new data frame object that only includes counties in Minnesota (postal code for Minnesota is MN). Hint: Use <code>filter()</code>. Assign the Minnesota broadband data into a new object called <code>mn</code>. Use the <code>mn</code> data to answer the following questions.</p>
+<ol type="1">
+<li><p>Use the <code>geom_density()</code> function from the <code>{ggplot2}</code> package to create a density plot of the distribution of the <code>microsoft_useage</code> variable for all 87 counties in Minnesota. You can see many examples of how to do this <a href="https://ggplot2.tidyverse.org/reference/geom_density.html">here</a>. Include this plot in a word-processed document. Resize the plot so it does not take up any more space than necessary. Be sure the plot has appropriate labels and has a caption.</p></li>
+<li><p>Use the <code>geom_density()</code> function from the <code>{ggplot2}</code> package to create a density plot of the distribution of the <code>microsoft_useage</code> variable for the counties in Minnesota, but this time use <code>color=</code> or <code>fill=</code> to color by whether the county is a metropolitan or non-metropolitan county. (Hint: You should get two density plots.). Include this plot in a word-processed document. Resize the plot so it does not take up any more space than necessary. Be sure the plot has appropriate labels and has a caption.</p></li>
+<li><p>Compute the mean and the standard deviation of the <code>microsoft_useage</code> variable for metro and non-metro counties. Report these values.</p></li>
+<li><p>By referring to the values, and the plots, what can you say about broadband access in Minnesota? Is there a broadband access gap?</p></li>
+</ol>
 <p><br></p>
 </section>
-<section id="task-3-more-arranging" class="level2">
-<h2 class="anchored" data-anchor-id="task-3-more-arranging">Task 3: More Arranging</h2>
-<p>Use the <code>arrange()</code> function to determine the first appearance of an LGBTQ female character in DC comics.</p>
+<section id="part-ii-state-level-broadband-access" class="level2">
+<h2 class="anchored" data-anchor-id="part-ii-state-level-broadband-access">Part II: State-Level Broadband Access</h2>
+<p>In this section, you will use the data in <em>broadband.csv</em> to create state-level summaries of the <code>microsoft_useage</code> and the <code>fcc_availability</code> variables. Begin by filtering out Washington DC so it is not included. Then compute means and standard deviations for each state. (Hint: Make sure that every state has mean and standard deviation values for both variables when you are done!) Use this state-level data to answer the following questions.</p>
+<ol start="5" type="1">
+<li><p>Based on the Microsoft and FCC estimates, does it seem that the FCC estimates (which are provided by the ISPs) are “overestimating” America’s broadband access? Explain.</p></li>
+<li><p>Using the Microsoft estimates, which states have the best and worst broadband access based on the means? Which states are the most and least homogenous (across counties) in terms of their broadband access?</p></li>
+<li><p>Create a table that includes the Microsoft and FCC estimates of broadband access you computed for the states in bordering Minnesota: Minnesota (MN), Iowa (IA), South Dakota (SD), North Dakota (ND), and Wisconsin (WI). Report these values in a word-processed table alphabetically by state. <em>To format this table:</em> Examine the structure and formatting of Table 2 at https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html. Notice that variables are presented in rows and summary statistics are presented in columns. Mimic the format and structure of this table to create a table to present the numerical summary information asked for in this question. Finally, give your table a name (e.g., Table 1) and an appropriate caption.</p></li>
+</ol>
 <p><br></p>
 </section>
-<section id="task-4-filtering-rows" class="level2">
-<h2 class="anchored" data-anchor-id="task-4-filtering-rows">Task 4: Filtering Rows</h2>
-<p>Use the <code>filter()</code> function and <code>nrow()</code> to determine the percentage of female comic characters.</p>
+<section id="part-iii-state-level-broadband-access-versus-poverty" class="level2">
+<h2 class="anchored" data-anchor-id="part-iii-state-level-broadband-access-versus-poverty">Part III: State-Level Broadband Access versus Poverty</h2>
+<p>In this section, you will use all the data in <em>broadband.csv</em> to create state-level means of the <code>microsoft_useage</code> and the <code>pct_poverty</code> variables. Again, filter out Washington DC so it is not included. (Hint: Make sure that every state has mean values when you are done!) Use this state-level data to answer the following questions.</p>
+<ol start="8" type="1">
+<li><p>Use <code>ggplot()</code> to create a scatterplot of the relationship between the proportion of users with access to broadband and the proportion of people living in poverty using the state-level data. (Put the proportion living in poverty on the <em>x</em>-axis.) Change the axis labels so that both the <em>x</em>- and <em>y</em>-axis have labels that suitably describe the variables being plotted. (For help on this, read the <em>Axes</em> page of the <a href="http://www.cookbook-r.com/Graphs/">Cookbook for R website</a>.) Include this plot in a word-processed document. Resize the plot so it does not take up any more space than necessary. Finally, give your figure a name (e.g., Figure 1) and an appropriate caption.</p></li>
+<li><p>Based on these data, describe the relationship between poverty and broadband access.</p></li>
+<li><p>Identify Minnesota on your plot. (You do not have to use R to do this; you can use an image editor, or do it by hand.) You can either create a new plot or just include Minnesota on the plot you include for Question 8.</p></li>
+<li><p>Based on its location in the plot, how does Minnesota compare to the other states in terms of broadband access? What about in terms of poverty? Explain.</p></li>
+</ol>
 <p><br></p>
 </section>
-<section id="task-5-more-filtering" class="level2">
-<h2 class="anchored" data-anchor-id="task-5-more-filtering">Task 5: More Filtering</h2>
-<p>Use the <code>filter()</code> function and <code>nrow()</code> to determine the percentage of LGBTQ comic characters introduced in 1970 or later. Based on the result is there evidence that the Pride Movement may have had an impact on LGBTQ representation?</p>
-<p><br></p>
-</section>
-<section id="task-6-selecting-columns" class="level2">
-<h2 class="anchored" data-anchor-id="task-6-selecting-columns">Task 6: Selecting Columns</h2>
-<p>The <a href="https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html#selecting-a-subset-of-columns">Selecting a Subset of Columns</a> section of <em>Data Wrangling with dplyr</em> included syntax for selecting a subset of data and exporting it to a directory on your computer. Modify the syntax to export a CSV of the LGBTQ character data to the desktop on your computer.</p>
-<p>Also try modifying the syntax to export the CSV file to another folder/directory on your computer.</p>
-<p><br></p>
-</section>
-<section id="task-7-mutating-columns" class="level2">
-<h2 class="anchored" data-anchor-id="task-7-mutating-columns">Task 7: Mutating Columns</h2>
-<p>Create a new column called <code>first_appearance_pride</code> that indicates how many years before or after the Pride Movement (1970) the character’s first appearance happened. For example a character that first appeared in 1980 would have a value of 10, and a character that first appeared in 1968 would have a value of -2. Assign the data that includes this column into an object called <code>comics2</code>.</p>
-<p><br></p>
-</section>
-<section id="task-8-grouping-and-summarizing" class="level2">
-<h2 class="anchored" data-anchor-id="task-8-grouping-and-summarizing">Task 8: Grouping and Summarizing</h2>
-<p>Modify the syntax in the <a href="https://zief0002.github.io/toolkit-quarto/05-data-wrangling-with-dplyr.html#computations-on-groups">Computations on Groups</a> section of <em>Data Wrangling with dplyr</em> to determine the average number of appearances for both DC and Marvel LGBTQ and non-LGBTQ characters (as well as the standard deviation and sample size) before and after the Pride Movement.</p>
+<section id="how-do-i-submit-the-assignment" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-i-submit-the-assignment">How do I submit the assignment?</h2>
+<p>Create a PDF of your responses and submit the PDF via email to both the instructor and TA. Also cc any group members. Before you submit the assignment check that:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">All group members’ names are on the assignment.</label></li>
+<li><label><input type="checkbox">All tables are numbered and have a caption.</label></li>
+<li><label><input type="checkbox">All figures are numbered and have a caption.</label></li>
+<li><label><input type="checkbox">All figures are re-sized to not take up more page space than is necessary to read them.</label></li>
+<li><label><input type="checkbox">No R syntax is included unless the question specifically asked for the syntax to be included. If there is R syntax included, be sure that it is typeset in a monospaced font (e.g., Courier, Inconsolata).</label></li>
+<li><label><input type="checkbox">Do not submit the script file you used unless the directions specifically ask you to submit it.</label></li>
+</ul>
 <p><br></p>
 
 

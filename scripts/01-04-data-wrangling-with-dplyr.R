@@ -7,7 +7,7 @@ library(dplyr)
 library(readr)
 
 # Import data 
-comics = read_csv("https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/comic-characters.csv")
+comics = read_csv("https://raw.githubusercontent.com/zief0002/modeling/main/data/comic-characters.csv")
 
 # View data
 glimpse(comics)

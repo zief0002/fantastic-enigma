@@ -82,7 +82,7 @@ my_data = data.frame(
 
 # Problem 14
 library(readr)
-comics = read_csv("https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/comic-characters.csv")
+comics = read_csv("https://raw.githubusercontent.com/zief0002/modeling/main/data/comic-characters.csv")
 
 
 # Problem 15

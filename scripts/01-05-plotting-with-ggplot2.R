@@ -13,7 +13,7 @@ library(scales)
 ### Task 1: Import data
 ##################################################
 
-city = read_csv("https://raw.githubusercontent.com/zief0002/miniature-garbanzo/main/data/riverview.csv")
+city = read_csv("https://raw.githubusercontent.com/zief0002/modeling/main/data/riverview.csv")
 
 # View data
 city
