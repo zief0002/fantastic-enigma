@@ -55,9 +55,9 @@ Before carrying out any analyses, create a predictor called `salary_thousand` th
 <!-- 8. The results of the *t*-test for the intercept in this analysis are different than the results of the *t*-test for the intercept in the analysis in Part I. Explain why this is expected by referring to and comparing the hypothesis being tested (and what that means) in both sets of analyses. -->
 
 
-# Part III: Standardized Regression
+# Part II: Standardized Regression
 
-For Parts II and III, you will need to read [Chapter 10: Standardized Regression](https://zief0002.github.io/modeling/02-05-standardized-regression.html) in the textbook.
+For Part II, you will need to read [Chapter 10: Standardized Regression](https://zief0002.github.io/modeling/02-05-standardized-regression.html) in the textbook.
 
 Convert the teacher salaries (`salary_thousand`) into *z*-scores by subtracting the mean salary and dividing by the standard deviation. Call this new variable `z_salary`  (e.g., `z_salary = (salary_thousand - mean(salary_thousand)) / sd(salary_thousand)`). Also convert the SAT scores into *z*-scores and call that variable `z_sat` (e.g., `z_sat = (sat - mean(sat)) / sd(sat)`). 
 
@@ -76,7 +76,7 @@ Convert the teacher salaries (`salary_thousand`) into *z*-scores by subtracting 
 <br />
 
 
-# Part IV: Study Design and Causation
+# Part III: Study Design and Causation
 
 13. The test of the slope (regardless of analysis) suggests that teacher salaries seem to be related to SAT scores. Unfortunately this relationship is negative, indicating that higher teacher salaries are associated with lower SAT scores. A public-policy wonk wants to use this data to support the de-funding of public schools. Write a couple sentences that explain to this person why your analysis does not support this causal conclusion **based on the study design**. (Hint: Recall that inferring causation requires particular study designs. You may need to draw on information from your prerequisite stat course here. You could also read ahead into Chapter 14!)
 

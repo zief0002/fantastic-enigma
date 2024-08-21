@@ -59,11 +59,11 @@ Before carrying out any analyses, create a predictor called `salary_thousand` th
 
 10. Compute, report, and interpret the value for $R^2$ based on values from the ANOVA decomposition. Show your work for full credit.
 
-11. Compute and report the predicted mean total SAT score for Minnesota students based on the average teacher salary in the state using the fitted regression equation. Show your work for full credit.
+11. Compute and report the predicted mean SAT score for Minnesota students based on the average teacher salary in the state using the fitted regression equation. Show your work for full credit.
 
 12. Compute and report the residual for Minnesota. Show your work for full credit.
 
-13. Explain what the sign and magnitude of the residual value you computed in Question 10 tells you about how Minnesota's mean SAT score compares to the mean SAT score for states having the same average teacher salary as Minnesota.
+13. Explain what the sign and magnitude of the residual value you computed in Question 12 tells you about how Minnesota's mean SAT score compares to the mean SAT score for states having the same average teacher salary as Minnesota.
 
 
 <br />
