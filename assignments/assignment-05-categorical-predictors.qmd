@@ -1,7 +1,7 @@
 ---
 title: "Assignment 05"
 subtitle: "CATEGORICAL PREDICTORS"
-# description: This goal of this assignment is to give you experience fitting and interpreting regression models with categorical predictors. This assignment is worth 13 points. Each question is worth 1 point unless otherwise noted. <br /><br /> *Copyright EPSY 8251, 2024*
+description: This goal of this assignment is to give you experience fitting and interpreting regression models with categorical predictors. This assignment is worth 13 points. Each question is worth 1 point unless otherwise noted. <br /><br /> *Copyright EPSY 8251, 2024*
 format:
   html:
    highlight-style: atom-one
@@ -23,7 +23,7 @@ For this assignment, you will be fitting several regression models to examine wh
 - [[Data Codebook]](https://zief0002.github.io/fantastic-enigma/codebooks/scoobydoo.html)
 
 
-Submit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption. This assignment is worth 15 points. (Each question is worth 1 point unless otherwise noted.)
+Submit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption.
 
 <br />
 
@@ -61,7 +61,7 @@ Again, fit the regression model that uses the dummy predictors for which Mystery
 
 7. Report and interpret the $R^2$ value for this model.
 
-8. Create a visualization to show the adjusted mean engagement levels for different members of Mystery Inc that caught the villain. This visualization should mimic that of [Figure 19.7 in the textbook](https://zief0002.github.io/modeling/05-02-polychotomous-predictors.html#fig-mult-comp-4). (This should be based on the unadjusted *p*-values.) Feel free to use any software tool you want to create this visualization.
+8. Compute and report the adjusted mean engagement levels for each level of the `caught_by` variable. Show your work. (You can check your work using the `emmeans()` function, but do not use that to show your work for this question!)
 
 <br />
 

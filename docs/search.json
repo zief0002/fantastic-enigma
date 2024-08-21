@@ -200,7 +200,7 @@
     "href": "assignments/assignment-06-interaction-models.html",
     "title": "Assignment 06",
     "section": "",
-    "text": "For this assignment, you will be fitting several regression models to examine whether there are differences in the engagement level of reviewers on IMDb for Scooby-Doo episodes/movies based on which members of Mystery Inc caught the villain. To do so, you will use the data in the file scoobydoo.csv.\nSubmit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption. This assignment is worth 12 points. (Each question is worth 1 point unless otherwise noted.)"
+    "text": "For this assignment, you will be fitting several regression models to examine whether there are differences in the engagement level of reviewers on IMDb for Scooby-Doo episodes/movies based on which members of Mystery Inc caught the villain. To do so, you will use the data in the file scoobydoo.csv.\nSubmit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption."
   },
   {
     "objectID": "assignments/assignment-06-interaction-models.html#preparation-fitting-models",
@@ -375,7 +375,7 @@
     "href": "assignments/assignment-05-categorical-predictors.html",
     "title": "Assignment 05",
     "section": "",
-    "text": "For this assignment, you will be fitting several regression models to examine whether there are differences in the engagement level of reviewers on IMDb for Scooby-Doo episodes/movies based on which members of Mystery Inc caught the villain. To do so, you will use the data in the file scoobydoo.csv.\nSubmit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption. This assignment is worth 15 points. (Each question is worth 1 point unless otherwise noted.)"
+    "text": "For this assignment, you will be fitting several regression models to examine whether there are differences in the engagement level of reviewers on IMDb for Scooby-Doo episodes/movies based on which members of Mystery Inc caught the villain. To do so, you will use the data in the file scoobydoo.csv.\nSubmit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption."
   },
   {
     "objectID": "assignments/assignment-05-categorical-predictors.html#preparation-create-dummy-variables",
@@ -396,7 +396,7 @@
     "href": "assignments/assignment-05-categorical-predictors.html#adjusted-group-differences-model-ancova",
     "title": "Assignment 05",
     "section": "Adjusted Group Differences Model: ANCOVA",
-    "text": "Adjusted Group Differences Model: ANCOVA\nAgain, fit the regression model that uses the dummy predictors for which Mystery Inc. members caught the villain to predict variation in average IMDb engagement, but this time control for differences in (1) IMDb rating, (2) number of catchphrases uttered, and (3) media format. Again, use Shaggy/Scooby as the reference group.\n\nWrite the fitted regression equation.\nWhich conditions of caught_by, if any, differ from Shaggy/Scooby in the average IMDb engagment (more than we expect because of sampling variation) after controlling for differences in these other predictors? Explain\nReport and interpret the \\(R^2\\) value for this model.\nCreate a visualization to show the adjusted mean engagement levels for different members of Mystery Inc that caught the villain. This visualization should mimic that of Figure 19.7 in the textbook. (This should be based on the unadjusted p-values.) Feel free to use any software tool you want to create this visualization."
+    "text": "Adjusted Group Differences Model: ANCOVA\nAgain, fit the regression model that uses the dummy predictors for which Mystery Inc. members caught the villain to predict variation in average IMDb engagement, but this time control for differences in (1) IMDb rating, (2) number of catchphrases uttered, and (3) media format. Again, use Shaggy/Scooby as the reference group.\n\nWrite the fitted regression equation.\nWhich conditions of caught_by, if any, differ from Shaggy/Scooby in the average IMDb engagment (more than we expect because of sampling variation) after controlling for differences in these other predictors? Explain\nReport and interpret the \\(R^2\\) value for this model.\nCompute and report the adjusted mean engagement levels for each level of the caught_by variable. Show your work. (You can check your work using the emmeans() function, but do not use that to show your work for this question!)"
   },
   {
     "objectID": "assignments/assignment-05-categorical-predictors.html#assumptions",
@@ -642,5 +642,61 @@
     "title": "Hospitalizations and Astrological Sign",
     "section": "",
     "text": "Discuss the following study with your group. Do you believe the findings? Why or why not?\n\nMethods\nA study was conducted of 5,337,472 residents of Ontario aged between 18 and 100 years in 2000 using the Registered Person’s Database. These residents were classified according to their astrological sign. The researchers then searched through 223 of the most common diagnoses for hospitalization and identified 72 (32.3%) for which residents born under one astrological sign had a significantly higher probability of hospitalization compared to residents born under the other astrological signs combined. For example, Libras were 1.37 times more likely to be hospitalized for a fractured pelvis than people born under other astrological signs (\\(p=.0108\\)).\nThe p-values for the 72 significant associations ranged from 0.0003 to 0.0488. The two most frequently occurring diagnoses for which each astrological sign had a higher probability of hospitalization compared to the other astrological signs combined are described in Table 1."
+  },
+  {
+    "objectID": "assignments/assignment-04-introduction-to-multiple-regression.html",
+    "href": "assignments/assignment-04-introduction-to-multiple-regression.html",
+    "title": "Assignment 04",
+    "section": "",
+    "text": "Human overpopulation is a growing concern and has been associated with depletion of Earth’s natural resources (water is a big one) and degredation of the environment. This, in turn, has social and economic consequences such as global tension over resources such as water and food, higher cost of living and higher unemployment rates.\nFertility rate is a measure directly linked to population and has been useful to explore hypotheses about factors related to combating overpopulation. For this assignment, you will use the file fertility.csv to examine the effects of the rate of contraception (a factor that can be manipulated through targeted intervention) on fertility rates.\nSubmit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption. This assignment is worth 18 points. (Each question is worth 1 point unless otherwise noted.)"
+  },
+  {
+    "objectID": "assignments/assignment-04-introduction-to-multiple-regression.html#part-i-correlations",
+    "href": "assignments/assignment-04-introduction-to-multiple-regression.html#part-i-correlations",
+    "title": "Assignment 04",
+    "section": "Part I: Correlations",
+    "text": "Part I: Correlations\n\nCreate a path model of the correlations between fertility rate, contraception rate, infant mortality rate, and female education level.\n\nConsider the following hypotheses about different potential predictors of fertility rates:\n\nHypothesis 1: Countries with higher contraception rates tend to have lower fertility rates.\nHypothesis 2: Countries with lower infant mortality rates tend to have higher fertility rates.\nHypothesis 3: Countries with higher female education rates tend to have lower fertility rates.\n\n\nUse the correlations computed in Question 1 to evaluate each of the three hypotheses. For each hypothesis indicate whether the empirical results support that hypothesis or not by referencing the appropriate correlation(s)."
+  },
+  {
+    "objectID": "assignments/assignment-04-introduction-to-multiple-regression.html#part-ii-regression-analysis",
+    "href": "assignments/assignment-04-introduction-to-multiple-regression.html#part-ii-regression-analysis",
+    "title": "Assignment 04",
+    "section": "Part II: Regression Analysis",
+    "text": "Part II: Regression Analysis\nYou will fit three regression models to study the effect of contraceptive rates (focal predictor) on fertility rate (outcome). Because infant mortality rate and female education level (our two covariates) are related to both the focal predictor and outcome, they may confound the effect of contraceptive rates on fertility rate (see hypothesized path model).\n\n\n\n\n\n\n\n\n\n\nBased on the corrlations you produced in Question 1, indicate whether it is reasonable to be worried that the two covariates may confound the relationship between contraceptive rates and fertility rates. Explain by referring to the correlations.\n\nTo remove the confounding and evaluate the effect of contraceptive rates on fertility rate, you will fit a series of regression models.\n\nModel 1: Contraceptive rate as the sole predictor of variation in fertility rate.\nModel 2: Contraceptive rate and infant mortality rate as predictors of variation in fertility rate.\nModel 3: Contraceptive rate and female education level as predictors of variation in fertility rate.\nModel 4: Contraceptive rate, infant mortality rate, and female education level as predictors of variation in fertility rate.\n\n\nExamine the structure and formatting of Table 9 at https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html. Mimic the format and structure of this table to create a table to present the numerical information from the three models you fitted. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to “Landscape”, rather than changing the size of the font. (2pts.)"
+  },
+  {
+    "objectID": "assignments/assignment-04-introduction-to-multiple-regression.html#model-3-interpreting-results-from-the-final-model",
+    "href": "assignments/assignment-04-introduction-to-multiple-regression.html#model-3-interpreting-results-from-the-final-model",
+    "title": "Assignment 04",
+    "section": "Model 3: Interpreting Results from the “Final” Model",
+    "text": "Model 3: Interpreting Results from the “Final” Model\nThe research literature suggests that all three predictors are substantively important in predicting variation in fertility rates. Moreover, from the CIs produced in Model 3, we see that all three effects included in the model are statistically relevant (none of the CIs span 0). Because of this, we will adopt Model 3 as our “final” model. Use the results from Model 3 to answer the remainder of the questions on this assignment.\n\nReport the regression equation from fitting Model 3. Use Equation Editor (or some other program that correctly types mathematical expressions) to typeset the equation correctly.\nReport and interpret the value of the model \\(R^2\\) using the context of the data.\nUsing symbols, write the omnibus null hypothesis that is tested by the model-level F-statistic in this analysis in two different manners: (1) using the coefficient parameters used in the regression model, and (2) using the variance accounted for parameter.\nBased on the results of the model-level F-test, does the model seem to explain variation in fertility rates? Explain. Note: Here you can use the p-value as evidence, but do not compare this to 0.05.\nInterpret the estimated coefficient value associated with the partial effect of contraception rate.\nBased on the 95% confidence interval for the partial effect of contraception rate on fertility rate, which parameter values are reasonably compatible with the empirical data? Explain what this implies about the magnitude of the partial effect.\nCreate a publication quality plot that displays the results from Model 3. For this plot, put the contraception predictor on the x-axis. Control out the effect of education level by setting this to the mean level of education. Display two separate lines to show the effect of infant mortality rate; a small and large rate based on the data. The two lines should be displayed using different linetypes or colors (or both) so that they can be easily differentiated in the plot. Be sure that the figure is appropriately captioned. (2pts.)"
+  },
+  {
+    "objectID": "assignments/assignment-06-interaction-models.html#part-i-correlations-and-interactions",
+    "href": "assignments/assignment-06-interaction-models.html#part-i-correlations-and-interactions",
+    "title": "Assignment 06",
+    "section": "Part I: Correlations and Interactions",
+    "text": "Part I: Correlations and Interactions\n\nCreate and report a table of pairwise correlations between engagement, each of the three dummy variables you created to represent caught_by, IMDb rating, number of catchphrases uttered, and the media format dummy variable. To create this table mimic the formatting of Table 4 in the “Presenting Correlation Coefficients” section here.\nBased on the correlation table, can you infer whether or not there will be a sample interaction between between IMDb rating and number of catchphrases uttered? Explain."
+  },
+  {
+    "objectID": "assignments/assignment-06-interaction-models.html#part-ii-table-of-regression-results",
+    "href": "assignments/assignment-06-interaction-models.html#part-ii-table-of-regression-results",
+    "title": "Assignment 06",
+    "section": "Part II: Table of Regression Results",
+    "text": "Part II: Table of Regression Results\n\n(2pts.) Examine the structure and formatting of Table 9 in the “Presenting Results from Many Fitted Regression Models” section here. Mimic the format and structure of this table to create a table to present the numerical information from the three models you fitted in this assignment. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to ``Landscape’’, rather than changing the size of the font."
+  },
+  {
+    "objectID": "assignments/assignment-06-interaction-models.html#part-iii-model-b",
+    "href": "assignments/assignment-06-interaction-models.html#part-iii-model-b",
+    "title": "Assignment 06",
+    "section": "Part III: Model B",
+    "text": "Part III: Model B\n\nWrite the fitted regression equation for Model B.\nBased on the inferential results from fitting this model, is there an interaction effect between media format and IMDb rating? Explain.\nInterpret the coefficient associated with the interaction effect between media format and IMDb rating.\nRe-write the fitted regression equation, by writing two fitted equations: one for TV episodes and one for movies. Be sure each equation is identified with the appropriate subgroup.\nCreate and include a plot of the fitted model showing the pertinent results from Model B. Be sure to appropriately differentiate between lines that you include in the plot (e.g., do not differentiate by color unless you plan to print in color). If you partial out any variables, be sure to note this in the caption."
+  },
+  {
+    "objectID": "assignments/assignment-06-interaction-models.html#part-iv-model-c",
+    "href": "assignments/assignment-06-interaction-models.html#part-iv-model-c",
+    "title": "Assignment 06",
+    "section": "Part IV: Model C",
+    "text": "Part IV: Model C\n\nWrite the fitted regression equation for Model C.\nBased on the inferential results from fitting this model, is there an interaction effect between number of catchphrases uttered and IMDb rating? Explain.\nCreate and include a plot of the fitted model showing the pertinent results from Model C. Be sure to appropriately differentiate between lines that you include in the plot (e.g., do not differentiate by color unless you plan to print in color). If you partial out any variables, be sure to note this in the caption.\nUse the plot you created in Question 11 to help interpret the interaction effect between number of catchphrases uttered and IMDb rating."
   }
 ]
