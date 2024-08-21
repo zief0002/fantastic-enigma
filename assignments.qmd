@@ -4,23 +4,7 @@ title: "Assignments and Grading"
 
 Students will complete six homework assignments. The homework assignments and due dates are posted below. These assignments include problems that will help you learn the course material through reflection and practice. Submit each assignment as a PDF file via email to the TA.
 
-To foster cooperation and collaboration, you are permitted to form groups of no larger than three to work on the homework. Submit only one assignment per group, and list the names of each group member on the assignment. Each assignment will be scored and this score will be given to all individuals in the group. If you work alone on the assignments, you need to truly work alone. To protect against running afoul of the scholastic dishonesty policy, students working alone are **not permitted to interact with any other student in regards to the assignment**, including discussion, obtaining help, etc.
-
-:::collaboration
-### Tips for Successful Collaborations
-
-From past experience, student collaborations work most fluidly when everyone in the group is on the same page. Whether it be grade and working expectations, commitment to the course during the semester, or process for getting the work done, it is important to explicitly lay out and communicate your expectations to your group members. The most successful groups communicate with one another. The more you can anticipate issues and communicate about them, the better the experience for everyone. Here are some questions you may want to address as you form your groups:
-
-- What process works best for our group for working together towards the assignment? 
-- Do we want to each complete individually and share with each other? 
-- Would we want to meet and work on it together at the same time? 
-- Do we want to rotate who submits the assignment? 
-- How will we deal with the possibility that one member of the group is falling behind?
-:::
-
-
 <br />
-
 
 ## Assignment Due Dates
 
@@ -121,6 +105,26 @@ Stress management is an important piece of the skill set needed for success in g
 
 <p style="font-size:70%;">You can follow Tilly the Therapy Chicken on Twitter (@TherapyChicken).</p>
 :::
+
+
+<br />
+
+## Work Collaboratively or Individually
+
+To foster cooperation and collaboration, you are permitted to form groups of no larger than three to work on the homework. Submit only one assignment per group, and list the names of each group member on the assignment. Each assignment will be scored and this score will be given to all individuals in the group. If you work alone on the assignments, you need to truly work alone. To protect against running afoul of the scholastic dishonesty policy, students working alone are **not permitted to interact with any other student in regards to the assignment**, including discussion, obtaining help, etc.
+
+:::collaboration
+### Tips for Successful Collaborations
+
+From past experience, student collaborations work most fluidly when everyone in the group is on the same page. Whether it be grade and working expectations, commitment to the course during the semester, or process for getting the work done, it is important to explicitly lay out and communicate your expectations to your group members. The most successful groups communicate with one another. The more you can anticipate issues and communicate about them, the better the experience for everyone. Here are some questions you may want to address as you form your groups:
+
+- What process works best for our group for working together towards the assignment? 
+- Do we want to each complete individually and share with each other? 
+- Would we want to meet and work on it together at the same time? 
+- Do we want to rotate who submits the assignment? 
+- How will we deal with the possibility that one member of the group is falling behind?
+:::
+
 
 <br />
 

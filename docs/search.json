@@ -291,7 +291,7 @@
     "href": "assignments.html",
     "title": "Assignments and Grading",
     "section": "",
-    "text": "Students will complete six homework assignments. The homework assignments and due dates are posted below. These assignments include problems that will help you learn the course material through reflection and practice. Submit each assignment as a PDF file via email to the TA.\nTo foster cooperation and collaboration, you are permitted to form groups of no larger than three to work on the homework. Submit only one assignment per group, and list the names of each group member on the assignment. Each assignment will be scored and this score will be given to all individuals in the group. If you work alone on the assignments, you need to truly work alone. To protect against running afoul of the scholastic dishonesty policy, students working alone are not permitted to interact with any other student in regards to the assignment, including discussion, obtaining help, etc."
+    "text": "Students will complete six homework assignments. The homework assignments and due dates are posted below. These assignments include problems that will help you learn the course material through reflection and practice. Submit each assignment as a PDF file via email to the TA."
   },
   {
     "objectID": "assignments.html#assignment-due-dates",
@@ -698,5 +698,12 @@
     "title": "Assignment 06",
     "section": "Part IV: Model C",
     "text": "Part IV: Model C\n\nWrite the fitted regression equation for Model C.\nBased on the inferential results from fitting this model, is there an interaction effect between number of catchphrases uttered and IMDb rating? Explain.\nCreate and include a plot of the fitted model showing the pertinent results from Model C. Be sure to appropriately differentiate between lines that you include in the plot (e.g., do not differentiate by color unless you plan to print in color). If you partial out any variables, be sure to note this in the caption.\nUse the plot you created in Question 11 to help interpret the interaction effect between number of catchphrases uttered and IMDb rating."
+  },
+  {
+    "objectID": "assignments.html#work-collaboratively-or-individually",
+    "href": "assignments.html#work-collaboratively-or-individually",
+    "title": "Assignments and Grading",
+    "section": "Work Collaboratively or Individually",
+    "text": "Work Collaboratively or Individually\nTo foster cooperation and collaboration, you are permitted to form groups of no larger than three to work on the homework. Submit only one assignment per group, and list the names of each group member on the assignment. Each assignment will be scored and this score will be given to all individuals in the group. If you work alone on the assignments, you need to truly work alone. To protect against running afoul of the scholastic dishonesty policy, students working alone are not permitted to interact with any other student in regards to the assignment, including discussion, obtaining help, etc.\n\nTips for Successful Collaborations\nFrom past experience, student collaborations work most fluidly when everyone in the group is on the same page. Whether it be grade and working expectations, commitment to the course during the semester, or process for getting the work done, it is important to explicitly lay out and communicate your expectations to your group members. The most successful groups communicate with one another. The more you can anticipate issues and communicate about them, the better the experience for everyone. Here are some questions you may want to address as you form your groups:\n\nWhat process works best for our group for working together towards the assignment?\nDo we want to each complete individually and share with each other?\nWould we want to meet and work on it together at the same time?\nDo we want to rotate who submits the assignment?\nHow will we deal with the possibility that one member of the group is falling behind?"
   }
 ]
