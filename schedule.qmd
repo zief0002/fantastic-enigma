@@ -139,6 +139,8 @@ The readings indicate chapters in the [Zieffler, A. (2024)](https://zief0002.git
 </tr>
 
 
+
+
 <tr>
 <td align="center" style="vertical-align:middle;"></td>
 <td>Spt. 25</td>
@@ -146,7 +148,7 @@ The readings indicate chapters in the [Zieffler, A. (2024)](https://zief0002.git
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [Ch. 8--9](https://zief0002.github.io/modeling/02-03-ols-estimation.html)
 </td>
-<td style="vertical-align:middle;" rowspan="2">Ordinary Least Squares (OLS) Estimation<br />ANOVA Decomposition and $R^2$
+<td style="vertical-align:middle;" rowspan="2">Ordinary Least Squares (OLS) Estimation<br />ANOVA Decomposition and R2
 <td align="center" style="vertical-align:middle;" rowspan="2">
   [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/02-03-ols-estimation.R) <br />
   [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/02-04-anova-decomposition.R)
