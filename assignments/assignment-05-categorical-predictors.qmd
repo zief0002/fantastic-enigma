@@ -19,8 +19,8 @@ knitr::include_graphics("../img/assign-08.png")
 For this assignment, you will be fitting several regression models to examine whether there are differences in the engagement level of reviewers on IMDb for Scooby-Doo episodes/movies based on which members of Mystery Inc caught the villain. To do so, you will use the data in the file *scoobydoo.csv*.
 
 
-- [[CSV]](https://raw.githubusercontent.com/zief0002/fantastic-enigma/main/data/scoobydoo.csv)
-- [[Data Codebook]](https://zief0002.github.io/fantastic-enigma/codebooks/scoobydoo.html)
+- [[CSV]](https://raw.githubusercontent.com/zief0002/modeling/main/data/scoobydoo.csv)
+- [[Data Codebook]](https://zief0002.github.io/modeling/07-09-scoobydoo.html)
 
 
 Submit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption.

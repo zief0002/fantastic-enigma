@@ -21,8 +21,8 @@ Human overpopulation is a growing concern and has been associated with depletion
 
 Fertility rate is a measure directly linked to population and has been useful to explore hypotheses about factors related to combating overpopulation. For this assignment, you will use the file *fertility.csv* to examine the effects of the rate of contraception (a factor that can be manipulated through targeted intervention) on fertility rates. 
 
-- [[CSV]](https://raw.githubusercontent.com/zief0002/fantastic-enigma/main/data/fertility.csv)
-- [[Data Codebook]](https://zief0002.github.io/fantastic-enigma/codebooks/fertility.html)
+- [[CSV]](https://raw.githubusercontent.com/zief0002/modeling/main/data/fertility.csv)
+- [[Data Codebook]](https://zief0002.github.io/modeling/07-03-fertility.html)
 
 
 Submit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption. This assignment is worth 18 points. (Each question is worth 1 point unless otherwise noted.)

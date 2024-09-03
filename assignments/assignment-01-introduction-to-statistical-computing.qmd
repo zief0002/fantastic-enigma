@@ -21,8 +21,8 @@ knitr::include_graphics("../img/assign-01.png")
 
 In this assignment, you will use the data from the file *broadband.csv* to examine broadband access in the United States.
 
-- [[CSV]](https://raw.githubusercontent.com/zief0002/fantastic-enigma/main/data/broadband.csv)
-- [[Data Codebook]](https://zief0002.github.io/fantastic-enigma/codebooks/broadband.html)
+- [[CSV]](https://raw.githubusercontent.com/zief0002/modeling/main/data/broadband.csv)
+- [[Data Codebook]](https://zief0002.github.io/modeling/07-01-broadband.html)
 
 
 Submit a PDF document of your responses to the following questions. Please adhere to the following guidelines for further formatting your assignment:

@@ -1,47 +1,5 @@
 [
   {
-    "objectID": "worksheets/worksheet-04-03-interactions.html",
-    "href": "worksheets/worksheet-04-03-interactions.html",
-    "title": "Interactions",
-    "section": "",
-    "text": "Use the fertility.csv data to fit an interaction model that uses the effects of female education level and the dummy-coded GNI predictor (high_gni) to explain variation in infant mortality rates. Remember, to fit an interaction model you need to create the interaction term and then include the constituent main effects AND the interaction term in the lm()."
-  },
-  {
-    "objectID": "worksheets/worksheet-04-03-interactions.html#directions",
-    "href": "worksheets/worksheet-04-03-interactions.html#directions",
-    "title": "Interactions",
-    "section": "",
-    "text": "Use the fertility.csv data to fit an interaction model that uses the effects of female education level and the dummy-coded GNI predictor (high_gni) to explain variation in infant mortality rates. Remember, to fit an interaction model you need to create the interaction term and then include the constituent main effects AND the interaction term in the lm()."
-  },
-  {
-    "objectID": "worksheets/worksheet-04-03-interactions.html#questions",
-    "href": "worksheets/worksheet-04-03-interactions.html#questions",
-    "title": "Interactions",
-    "section": "Questions",
-    "text": "Questions\n\nFit the interaction model and write out the fitted equation.\nGive a general interpretation about what it means to have an interaction effect between female education level and GNI on infant mortality rates. (No need to look at any output for this.)\nBased on the coefficient-level output, is there an interaction effect between female education level and GNI on infant mortality rates?\nWrite out the fitted equation for low GNI countries.\nWrite out the fitted equation for high GNI countries.\nPlot the two fitted equations.\nIs this an ordinal or disordinal interaction? Explain.\nUse the plot and the coefficient estimates to add to the general interpretation of the interaction effect you gave previously in Question 3. You should be able to give a more nuanced interpretation, including quantifying some findings.\nRemember that every interaction can be interpreted in two manners. You gave one of those interpretations in Question 3 (and 8). What is another way we can interpret the interaction effect between female education level and GNI on infant mortality rates."
-  },
-  {
-    "objectID": "worksheets/worksheet-03-02-multiple-regression.html",
-    "href": "worksheets/worksheet-03-02-multiple-regression.html",
-    "title": "Displaying Effects from a Multiple Regression Model",
-    "section": "",
-    "text": "Complete the problems on this worksheet with your small group. Import the mn-schools.csv data and fit a model to explain variation in graduation rates using the predictors of median SAT score and tuition."
-  },
-  {
-    "objectID": "worksheets/worksheet-03-02-multiple-regression.html#directions",
-    "href": "worksheets/worksheet-03-02-multiple-regression.html#directions",
-    "title": "Displaying Effects from a Multiple Regression Model",
-    "section": "",
-    "text": "Complete the problems on this worksheet with your small group. Import the mn-schools.csv data and fit a model to explain variation in graduation rates using the predictors of median SAT score and tuition."
-  },
-  {
-    "objectID": "worksheets/worksheet-03-02-multiple-regression.html#questions",
-    "href": "worksheets/worksheet-03-02-multiple-regression.html#questions",
-    "title": "Displaying Effects from a Multiple Regression Model",
-    "section": "Questions",
-    "text": "Questions\n\nWrite the fitted equation.\nInterpret both effects in the model.\nCreate a plot to show the effects. Put SAT score on the x-axis and display lines corresponding to an “inexpensive” and an “expensive” school. (Use the data to choose those values.)\n\nMake sure the lines are displayed in different colors and linetypes;\nPlay around with labelling the lines using text in the plot; Google geom_text() for help.\n\nExplain how we can use the plot to interpret the effect of SAT.\nExplain how we can use the plot to interpret the effect of tuition.\nCreate the same plot, but this time separate the “inexpensive” and “expensive” schools into separate panels (i.e., create a diptych plot.)"
-  },
-  {
     "objectID": "worksheets/worksheet-01-05-ggplot2.html",
     "href": "worksheets/worksheet-01-05-ggplot2.html",
     "title": "Learning ggplot2 Worksheet",
@@ -105,95 +63,46 @@
     "text": "Task 7: Add Text to Label a Point\nAdd text to the plot you created in Task 6 to label the country with the highest life expectancy."
   },
   {
-    "objectID": "worksheets/worksheet-01-01-using-R.html",
-    "href": "worksheets/worksheet-01-01-using-R.html",
-    "title": "Using RStudio Worksheet",
+    "objectID": "assignments/assignment-04-introduction-to-multiple-regression.html",
+    "href": "assignments/assignment-04-introduction-to-multiple-regression.html",
+    "title": "Assignment 04",
     "section": "",
-    "text": "Complete the problems on this worksheet with 2–3 other students. You may want to refer to the Getting Started with R and Data Structures in R chapters in the Computational Toolkit for Educational Scientists."
+    "text": "Human overpopulation is a growing concern and has been associated with depletion of Earth’s natural resources (water is a big one) and degredation of the environment. This, in turn, has social and economic consequences such as global tension over resources such as water and food, higher cost of living and higher unemployment rates.\nFertility rate is a measure directly linked to population and has been useful to explore hypotheses about factors related to combating overpopulation. For this assignment, you will use the file fertility.csv to examine the effects of the rate of contraception (a factor that can be manipulated through targeted intervention) on fertility rates.\nSubmit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption. This assignment is worth 18 points. (Each question is worth 1 point unless otherwise noted.)"
   },
   {
-    "objectID": "worksheets/worksheet-01-01-using-R.html#directions",
-    "href": "worksheets/worksheet-01-01-using-R.html#directions",
-    "title": "Using RStudio Worksheet",
+    "objectID": "assignments/assignment-04-introduction-to-multiple-regression.html#part-i-correlations",
+    "href": "assignments/assignment-04-introduction-to-multiple-regression.html#part-i-correlations",
+    "title": "Assignment 04",
+    "section": "Part I: Correlations",
+    "text": "Part I: Correlations\n\nCreate a path model of the correlations between fertility rate, contraception rate, infant mortality rate, and female education level.\n\nConsider the following hypotheses about different potential predictors of fertility rates:\n\nHypothesis 1: Countries with higher contraception rates tend to have lower fertility rates.\nHypothesis 2: Countries with lower infant mortality rates tend to have higher fertility rates.\nHypothesis 3: Countries with higher female education rates tend to have lower fertility rates.\n\n\nUse the correlations computed in Question 1 to evaluate each of the three hypotheses. For each hypothesis indicate whether the empirical results support that hypothesis or not by referencing the appropriate correlation(s)."
+  },
+  {
+    "objectID": "assignments/assignment-04-introduction-to-multiple-regression.html#part-ii-regression-analysis",
+    "href": "assignments/assignment-04-introduction-to-multiple-regression.html#part-ii-regression-analysis",
+    "title": "Assignment 04",
+    "section": "Part II: Regression Analysis",
+    "text": "Part II: Regression Analysis\nYou will fit three regression models to study the effect of contraceptive rates (focal predictor) on fertility rate (outcome). Because infant mortality rate and female education level (our two covariates) are related to both the focal predictor and outcome, they may confound the effect of contraceptive rates on fertility rate (see hypothesized path model).\n\n\n\n\n\n\n\n\n\n\nBased on the corrlations you produced in Question 1, indicate whether it is reasonable to be worried that the two covariates may confound the relationship between contraceptive rates and fertility rates. Explain by referring to the correlations.\n\nTo remove the confounding and evaluate the effect of contraceptive rates on fertility rate, you will fit a series of regression models.\n\nModel 1: Contraceptive rate as the sole predictor of variation in fertility rate.\nModel 2: Contraceptive rate and infant mortality rate as predictors of variation in fertility rate.\nModel 3: Contraceptive rate and female education level as predictors of variation in fertility rate.\nModel 4: Contraceptive rate, infant mortality rate, and female education level as predictors of variation in fertility rate.\n\n\nExamine the structure and formatting of Table 9 at https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html. Mimic the format and structure of this table to create a table to present the numerical information from the three models you fitted. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to “Landscape”, rather than changing the size of the font. (2pts.)"
+  },
+  {
+    "objectID": "assignments/assignment-04-introduction-to-multiple-regression.html#model-3-interpreting-results-from-the-final-model",
+    "href": "assignments/assignment-04-introduction-to-multiple-regression.html#model-3-interpreting-results-from-the-final-model",
+    "title": "Assignment 04",
+    "section": "Model 3: Interpreting Results from the “Final” Model",
+    "text": "Model 3: Interpreting Results from the “Final” Model\nThe research literature suggests that all three predictors are substantively important in predicting variation in fertility rates. Moreover, from the CIs produced in Model 3, we see that all three effects included in the model are statistically relevant (none of the CIs span 0). Because of this, we will adopt Model 3 as our “final” model. Use the results from Model 3 to answer the remainder of the questions on this assignment.\n\nReport the regression equation from fitting Model 3. Use Equation Editor (or some other program that correctly types mathematical expressions) to typeset the equation correctly.\nReport and interpret the value of the model \\(R^2\\) using the context of the data.\nUsing symbols, write the omnibus null hypothesis that is tested by the model-level F-statistic in this analysis in two different manners: (1) using the coefficient parameters used in the regression model, and (2) using the variance accounted for parameter.\nBased on the results of the model-level F-test, does the model seem to explain variation in fertility rates? Explain. Note: Here you can use the p-value as evidence, but do not compare this to 0.05.\nInterpret the estimated coefficient value associated with the partial effect of contraception rate.\nBased on the 95% confidence interval for the partial effect of contraception rate on fertility rate, which parameter values are reasonably compatible with the empirical data? Explain what this implies about the magnitude of the partial effect.\nCreate a publication quality plot that displays the results from Model 3. For this plot, put the contraception predictor on the x-axis. Control out the effect of education level by setting this to the mean level of education. Display two separate lines to show the effect of infant mortality rate; a small and large rate based on the data. The two lines should be displayed using different linetypes or colors (or both) so that they can be easily differentiated in the plot. Be sure that the figure is appropriately captioned. (2pts.)"
+  },
+  {
+    "objectID": "worksheets/worksheet-04-02-multiple-comparisons.html",
+    "href": "worksheets/worksheet-04-02-multiple-comparisons.html",
+    "title": "Hospitalizations and Astrological Sign",
     "section": "",
-    "text": "Complete the problems on this worksheet with 2–3 other students. You may want to refer to the Getting Started with R and Data Structures in R chapters in the Computational Toolkit for Educational Scientists."
+    "text": "Discuss the following study with your group. Do you believe the findings? Why or why not?\n\nMethods\nA study was conducted of 5,337,472 residents of Ontario aged between 18 and 100 years in 2000 using the Registered Person’s Database. These residents were classified according to their astrological sign. The researchers then searched through 223 of the most common diagnoses for hospitalization and identified 72 (32.3%) for which residents born under one astrological sign had a significantly higher probability of hospitalization compared to residents born under the other astrological signs combined. For example, Libras were 1.37 times more likely to be hospitalized for a fractured pelvis than people born under other astrological signs (\\(p=.0108\\)).\nThe p-values for the 72 significant associations ranged from 0.0003 to 0.0488. The two most frequently occurring diagnoses for which each astrological sign had a higher probability of hospitalization compared to the other astrological signs combined are described in Table 1."
   },
   {
-    "objectID": "worksheets/worksheet-01-01-using-R.html#problem-set-i",
-    "href": "worksheets/worksheet-01-01-using-R.html#problem-set-i",
-    "title": "Using RStudio Worksheet",
-    "section": "Problem Set I",
-    "text": "Problem Set I\nUse R to compute the answer to the following problems. You can (for now) work in the console or use a script file. This problem set will focus on skills and ideas you learn in the section Getting Started with R.\n\nCompute: \\(2 + 3 \\times 5\\). Does R follow order of operations or not?\nCompute: \\((3 \\times5^2 \\div 15)-(5-2^2)\\)\nCompute: \\(\\sqrt{~\\left\\vert3-4\\right\\vert~}\\)\nCreate a sequence of the numbers 1 and 5. Store this in an object called one_five.\nCreate a sequence of all integers between 10 and 1. This sequence should begin at 10 and end at 1. (e.g., \\(10,9,8,7,\\ldots,1\\)). Store this in an object called my_num.\nUse the length() function to count the number of elements in the one_five object. Also use it to count the number of elements in my_num.\nCompute \\(\\mathtt{one\\_five}+\\mathtt{my\\_num}\\). Explain how R is using the two objects to obtain the result it did.\nInstall the following three packages from CRAN: dplyr, ggplot2 and remotes.\nLoad the remotes package.\nInstall the educate package from GitHub."
-  },
-  {
-    "objectID": "worksheets/worksheet-01-01-using-R.html#problem-set-ii",
-    "href": "worksheets/worksheet-01-01-using-R.html#problem-set-ii",
-    "title": "Using RStudio Worksheet",
-    "section": "Problem Set II",
-    "text": "Problem Set II\nUse R to compute the answer to the following problems. For these problems, please work in a script file. This problem set will focus on skills and ideas you learn in Data Structures in R.\n\nCreate a new script file. Save it on your computer. When you do this give it a name other than Untitled.\nUse the c() function to create a vector that includes the number of pets each person in your group has. Name this vector pets. (If you have 2 or fewer people in your group, combine your results with another group so that you have at least 3 values.)\nCreate a data frame that includes two columns. The first column will be the first names of everyone in your group (or combined groups). Call this column first_name. The second column will be the number of credits each person in your breakout room is taking this semester. Call this column credits. Assign this data frame a name so that you can compute on it later. (Feel free to make it a three column data frame by adding the pets column.)"
-  },
-  {
-    "objectID": "worksheets/worksheet-01-01-using-R.html#problem-set-iii",
-    "href": "worksheets/worksheet-01-01-using-R.html#problem-set-iii",
-    "title": "Using RStudio Worksheet",
-    "section": "Problem Set III",
-    "text": "Problem Set III\nUse R to compute the answer to the following problems. For these problems, please continue to work in the script file. This problem set will focus on skills and ideas you learn in Data Structures in R.\n\nImport the comic-characters.csv data into R. Assign this to an object called comics. If you use the Import button to do this, make sure you copy the syntax into your script file.\nExamine the codebook for the comic-characters.csv data.\nRun the syntax View(comics). This should display the imported data in a tab in RStudio. Use the search bar in the tab to search for “Hobgoblin”. How many Hobgoblin characters are there?\nUse the search bar in the tab to search for “Skrull”. How many Skrull characters are female? (Hint: Click the arrows in the sex heading to sort by sex.) How many Skrull characters have brown eyes? What years were Skrull characters part of the Marvel storyline?\nRun the syntax mean(appearances). You should get an error. Try to figure out why you are getting this error. (Hint: Look at the objects in your environment.) Can you figure out the syntax to find the average number of appearances for a comic character? (Hint: Because there are missing values in this column, you will need to add the argument na.rm=TRUE in the mean() function.)"
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
+    "objectID": "worksheets/worksheet-04-02-multiple-comparisons.html#directions",
+    "href": "worksheets/worksheet-04-02-multiple-comparisons.html#directions",
+    "title": "Hospitalizations and Astrological Sign",
     "section": "",
-    "text": "The calendar below lists the tentative course topics. The dates listed are subject to change at the instructor’s discretion.\nThe readings indicate chapters in the Zieffler, A. (2024) textbook. These should be read prior to class. There also might be articles, papers, etc. that you will need to read during the semester. These will be emailed to you. (Most articles are also accessible through the University of Minnesota library website. In order to access the full text of some of the articles, you will need to log in using your University x500 username and password.)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nM/W\n\n\nT/R\n\n\nReading\n\n\nTopic/In-Class Materials\n\n\nScript\n\n\n\n\n\n\n\n \n\n\nSpt. 04\n\n\nSpt. 03\n\n\n\n\n\nWelcome to EPsy 8251\n\n\n\n\n\n\n\n\nUnit 01: Introduction to Statistical Computing\n\n\n\n\n\n\nSpt. 09\n\n\nSpt. 05\n\n\nCh. 1–3\n\n\nIntroduction to R and RStudio\n\n\n\n\n\n\n\n\n\nSpt. 11\n\n\nSpt. 10\n\n\nCh. 4\n\n\nData Wrangling with dplyr\n\n\n\n\n\n\n\n\n\nSpt. 16\n\n\nSpt. 12\n\n\nCh. 5\n\n\nVisualizing Data with ggplot2\n\n\n\n\n\n\n\n\nUnit 02: Introduction to Regression\n\n\n\n\nRead the following article: Clayton, A. (2020, Oct. 28). How eugenics shaped statistics: Exposing the damned lies of three science pioneers. Nautilus, 92 (Frontiers).\n\n\n\n\n\n\nSpt. 18\n\n\nSpt. 17\n\n\nCh. 6–7\n\n\nData Exploration for RegressionSimple Linear Regression and Correlation\n\n  \n\n\n\n\n\n\nSpt. 23\n\n\nSpt. 19\n\n\n\n\n\n\nSpt. 25\n\n\nSpt. 24\n\n\nCh. 8–9\n\n\nOrdinary Least Squares (OLS) EstimationANOVA Decomposition and R2\n\n  \n\n\n\n\n\n\nSpt. 30\n\n\nSpt. 26\n\n\n\n\n\nUnit 03: Regression Inference\n\n\n\n\nRead the following article: Amrhein, V., Greenland, S., & McShane, B. (2019). Comment: Retire statistical significance. Nature, 567, 305–307.\n\n\n\n\n\n\nOct. 02\n\n\nOct. 01\n\n\nCh. 11\n\n\nCoefficient-Level Inference\n\n\n\n\n\n\n\n\n\nOct. 07\n\n\nOct. 03\n\n\n\n\n\n\nOct. 09\n\n\nOct. 08\n\n\nCh. 12\n\n\nModel-Level Inference\n\n\n\n\n\n\n\n\n\nOct. 14\n\n\nOct. 10\n\n\n\n\n\n\nOct. 16\n\n\nOct. 15\n\n\nCh. 13\n\n\nAssumptions Underlying the Regression Model\n\n\n\n\n\n\n\n\n\nOct. 21\n\n\nOct. 17\n\n\n\n\n\n\nOct. 23\n\n\nOct. 22\n\n\n\n\nNO CLASS—Mental Health Day 🛌 🍷\n\n\n\n\n\n\n\nUnit 04: Multiple Regression\n\n\n\n\n\n\nOct. 28\n\n\nOct. 24\n\n\nCh. 14–15\n\n\nIntroduction to Multiple Linear Regression/Multiple Regression: ANOVA Decomposition\n\n\n \n\n\n\n\n\n\nOct. 30\n\n\nOct. 29\n\n\n\n\n\n\nNov. 04\n\n\nOct. 31\n\n\nCh. 16\n\n\nUnderstanding Statistical Control\n\n\n\n\n\n\n\n\n\nNov. 06\n\n\nNov. 05\n\n\n\n\n\n\nNov. 11\n\n\nNov. 07\n\n\nCh. 17\n\n\nAssumptions: Multiple Regression\n\n\n\n\n\n\n\n\nUnit 05: Categorical Predictors\n\n\n\n\n\n\nNov. 13\n\n\nNov. 12\n\n\nCh. 18\n\n\nDichotomous Categorical Predictors\n\n\n\n\n\n\n\n\n\nNov. 18\n\n\nNov. 14\n\n\n\n\n\n\nNov. 20\n\n\nNov. 19\n\n\nCh. 19\n\n\nPolychotomous Categorical Predictors\n\n\n\n\n\n\n\n\n\nNov. 20\n\n\nNov. 19\n\n\n\n\nRead the following article: Aschwanden, C. (2019). Science isn’t broken: It’s just a hell of a lot harder than we give it credit for. Fivethirtyeight.\n\n\n\n\n\n\nNov. 25\n\n\nNov. 21\n\n\nCh. 20\n\n\nMultiple Comparisons\n\n\n\n\n\n\n\n\n\nDec. 02\n\n\nNov. 26\n\n\n\n\n\n\nNov. 27\n\n\nNov. 28\n\n\n\n\nNO CLASS—Thanksgiving Break 🦃 🌽 🥧\n\n\n\n\n\n\n\nUnit 06: Interaction Effects\n\n\n\n\nRead the following article: Brambor T., Clark, W. R., & Golder, M. (2006). Understanding interaction models: Improving empirical analyses. Political Analysis, 14(1), 63–82. doi:10.1093/pan/mpi014.\n\n\n\n\n\n\nDec. 04\n\n\nDec. 03\n\n\nCh. 21–22\n\n\nIntroduction to Interaction Effects/More Interaction Effects\n\n\n \n\n\n\n\n\n\nDec. 09\n\n\nDec. 05\n\n\n\n\n\n\nDec. 11\n\n\nDec. 10"
-  },
-  {
-    "objectID": "index.html#welcome-to-epsy-8251-statistical-methods-in-education-i",
-    "href": "index.html#welcome-to-epsy-8251-statistical-methods-in-education-i",
-    "title": "EPsy 8251",
-    "section": "Welcome to EPsy 8251: Statistical Methods in Education I",
-    "text": "Welcome to EPsy 8251: Statistical Methods in Education I\nEPsy 8251: Statistical Methods in Education I is the first course in an entry-level, doctoral sequence for students in education. The two semester sequence provides in-depth coverage of widely used statistical methods and models and prepares students for advanced statistical coursework. EPsy 8251 provides rigorous coverage of estimation and hypothesis testing with a particular focus on the General Linear Model. The roadmap for the course is:\n\n\n\n\n\n\n\n\n\nEPsy 8251 is a 3 credit course. It is expected that the academic work required of Graduate School and professional school students will exceed three hours per credit per week (see Expected Time per Course Credit Policy). In my experience, it is typical for students to spend 10–15 hours a week on this course. As with every class, some students will spend more time than that on this course, while others will spend less time than that—it all depends on your prior experiences with statistics and computing. If you find yourself consistently spending more than 20 hours a week on the course, please make an appointment to see the instructor so that we can strategize about how to best optimize how you are devoting time to the course."
-  },
-  {
-    "objectID": "index.html#classroom",
-    "href": "index.html#classroom",
-    "title": "EPsy 8251",
-    "section": "Classroom",
-    "text": "Classroom\n\nMonday/Wednesday (2:30pm–3:45pm): Scott Hall 4\nTuesday/Thursday (11:15am–12:30pm): Appleby Hall 103"
-  },
-  {
-    "objectID": "index.html#textbooks",
-    "href": "index.html#textbooks",
-    "title": "EPsy 8251",
-    "section": "Textbooks",
-    "text": "Textbooks\nThe course textbook is available online.\n\nRequired: Zieffler, A. (2024). Statistical modeling and computation for educational scientists.\n\nThe optional course textbook is available via the University of Minnesota library.\n\nOptional: Lewis-Beck, C., & Lewis-Beck, M. (2016). Applied regression: An introduction. Thousand Oaks, CA: Sage. doi: 10.4135/9781483396774"
-  },
-  {
-    "objectID": "index.html#statistical-computing",
-    "href": "index.html#statistical-computing",
-    "title": "EPsy 8251",
-    "section": "Statistical Computing",
-    "text": "Statistical Computing\nStatistical computing is an integral part of statistical work, and subsequently, EPsy 8251. To support your learning in this area, this course will emphasize the use of R. R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS. You can install R onto your local machine. (There are instructions for how to do this in the course textbook.) You are responsible for getting things to work on your computer. While it should be straightforward, each OS and computer has their quirks. I can try to help you with this if you are having trouble.\nIt should be noted that while some R syntax and programming is taught during class time, there is also a fair amount that you may need to learn on your own outside of class. There are several tutorials and resources linked from the course website to help you learn R.\n\n\nA Note on Inclusion and Respect\nIn this class, we will work together to develop a learning community that is inclusive and respectful, and where every student is supported in the learning process. As a class full of diverse individuals (reflected by differences in race, culture, age, religion, gender identity, sexual orientation, socioeconomic background, abilities, professional goals, and other social identities and life experiences) I expect that different students may need different things to support and promote their learning. The TAs and I will do everything we can to help with this, but as we only know what we know, we need you to communicate with us if things are not working for you or you need something we are not providing. I hope you all feel comfortable in helping to promote an inclusive classroom through respecting one another’s individual differences, speaking up, and challenging oppressive/problematic ideas. Finally, I look forward to learning from each of you and the experiences you bring to the class."
-  },
-  {
-    "objectID": "index.html#image-attribution",
-    "href": "index.html#image-attribution",
-    "title": "EPsy 8251",
-    "section": "Image Attribution",
-    "text": "Image Attribution\n\nThe icon in the Inclusion Note is from Lambiek Comiclopedia.\nThe icon of Tilly the Therapy Chicken in the Stress Management note is used with permission of the PAWS program.\nThe icon in the Missing Class Policy is from the Warner Brothers Entertainment Wiki.\nThe icon in the ChatGPT and Other AI Policy is from Wikipedia.\nThe icon in the Technology Policy is from the Trends International Amazon Store.\nThe icon in the CEHD Policy on Recording note is from Writeups.org."
-  },
-  {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "Data",
-    "section": "",
-    "text": "All the data sets and data codebooks used in the notes, scripts, and assignments can be found in Zieffler (2024)."
-  },
-  {
-    "objectID": "data.html#how-to-download-a-csv-file-to-your-computer",
-    "href": "data.html#how-to-download-a-csv-file-to-your-computer",
-    "title": "Data",
-    "section": "How to Download a CSV File to Your Computer",
-    "text": "How to Download a CSV File to Your Computer\nTo download a data (CSV) file, click on the data set. Then click the RAW button. Now you should be able to right-click the dataset and save it. If you are using Safari on a Mac, make sure that the downloaded data does not have an extra .txt appended to it when it downloads. If it does, just delete the extra .txt suffix."
+    "text": "Discuss the following study with your group. Do you believe the findings? Why or why not?\n\nMethods\nA study was conducted of 5,337,472 residents of Ontario aged between 18 and 100 years in 2000 using the Registered Person’s Database. These residents were classified according to their astrological sign. The researchers then searched through 223 of the most common diagnoses for hospitalization and identified 72 (32.3%) for which residents born under one astrological sign had a significantly higher probability of hospitalization compared to residents born under the other astrological signs combined. For example, Libras were 1.37 times more likely to be hospitalized for a fractured pelvis than people born under other astrological signs (\\(p=.0108\\)).\nThe p-values for the 72 significant associations ranged from 0.0003 to 0.0488. The two most frequently occurring diagnoses for which each astrological sign had a higher probability of hospitalization compared to the other astrological signs combined are described in Table 1."
   },
   {
     "objectID": "assignments/assignment-06-interaction-models.html",
@@ -210,116 +119,39 @@
     "text": "Preparation: Fitting Models\nCreate the following dummy variables for the analysis;\n\nA set of three dummy variables to represent the the caught_by attribute: Shaggy/Scooby, Fred/Daphne/Velma, and Other/Combo.\nA dummy variable to represent media format.\n\nThen fit the following regression models. For all models, use IMDb engagement as the response variable.\n\nModel A: Main effects of caught_by (use the other/combo group as your reference group), IMDb rating, number of catchphrases uttered, and media format.\nModel B: The same main effects included in Model A; and an interaction effect between media format and IMDb rating.\nModel C: The same main effects included in Model A; and an interaction effect between number of catchphrases uttered and IMDb rating.\n\nYou will use the output from these fitted models to answer the questions in the assignment."
   },
   {
-    "objectID": "assignments/assignment-06-interaction-models.html#description",
-    "href": "assignments/assignment-06-interaction-models.html#description",
+    "objectID": "assignments/assignment-06-interaction-models.html#part-i-correlations-and-interactions",
+    "href": "assignments/assignment-06-interaction-models.html#part-i-correlations-and-interactions",
     "title": "Assignment 06",
-    "section": "Description",
-    "text": "Description\n\nCreate and report a table of pairwise correlations between engagement, each of the three dummy variables you created to represent caught_by, IMDb rating, number of catchphrases uttered, and the media format dummy variable. To create this table mimic the formatting of Table 4 in the “Presenting Correlation Coefficients” section here.\nBased on the correlation table, can you infer whether or not there will be a sample interaction between between IMDb rating and number of catchphrases uttered? Explain."
+    "section": "Part I: Correlations and Interactions",
+    "text": "Part I: Correlations and Interactions\n\nCreate and report a table of pairwise correlations between engagement, each of the three dummy variables you created to represent caught_by, IMDb rating, number of catchphrases uttered, and the media format dummy variable. To create this table mimic the formatting of Table 4 in the “Presenting Correlation Coefficients” section here.\nBased on the correlation table, can you infer whether or not there will be a sample interaction between between IMDb rating and number of catchphrases uttered? Explain."
   },
   {
-    "objectID": "assignments/assignment-06-interaction-models.html#table-of-regression-results",
-    "href": "assignments/assignment-06-interaction-models.html#table-of-regression-results",
+    "objectID": "assignments/assignment-06-interaction-models.html#part-ii-table-of-regression-results",
+    "href": "assignments/assignment-06-interaction-models.html#part-ii-table-of-regression-results",
     "title": "Assignment 06",
-    "section": "Table of Regression Results",
-    "text": "Table of Regression Results\n\n(2pts.) Examine the structure and formatting of Table 9 in the “Presenting Results from Many Fitted Regression Models” section here. Mimic the format and structure of this table to create a table to present the numerical information from the three models you fitted in this assignment. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to ``Landscape’’, rather than changing the size of the font."
+    "section": "Part II: Table of Regression Results",
+    "text": "Part II: Table of Regression Results\n\n(2pts.) Examine the structure and formatting of Table 9 in the “Presenting Results from Many Fitted Regression Models” section here. Mimic the format and structure of this table to create a table to present the numerical information from the three models you fitted in this assignment. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to ``Landscape’’, rather than changing the size of the font."
   },
   {
-    "objectID": "assignments/assignment-06-interaction-models.html#model-b",
-    "href": "assignments/assignment-06-interaction-models.html#model-b",
+    "objectID": "assignments/assignment-06-interaction-models.html#part-iii-model-b",
+    "href": "assignments/assignment-06-interaction-models.html#part-iii-model-b",
     "title": "Assignment 06",
-    "section": "Model B",
-    "text": "Model B\n\nWrite the fitted regression equation for Model B.\nBased on the inferential results from fitting this model, is there an interaction effect between media format and IMDb rating? Explain.\nInterpret the coefficient associated with the interaction effect between media format and IMDb rating.\nRe-write the fitted regression equation, by writing two fitted equations: one for TV episodes and one for movies. Be sure each equation is identified with the appropriate subgroup.\nCreate and include a plot of the fitted model showing the pertinent results from Model B. Be sure to appropriately differentiate between lines that you include in the plot (e.g., do not differentiate by color unless you plan to print in color). If you partial out any variables, be sure to note this in the caption."
+    "section": "Part III: Model B",
+    "text": "Part III: Model B\n\nWrite the fitted regression equation for Model B.\nBased on the inferential results from fitting this model, is there an interaction effect between media format and IMDb rating? Explain.\nInterpret the coefficient associated with the interaction effect between media format and IMDb rating.\nRe-write the fitted regression equation, by writing two fitted equations: one for TV episodes and one for movies. Be sure each equation is identified with the appropriate subgroup.\nCreate and include a plot of the fitted model showing the pertinent results from Model B. Be sure to appropriately differentiate between lines that you include in the plot (e.g., do not differentiate by color unless you plan to print in color). If you partial out any variables, be sure to note this in the caption."
   },
   {
-    "objectID": "assignments/assignment-06-interaction-models.html#model-c",
-    "href": "assignments/assignment-06-interaction-models.html#model-c",
+    "objectID": "assignments/assignment-06-interaction-models.html#part-iv-model-c",
+    "href": "assignments/assignment-06-interaction-models.html#part-iv-model-c",
     "title": "Assignment 06",
-    "section": "Model C",
-    "text": "Model C\n\nWrite the fitted regression equation for Model C.\nBased on the inferential results from fitting this model, is there an interaction effect between number of catchphrases uttered and IMDb rating? Explain.\nCreate and include a plot of the fitted model showing the pertinent results from Model C. Be sure to appropriately differentiate between lines that you include in the plot (e.g., do not differentiate by color unless you plan to print in color). If you partial out any variables, be sure to note this in the caption.\nUse the plot you created in Question 11 to help interpret the interaction effect between number of catchphrases uttered and IMDb rating."
+    "section": "Part IV: Model C",
+    "text": "Part IV: Model C\n\nWrite the fitted regression equation for Model C.\nBased on the inferential results from fitting this model, is there an interaction effect between number of catchphrases uttered and IMDb rating? Explain.\nCreate and include a plot of the fitted model showing the pertinent results from Model C. Be sure to appropriately differentiate between lines that you include in the plot (e.g., do not differentiate by color unless you plan to print in color). If you partial out any variables, be sure to note this in the caption.\nUse the plot you created in Question 11 to help interpret the interaction effect between number of catchphrases uttered and IMDb rating."
   },
   {
-    "objectID": "assignments/assignment-04-multiple-regression.html",
-    "href": "assignments/assignment-04-multiple-regression.html",
-    "title": "Assignment 04",
+    "objectID": "assignments/assignment-03-regression-inference.html",
+    "href": "assignments/assignment-03-regression-inference.html",
+    "title": "Assignment 03",
     "section": "",
-    "text": "Human overpopulation is a growing concern and has been associated with depletion of Earth’s natural resources (water is a big one) and degredation of the environment. This, in turn, has social and economic consequences such as global tension over resources such as water and food, higher cost of living and higher unemployment rates.\nFertility rate is a measure directly linked to population and has been useful to explore hypotheses about factors related to combating overpopulation. For this assignment, you will use the file fertility.csv to examine the effects of the rate of contraception (a factor that can be manipulated through targeted intervention) on fertility rates.\nSubmit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption. This assignment is worth 18 points. (Each question is worth 1 point unless otherwise noted.)"
-  },
-  {
-    "objectID": "assignments/assignment-04-multiple-regression.html#part-i-correlations",
-    "href": "assignments/assignment-04-multiple-regression.html#part-i-correlations",
-    "title": "Assignment 04",
-    "section": "Part I: Correlations",
-    "text": "Part I: Correlations\n\nCreate a path model of the correlations between fertility rate, contraception rate, infant mortality rate, and female education level.\n\nConsider the following hypotheses about different potential predictors of fertility rates:\n\nHypothesis 1: Countries with higher contraception rates tend to have lower fertility rates.\nHypothesis 2: Countries with lower infant mortality rates tend to have higher fertility rates.\nHypothesis 3: Countries with higher female education rates tend to have lower fertility rates.\n\n\nUse the correlations computed in Question 1 to evaluate each of the three hypotheses. For each hypothesis indicate whether the empirical results support that hypothesis or not by referencing the appropriate correlation(s)."
-  },
-  {
-    "objectID": "assignments/assignment-04-multiple-regression.html#part-ii-regression-analysis",
-    "href": "assignments/assignment-04-multiple-regression.html#part-ii-regression-analysis",
-    "title": "Assignment 04",
-    "section": "Part II: Regression Analysis",
-    "text": "Part II: Regression Analysis\nYou will fit three regression models to study the effect of contraceptive rates (focal predictor) on fertility rate (outcome). Because infant mortality rate and female education level (our two covariates) are related to both the focal predictor and outcome, they may confound the effect of contraceptive rates on fertility rate (see hypothesized path model).\n\n\n\n\n\n\n\n\n\nTo remove the confounding and evaluate the effect of contraceptive rates on fertility rate, you will fit a series of regression models.\n\nModel 1: Contraceptive rate as the sole predictor of variation in fertility rate.\nModel 2: Contraceptive rate and infant mortality rate as predictors of variation in fertility rate.\nModel 3: Contraceptive rate and female education level as predictors of variation in fertility rate.\nModel 4: Contraceptive rate, infant mortality rate, and female education level as predictors of variation in fertility rate.\n\n\nExamine the structure and formatting of Table 9 at https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html. Mimic the format and structure of this table to create a table to present the numerical information from the three models you fitted. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to “Landscape”, rather than changing the size of the font. (2pts.)\nIndicate whether the two covariates are actually confounders by indicating whether the size and direction of the effect of contraceptive rate on fertility rate in Models 2–4 differs from that in Model 1. (Be sure to comment on both covariates.)"
-  },
-  {
-    "objectID": "assignments/assignment-04-multiple-regression.html#model-3-interpreting-results-from-the-final-model",
-    "href": "assignments/assignment-04-multiple-regression.html#model-3-interpreting-results-from-the-final-model",
-    "title": "Assignment 04",
-    "section": "Model 3: Interpreting Results from the “Final” Model",
-    "text": "Model 3: Interpreting Results from the “Final” Model\nThe research literature suggests that all three predictors are substantively important in predicting variation in fertility rates. Moreover, from the CIs produced in Model 3, we see that all three effects included in the model are statistically relevant (none of the CIs span 0). Because of this, we will adopt Model 3 as our “final” model. Use the results from Model 3 to answer the remainder of the questions on this assignment.\n\nReport the regression equation from fitting Model 3. Use Equation Editor (or some other program that correctly types mathematical expressions) to typeset the equation correctly.\nReport and interpret the value of the model \\(R^2\\) using the context of the data.\nUsing symbols, write the omnibus null hypothesis that is tested by the model-level F-statistic in this analysis in two different manners: (1) using the coefficient parameters used in the regression model, and (2) using the variance accounted for parameter.\nBased on the results of the model-level F-test, does the model seem to explain variation in fertility rates? Explain. Note: Here you can use the p-value as evidence, but do not compare this to 0.05.\nInterpret the estimated coefficient value associated with the partial effect of contraception.\nBased on the 95% confidence interval for the partial effect of contraception on fertility rate, which parameter values are reasonably compatible with the empirical data? Explain what this implies about the magnitude of the partial effect.\nCreate a publication quality plot that displays the results from Model 3. For this plot, put the contraception predictor on the x-axis. Control out the effect of education level by setting this to the mean level of education. Display two separate lines to show the effect of infant mortality rate; a small and large rate based on the data. The two lines should be displayed using different linetypes or colors (or both) so that they can be easily differentiated in the plot. Be sure that the figure is appropriately captioned. (2pts.)"
-  },
-  {
-    "objectID": "assignments/assignment-02-introduction-to-regression.html",
-    "href": "assignments/assignment-02-introduction-to-regression.html",
-    "title": "Assignment 02",
-    "section": "",
-    "text": "Should more money be spent on public schools or should that money be spent elsewhere? Both sides of this ongoing public debate have been argued passionately, using a multitude of anecdotal evidence. Although we will not settle this debate, we will examine data akin to the types of data that policy makers use to make funding decisions. Specifically, you will use the data from the file state-education.csv to examine whether teacher salaries are related to SAT scores at the state level.\nSubmit a PDF document of your responses to the following questions. Please adhere to the following guidelines for further formatting your assignment:"
-  },
-  {
-    "objectID": "assignments/assignment-02-introduction-to-regression.html#preparation",
-    "href": "assignments/assignment-02-introduction-to-regression.html#preparation",
-    "title": "Assignment 02",
-    "section": "Preparation",
-    "text": "Preparation\nBefore carrying out any analyses, create a predictor called salary_thousand that indicates the average 2020–21 state salary in thousands of dollars (e.g., salary = 52143; salary_thousand = 52.143). This variable (not salary) should be used in all analyses in the assignment."
-  },
-  {
-    "objectID": "assignments/assignment-02-introduction-to-regression.html#questions",
-    "href": "assignments/assignment-02-introduction-to-regression.html#questions",
-    "title": "Assignment 02",
-    "section": "Questions",
-    "text": "Questions\n\nCreate a density plot of the distribution of total SAT scores. Make sure your plot has a caption.\nExamine the structure and formatting of Table 1 at https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html. Mimic the format and structure of this table to create a table to present the numerical summary information for the distributions of SAT total scores and salaries. Provide the same measures for these variables as is given in Table 1 in the article. Re-create the formatting of Table 1 as closely as you can. Finally, make sure the table you create also has an appropriate caption.\nCreate a scatterplot of the distribution of SAT total scores (Y) conditioned on teacher salaries (X). Make sure your plot has a caption.\nDescribe the relationship between teacher salaries and SAT total scores. Be sure to comment on the structural form, direction and strength of the relationship. Also comment on any potential observations that deviate from following this relationship (unusual observations or clusters of observations).\nCompute and report the correlation coefficient.\nIs the correlation coefficient and appropriate measure for this relationship? Explain by referring to the functional form you described in Question 4.\nRegress total SAT scores on teacher salaries. Write the fitted equation using Equation Editor (or some other program that correctly types mathematical expressions).\nInterpret the value of the intercept from the regression equation using the context of the data.\nInterpret the value of the slope from the regression equation using the context of the data.\nCompute, report, and interpret the value for \\(R^2\\) based on values from the ANOVA decomposition. Show your work for full credit.\nCompute and report the predicted mean SAT score for Minnesota students based on the average teacher salary in the state using the fitted regression equation. Show your work for full credit.\nCompute and report the residual for Minnesota. Show your work for full credit.\nExplain what the sign and magnitude of the residual value you computed in Question 12 tells you about how Minnesota’s mean SAT score compares to the mean SAT score for states having the same average teacher salary as Minnesota."
-  },
-  {
-    "objectID": "assignments.html",
-    "href": "assignments.html",
-    "title": "Assignments and Grading",
-    "section": "",
-    "text": "Students will complete six homework assignments. The homework assignments and due dates are posted below. These assignments include problems that will help you learn the course material through reflection and practice. Submit each assignment as a PDF file via email to the TA."
-  },
-  {
-    "objectID": "assignments.html#assignment-due-dates",
-    "href": "assignments.html#assignment-due-dates",
-    "title": "Assignments and Grading",
-    "section": "Assignment Due Dates",
-    "text": "Assignment Due Dates\nBelow are the due dates for the assignments, as well as links to each assignment. All assignments are due by 5:00 PM on the due date. The due dates may change at the instructor’s discretion. Any revised due dates will be announced in class and posted to the website.\n\n\n\n\n\nAssignment\n\n\nDue Date (M/W)\n\n\nDue Date (T/R)\n\n\nHTML\n\n\n\n\n\n\nAssignment #1: Introduction to Statistical Computing \n\n\nSpt. 25\n\n\nSpt. 24\n\n\n\n\n\n\n\nAssignment #2: Introduction to Regression\n\n\nOct. 14\n\n\nOct. 10\n\n\n\n\n\n\n\nAssignment #3: Regression Inference\n\n\n\nNov. 06\n\n\nNov. 05\n\n\n\n\n\n\n\nAssignment #4: Multiple Regression\n\n\nNov. 25\n\n\nNov. 21\n\n\n\n\n\n\n\nAssignment #5: Categorical Predictors \n\n\nDec. 04\n\n\nDec. 03\n\n\n\n\n\n\n\nAssignment #6: Interaction Models\n\n\nDec. 16 (due at 12:00pm)\n\n\n\n\n\n\n\n\n\nStress Management\nStress management is an important piece of the skill set needed for success in graduate school. Pet Away Worry & Stress (PAWS) is one of the many resources available to students. Find out more at https://boynton.umn.edu/paws.\n\nYou can follow Tilly the Therapy Chicken on Twitter (@TherapyChicken)."
-  },
-  {
-    "objectID": "assignments.html#evaluation-of-student-performance",
-    "href": "assignments.html#evaluation-of-student-performance",
-    "title": "Assignments and Grading",
-    "section": "Evaluation of Student Performance",
-    "text": "Evaluation of Student Performance\nCourse grades will be based entirely on performance on the homework assignments. The points from the six homework assignment will be pooled to compute a percentage in the class, which will be converted to a final course grade using:\n\n\n\n\n\n\n\n\nCutoff\nGrade\nDefinition for Graduate Credit\n\n\n\n\n93%–100%\nA\nFor exceptional work, well above the minimum criteria\n\n\n90%–92%\nA–\nFor outstanding work, well above the minimum criteria\n\n\n87%–89%\nB+\nFor excellent work, significant above the minimum criteria\n\n\n83%–86%\nB\nFor work above the minimum criteria\n\n\n80%–82%\nB–\n\n\n\n77%–79%\nC+\n\n\n\n73%–76%\nC\nFor work which meets the course requirements in every respect\n\n\n70%–72%\nC–\n\n\n\n63%–69%\nD\nWorthy of credit even though it fails to meet the course requirements\n\n\n0%–62%\nF\nFailed to meet minimum course requirements\n\n\n\nIf you are taking the course S/N, the minimum criterion to receive an S is 80% (the equivalent of a B– letter grade). The S grade does not carry grade points and is not part of the GPA calculation, but the credits will count toward the student’s degree program if allowed by the college, campus, or program.\nAny student who does not complete all homework assignments without making prior arrangements with the instructor will receive a grade of F/N.\n\n\nIncomplete\nInstructors may assign the registration symbol “I” for Incomplete if, at the time the incomplete is requested: (1) the student has successfully completed a substantial portion of the work of the course; and (2) due to extraordinary circumstances (as determined by the instructor), the student was prevented from completing the work of the course on time. The assignment of an “I” requires a written agreement with the student specifying the time and manner in which the student will complete the course requirements. For more information see Grading and Transcripts.\n\n\n\nAccessing Course Grades\nShortly after the course, you may access your grades online at myU. Assignments will be handed back in class or during office hours. Uncollected assignments will be retained for six weeks after the course and then discarded."
-  },
-  {
-    "objectID": "assignments.html#assignment-faqs",
-    "href": "assignments.html#assignment-faqs",
-    "title": "Assignments and Grading",
-    "section": "Assignment FAQs",
-    "text": "Assignment FAQs\nHow do I submit the assignment?\nCreate a PDF of your responses and submit the PDF via email to both the instructor and TA. Also cc any group members. Before you submit the assignment check that:\n\nAll group members’ names are on the assignment.\nAll tables are numbered and have a caption.\nAll figures are numbered and have a caption.\nAll figures are re-sized to not take up more page space than is necessary to read them.\nNo R syntax is included unless the question specifically asked for the syntax to be included. If there is R syntax included, be sure that it is typeset in a monospaced font (e.g., Courier, Inconsolata).\nDo not submit the script file you used unless the directions specifically ask you to submit it.\n\nDo I need to turn in the script file?\nNo…unless the directions specifically ask you to submit the script file. The script file is for your reference. Future assignments will sometimes have questions that reference older assignments, so an organized and well-commented script file is a good idea. Moreover, the TA or myself may ask you to submit your syntax after you submit the assignment to help us interpret mistakes you made on the assignment so that we can provide more thorough feedback.\nWill you provide answer keys to the assignments?\nNo. You will get back several comments on your assignments that address what you did wrong. The educational research is pretty clear that feedback is more helpful to student learning than providing correct answers. If you have further questions or need additional clarification, you are welcome to come to office hours or make an appointment with the instructor or TA.\nWill you go over the answers in class?\nNo. I will address broad concepts if several students/groups made the same mistake, but otherwise, since each student/group makes unique mistakes going over the assignments more broadly is not a good use of our limited class time. The feedback should be helpful in understanding any mistakes you made, but if it isn’t, you are welcome to come to office hours or make an appointment with the instructor or TA.\nWill you look at our assignment prior to us submitting it?\nThe instructor or TA will not “pre-grade” your assignment. If there is a “Preparation” part of the assignment we can ensure that you did that part correctly, and we can also give you feedback about syntax, but we will not tell you if an answer is correct or not. We can also answer clarifying questions (e.g., ‘I know Question 8 is asking about […], but I’m not sure what this question is looking for. Is there another way to restate this question?’). If you completed the assignment without any trouble, then be confident in your work and simply submit the assignment! 😄 If you are unsure about something specific, then ask about that specific thing rather than a general ‘did I do this right’!\nWill we be able to re-do the assignment?\nGenerally no. Since you have the opportunity to work in groups on the assignments, you should be able offset any of the issues that come up that would necessitate a re-submission. The exception to this is that we may allow you to re-do Assignment 1. If we do this, we will send you an email requesting that you resubmit part, or all of Assignment 1. You will not receive much feedback on your assignment prior to your re-submission. This is because during the first assignment you are learning not only content, but also expectations around how to respond to the questions we ask."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Instructor/TA",
-    "section": "",
-    "text": "Instructor: Andrew Zieffler  Email: zief0002@umn.edu  Office: Education Sciences Building 178  Office Hours: Tuesday 1:00 PM–2:00 PM; and by appointment  Virtual Office: If you want to meet virtually, send me a Google calendar invite and include a Zoom link in the invite.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTA: Xinyue Zhang  Email: zhan6764@umn.edu  Office: Education Sciences Building 197  Office Hours: Thursday 2:30 PM–3:30 PM; and by appointment Virtual Office: If you want to meet Xinyue virtually, send her a Google calendar invite and include a Zoom link in the invite."
+    "text": "Should more money be spent on public schools or should that money be spent elsewhere? Both sides of this ongoing public debate have been argued passionately, using a multitude of anecdotal evidence. Although we will not settle this debate, we will examine data akin to the types of data that policy makers use to make funding decisions. Specifically, you will use the data from the file state-education.csv to examine whether teacher salaries are related to SAT scores at the state level.\n\n[CSV]\n[Data Codebook]\n\n\n\nPart I: Unstandardized Regression\nBefore carrying out any analyses, create a predictor called salary_thousand that indicates the average state salary in thousands of dollars (e.g., if salary = 52143; salary_thousand = 52.143). This variable (not salary) should be used in all analyses for Part I. Fit a regression model using teacher salaries to predict SAT scores.\n\nUsing symbols, write the null hypothesis that is tested by the F-statistic in this analysis.\nWrite no more than three sentences (to be included in a publication) that summarizes the results of the omnibus analysis. A summary of the results includes a written description of what is being tested by the F-test and the statistical results. At a minimum report the F-statistic, df, and p-value. A summary should also indicate what the statistical results suggest about the compatibility of the empirical data to the null hypothesis and what this means about the potential relationship between states’ average teacher salaries and average SAT scores.\nUsing symbols, write the null hypothesis that is tested by the t-statistic for the slope.\nBased on the results of the t-test for the slope, are the empirical data consistent with the null hypothesis that the sample slope is entirely due to sampling error? Explain.\nCompute and interpret the 95% compatibility interval for the slope.\nCreate a plot that displays the regression line from the unstandardized regression analysis. This plot should also include a confidence envelope (uncertainty) for the regression line. Be sure to give your plot an appropriate caption.\n\n\n\n\n\n\n\n\n\nPart II: Standardized Regression\nFor Part II, you will need to read Chapter 10: Standardized Regression in the textbook.\nConvert the teacher salaries (salary_thousand) into z-scores by subtracting the mean salary and dividing by the standard deviation. Call this new variable z_salary (e.g., z_salary = (salary_thousand - mean(salary_thousand)) / sd(salary_thousand)). Also convert the SAT scores into z-scores and call that variable z_sat (e.g., z_sat = (sat - mean(sat)) / sd(sat)).\n\nReport and interpret the z_sat score for Minnesota.\nRegress the SAT z-scores on the salary z-scores. Report the fitted regression equation.\nExplain how we can use the coefficients from the standardized fitted regression equation to compute the \\(R^2\\) value.\nUsing symbols, write the null hypothesis that is tested by the t-statistic for the intercept in this analysis.\nThe p-value of the t-test for the intercept in this analysis is one. Explain why this is expected by referring to the hypothesis being tested in this analysis. (Hint: Think about what the intercept is and how that relates to what is being tested.)\nReport and interpret the 95% compatibility interval for the slope from the standardized regression analysis.\n\n\n\n\nPart III: Study Design and Causation\n\nThe test of the slope (regardless of analysis) suggests that teacher salaries seem to be related to SAT scores. Unfortunately this relationship is negative, indicating that higher teacher salaries are associated with lower SAT scores. A public-policy wonk wants to use this data to support the de-funding of public schools. Write a couple sentences that explain to this person why your analysis does not support this causal conclusion based on the study design. (Hint: Recall that inferring causation requires particular study designs. You may need to draw on information from your prerequisite stat course here. You could also read ahead into Chapter 14!)"
   },
   {
     "objectID": "assignments/assignment-01-introduction-to-statistical-computing.html#instructions",
@@ -364,11 +196,270 @@
     "text": "How do I submit the assignment?\nCreate a PDF of your responses and submit the PDF via email to both the instructor and TA. Also cc any group members. Before you submit the assignment check that:\n\nAll group members’ names are on the assignment.\nAll tables are numbered and have a caption.\nAll figures are numbered and have a caption.\nAll figures are re-sized to not take up more page space than is necessary to read them.\nNo R syntax is included unless the question specifically asked for the syntax to be included. If there is R syntax included, be sure that it is typeset in a monospaced font (e.g., Courier, Inconsolata).\nDo not submit the script file you used unless the directions specifically ask you to submit it."
   },
   {
-    "objectID": "assignments/assignment-03-regression-inference.html",
-    "href": "assignments/assignment-03-regression-inference.html",
-    "title": "Assignment 03",
+    "objectID": "worksheets/worksheet-03-02-multiple-regression.html",
+    "href": "worksheets/worksheet-03-02-multiple-regression.html",
+    "title": "Displaying Effects from a Multiple Regression Model",
     "section": "",
-    "text": "Should more money be spent on public schools or should that money be spent elsewhere? Both sides of this ongoing public debate have been argued passionately, using a multitude of anecdotal evidence. Although we will not settle this debate, we will examine data akin to the types of data that policy makers use to make funding decisions. Specifically, you will use the data from the file state-education.csv to examine whether teacher salaries are related to SAT scores at the state level.\n\n[CSV]\n[Data Codebook]\n\n\n\nPart I: Unstandardized Regression\nBefore carrying out any analyses, create a predictor called salary_thousand that indicates the average state salary in thousands of dollars (e.g., if salary = 52143; salary_thousand = 52.143). This variable (not salary) should be used in all analyses for Part I. Fit a regression model using teacher salaries to predict SAT scores.\n\nUsing symbols, write the null hypothesis that is tested by the F-statistic in this analysis.\nWrite no more than three sentences (to be included in a publication) that summarizes the results of the omnibus analysis. A summary of the results includes a written description of what is being tested by the F-test and the statistical results. At a minimum report the F-statistic, df, and p-value. A summary should also indicate what the statistical results suggest about the compatibility of the empirical data to the null hypothesis and what this means about the potential relationship between states’ average teacher salaries and average SAT scores.\nUsing symbols, write the null hypothesis that is tested by the t-statistic for the slope.\nBased on the results of the t-test for the slope, are the empirical data consistent with the null hypothesis that the sample slope is entirely due to sampling error? Explain.\nCompute and interpret the 95% compatibility interval for the slope.\nCreate a plot that displays the regression line from the unstandardized regression analysis. This plot should also include a confidence envelope (uncertainty) for the regression line. Be sure to give your plot an appropriate caption.\n\n\n\n\n\n\n\n\n\nPart II: Standardized Regression\nFor Part II, you will need to read Chapter 10: Standardized Regression in the textbook.\nConvert the teacher salaries (salary_thousand) into z-scores by subtracting the mean salary and dividing by the standard deviation. Call this new variable z_salary (e.g., z_salary = (salary_thousand - mean(salary_thousand)) / sd(salary_thousand)). Also convert the SAT scores into z-scores and call that variable z_sat (e.g., z_sat = (sat - mean(sat)) / sd(sat)).\n\nReport and interpret the z_sat score for Minnesota.\nRegress the SAT z-scores on the salary z-scores. Report the fitted regression equation.\nExplain how we can use the coefficients from the standardized fitted regression equation to compute the \\(R^2\\) value.\nUsing symbols, write the null hypothesis that is tested by the t-statistic for the intercept in this analysis.\nThe p-value of the t-test for the intercept in this analysis is one. Explain why this is expected by referring to the hypothesis being tested in this analysis. (Hint: Think about what the intercept is and how that relates to what is being tested.)\nReport and interpret the 95% compatibility interval for the slope from the standardized regression analysis.\n\n\n\n\nPart III: Study Design and Causation\n\nThe test of the slope (regardless of analysis) suggests that teacher salaries seem to be related to SAT scores. Unfortunately this relationship is negative, indicating that higher teacher salaries are associated with lower SAT scores. A public-policy wonk wants to use this data to support the de-funding of public schools. Write a couple sentences that explain to this person why your analysis does not support this causal conclusion based on the study design. (Hint: Recall that inferring causation requires particular study designs. You may need to draw on information from your prerequisite stat course here. You could also read ahead into Chapter 14!)"
+    "text": "Complete the problems on this worksheet with your small group. Import the mn-schools.csv data and fit a model to explain variation in graduation rates using the predictors of median SAT score and tuition."
+  },
+  {
+    "objectID": "worksheets/worksheet-03-02-multiple-regression.html#directions",
+    "href": "worksheets/worksheet-03-02-multiple-regression.html#directions",
+    "title": "Displaying Effects from a Multiple Regression Model",
+    "section": "",
+    "text": "Complete the problems on this worksheet with your small group. Import the mn-schools.csv data and fit a model to explain variation in graduation rates using the predictors of median SAT score and tuition."
+  },
+  {
+    "objectID": "worksheets/worksheet-03-02-multiple-regression.html#questions",
+    "href": "worksheets/worksheet-03-02-multiple-regression.html#questions",
+    "title": "Displaying Effects from a Multiple Regression Model",
+    "section": "Questions",
+    "text": "Questions\n\nWrite the fitted equation.\nInterpret both effects in the model.\nCreate a plot to show the effects. Put SAT score on the x-axis and display lines corresponding to an “inexpensive” and an “expensive” school. (Use the data to choose those values.)\n\nMake sure the lines are displayed in different colors and linetypes;\nPlay around with labelling the lines using text in the plot; Google geom_text() for help.\n\nExplain how we can use the plot to interpret the effect of SAT.\nExplain how we can use the plot to interpret the effect of tuition.\nCreate the same plot, but this time separate the “inexpensive” and “expensive” schools into separate panels (i.e., create a diptych plot.)"
+  },
+  {
+    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html",
+    "href": "worksheets/worksheet-01-04-learning-dplyr.html",
+    "title": "Learning dplyr Worksheet",
+    "section": "",
+    "text": "Work with one or more other students to complete each of the tasks in this document. As you work through these tasks, you may want to refer to the following:\n\nData Wrangling with dplyr\n\nAs part of this, include the syntax you use to complete each tasks in a script file. As you write your script file, adhere to good coding practices:\n\nInclude comments\nInclude spaces\nInclude a line break after every pipe operator you use.\n\nYou can check in with Andy or the TA at the completion of each task to check your work."
+  },
+  {
+    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#directions",
+    "href": "worksheets/worksheet-01-04-learning-dplyr.html#directions",
+    "title": "Learning dplyr Worksheet",
+    "section": "",
+    "text": "Work with one or more other students to complete each of the tasks in this document. As you work through these tasks, you may want to refer to the following:\n\nData Wrangling with dplyr\n\nAs part of this, include the syntax you use to complete each tasks in a script file. As you write your script file, adhere to good coding practices:\n\nInclude comments\nInclude spaces\nInclude a line break after every pipe operator you use.\n\nYou can check in with Andy or the TA at the completion of each task to check your work."
+  },
+  {
+    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-1-import-data",
+    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-1-import-data",
+    "title": "Learning dplyr Worksheet",
+    "section": "Task 1: Import Data",
+    "text": "Task 1: Import Data\nImport the comic-characters.csv data into an object named comics. Also, examine the data codebook so you are familiar with the different variables."
+  },
+  {
+    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-2-arranging",
+    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-2-arranging",
+    "title": "Learning dplyr Worksheet",
+    "section": "Task 2: Arranging",
+    "text": "Task 2: Arranging\nUse the arrange() function to determine whether Marvel and DC introduced LGBTQ characters around the same time, or whether one company was more progressive?"
+  },
+  {
+    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-3-more-arranging",
+    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-3-more-arranging",
+    "title": "Learning dplyr Worksheet",
+    "section": "Task 3: More Arranging",
+    "text": "Task 3: More Arranging\nUse the arrange() function to determine the first appearance of an LGBTQ female character in DC comics."
+  },
+  {
+    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-4-filtering-rows",
+    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-4-filtering-rows",
+    "title": "Learning dplyr Worksheet",
+    "section": "Task 4: Filtering Rows",
+    "text": "Task 4: Filtering Rows\nUse the filter() function and nrow() to determine the percentage of female comic characters."
+  },
+  {
+    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-5-more-filtering",
+    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-5-more-filtering",
+    "title": "Learning dplyr Worksheet",
+    "section": "Task 5: More Filtering",
+    "text": "Task 5: More Filtering\nUse the filter() function and nrow() to determine the percentage of LGBTQ comic characters introduced in 1970 or later. Based on the result is there evidence that the Pride Movement may have had an impact on LGBTQ representation?"
+  },
+  {
+    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-6-selecting-columns",
+    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-6-selecting-columns",
+    "title": "Learning dplyr Worksheet",
+    "section": "Task 6: Selecting Columns",
+    "text": "Task 6: Selecting Columns\nThe Selecting a Subset of Columns section of Data Wrangling with dplyr included syntax for selecting a subset of data and exporting it to a directory on your computer. Modify the syntax to export a CSV of the LGBTQ character data to the desktop on your computer.\nAlso try modifying the syntax to export the CSV file to another folder/directory on your computer."
+  },
+  {
+    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-7-mutating-columns",
+    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-7-mutating-columns",
+    "title": "Learning dplyr Worksheet",
+    "section": "Task 7: Mutating Columns",
+    "text": "Task 7: Mutating Columns\nCreate a new column called first_appearance_pride that indicates how many years before or after the Pride Movement (1970) the character’s first appearance happened. For example a character that first appeared in 1980 would have a value of 10, and a character that first appeared in 1968 would have a value of -2. Assign the data that includes this column into an object called comics2."
+  },
+  {
+    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-8-grouping-and-summarizing",
+    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-8-grouping-and-summarizing",
+    "title": "Learning dplyr Worksheet",
+    "section": "Task 8: Grouping and Summarizing",
+    "text": "Task 8: Grouping and Summarizing\nModify the syntax in the Computations on Groups section of Data Wrangling with dplyr to determine the average number of appearances for both DC and Marvel LGBTQ and non-LGBTQ characters (as well as the standard deviation and sample size) before and after the Pride Movement."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "The calendar below lists the tentative course topics. The dates listed are subject to change at the instructor’s discretion.\nThe readings indicate chapters in the Zieffler, A. (2024) textbook. These should be read prior to class. There also might be articles, papers, etc. that you will need to read during the semester. These will be emailed to you. (Most articles are also accessible through the University of Minnesota library website. In order to access the full text of some of the articles, you will need to log in using your University x500 username and password.)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nM/W\n\n\nT/R\n\n\nReading\n\n\nTopic/In-Class Materials\n\n\nScript\n\n\n\n\n\n\n\n \n\n\nSpt. 04\n\n\nSpt. 03\n\n\n\n\n\nWelcome to EPsy 8251\n\n\n\n\n\n\n\n\nUnit 01: Introduction to Statistical Computing\n\n\n\n\n\n\nSpt. 09\n\n\nSpt. 05\n\n\nCh. 1–3\n\n\nIntroduction to R and RStudio\n\n\n\n\n\n\n\n\n\nSpt. 11\n\n\nSpt. 10\n\n\nCh. 4\n\n\nData Wrangling with dplyr\n\n\n\n\n\n\n\n\n\nSpt. 16\n\n\nSpt. 12\n\n\nCh. 5\n\n\nVisualizing Data with ggplot2\n\n\n\n\n\n\n\n\nUnit 02: Introduction to Regression\n\n\n\n\nRead the following article: Clayton, A. (2020, Oct. 28). How eugenics shaped statistics: Exposing the damned lies of three science pioneers. Nautilus, 92 (Frontiers).\n\n\n\n\n\n\nSpt. 18\n\n\nSpt. 17\n\n\nCh. 6–7\n\n\nData Exploration for RegressionSimple Linear Regression and Correlation\n\n  \n\n\n\n\n\n\nSpt. 23\n\n\nSpt. 19\n\n\n\n\n\n\nSpt. 25\n\n\nSpt. 24\n\n\nCh. 8–9\n\n\nOrdinary Least Squares (OLS) EstimationANOVA Decomposition and R2\n\n  \n\n\n\n\n\n\nSpt. 30\n\n\nSpt. 26\n\n\n\n\n\nUnit 03: Regression Inference\n\n\n\n\nRead the following article: Amrhein, V., Greenland, S., & McShane, B. (2019). Comment: Retire statistical significance. Nature, 567, 305–307.\n\n\n\n\n\n\nOct. 02\n\n\nOct. 01\n\n\nCh. 11\n\n\nCoefficient-Level Inference\n\n\n\n\n\n\n\n\n\nOct. 07\n\n\nOct. 03\n\n\n\n\n\n\nOct. 09\n\n\nOct. 08\n\n\nCh. 12\n\n\nModel-Level Inference\n\n\n\n\n\n\n\n\n\nOct. 14\n\n\nOct. 10\n\n\n\n\n\n\nOct. 16\n\n\nOct. 15\n\n\nCh. 13\n\n\nAssumptions Underlying the Regression Model\n\n\n\n\n\n\n\n\n\nOct. 21\n\n\nOct. 17\n\n\n\n\n\n\nOct. 23\n\n\nOct. 22\n\n\n\n\nNO CLASS—Mental Health Day 🛌 🍷\n\n\n\n\n\n\n\nUnit 04: Multiple Regression\n\n\n\n\n\n\nOct. 28\n\n\nOct. 24\n\n\nCh. 14–15\n\n\nIntroduction to Multiple Linear Regression/Multiple Regression: ANOVA Decomposition\n\n\n \n\n\n\n\n\n\nOct. 30\n\n\nOct. 29\n\n\n\n\n\n\nNov. 04\n\n\nOct. 31\n\n\nCh. 16\n\n\nUnderstanding Statistical Control\n\n\n\n\n\n\n\n\n\nNov. 06\n\n\nNov. 05\n\n\n\n\n\n\nNov. 11\n\n\nNov. 07\n\n\nCh. 17\n\n\nAssumptions: Multiple Regression\n\n\n\n\n\n\n\n\nUnit 05: Categorical Predictors\n\n\n\n\n\n\nNov. 13\n\n\nNov. 12\n\n\nCh. 18\n\n\nDichotomous Categorical Predictors\n\n\n\n\n\n\n\n\n\nNov. 18\n\n\nNov. 14\n\n\n\n\n\n\nNov. 20\n\n\nNov. 19\n\n\nCh. 19\n\n\nPolychotomous Categorical Predictors\n\n\n\n\n\n\n\n\n\nNov. 20\n\n\nNov. 19\n\n\n\n\nRead the following article: Aschwanden, C. (2019). Science isn’t broken: It’s just a hell of a lot harder than we give it credit for. Fivethirtyeight.\n\n\n\n\n\n\nNov. 25\n\n\nNov. 21\n\n\nCh. 20\n\n\nMultiple Comparisons\n\n\n\n\n\n\n\n\n\nDec. 02\n\n\nNov. 26\n\n\n\n\n\n\nNov. 27\n\n\nNov. 28\n\n\n\n\nNO CLASS—Thanksgiving Break 🦃 🌽 🥧\n\n\n\n\n\n\n\nUnit 06: Interaction Effects\n\n\n\n\nRead the following article: Brambor T., Clark, W. R., & Golder, M. (2006). Understanding interaction models: Improving empirical analyses. Political Analysis, 14(1), 63–82. doi:10.1093/pan/mpi014.\n\n\n\n\n\n\nDec. 04\n\n\nDec. 03\n\n\nCh. 21–22\n\n\nIntroduction to Interaction Effects/More Interaction Effects\n\n\n \n\n\n\n\n\n\nDec. 09\n\n\nDec. 05\n\n\n\n\n\n\nDec. 11\n\n\nDec. 10"
+  },
+  {
+    "objectID": "files/00-welcome-to-8251.html",
+    "href": "files/00-welcome-to-8251.html",
+    "title": "📖 Welcome to EPsy 8251",
+    "section": "",
+    "text": "Here are some things to do before the first class:\nRequired\n\nRead through and familiarize yourself with the course website. This website acts as the syllabus for the course. \nInstall R and RStudio:\n\nDownload and install the most recent version of R (version 4.4.1; Race for Your Life) on your computer.\nDownload and install the most recent version of and RStudio Desktop (version 2024.04.2+764) on your computer."
+  },
+  {
+    "objectID": "class-policies.html",
+    "href": "class-policies.html",
+    "title": "Class Policies",
+    "section": "",
+    "text": "Policy for Missing Class and Making up Missed/Late Work\nStudents are responsible for planning their schedules to avoid excessive conflicts with course requirements and must notify the instructor of unavoidable scheduling conflicts as early as possible. For circumstances where absences are unavoidable, accommodations for makeup work will be made according to University Policy. If you miss class:\n\nEmail the instructor as soon as you know you will be missing class.\nStudents are expected to obtain notes from a classmate of class material missed.\nPlease note that I will not be recording class sessions at the request of individual students, nor will I be Zooming students in to the class. Although, if you can arrange it with a classmate, they can Zoom you in.\n\nIf you are zooming in a classmate, please let the instructor know.\n\nIf you will be gone the day an assignment is due, you will need to make arrangements with the instructor about when you will turn in the assignment.\n\nIf you do not communicate with the instructor and make arrangements for turning in work when you are absent, the assignment will receive a 0.\n\n\n\nChatGPT and Other AI Policy\nArtificial intelligence (AI) language models, such as ChatGPT, are emerging tools that we will all need to consider in the next few years. These tools may be used to help you write R syntax, but not for answering any of the other questions on the assignment. If you are in doubt as to whether you are using AI language models appropriately in this course, I encourage you to discuss your situation with me or the TA. If you do use any AI to help write syntax for any of the assignment questions you need to do the following:\n\nCite this in the assignment; failure to do so is in violation of the academic integrity policy at UMN. Please include a paragraph at the end of any assignment that uses AI explaining what you used the AI for and what prompts you used to get the results. More examples of citing AI language models are available at: https://libguides.umn.edu/chatgpt.\nInclude a statement about what you will do to offset the environmental impact of the energy use incurred by using the AI. Be specific in this statement. For example: I will bike to school for the next week (Jan. 01–Jan 07) rather than drive or bus.\n\nYou are also responsible for ensuring any syntax composed by AI is correct. I would not trust anything AI says. If it gives you a number, fact, or code, assume it is wrong unless you either know the answer or can check in with another source. For this reason, using AI works best for topics you understand and can quality check. Here are a couple of other things to be aware of if you decide to use AI:\n\nThe environmental impact of AI should not be ignored. The building and usage of AI tools consumes a lot of energy (see here and here).\nThe development of AI has been associated with labor abuse and other dicey ethical issues (see here and here).\n\nIf you are caught using AI to answer questions on any of the assignments, you will be given a 0 on that assignment and a Scholastic Dishonesty Report Form will be filled out and reported to the Office of Community Standards. Depending on the severity of the offense, the instructor also reserves the right to give you an “F” in the course.\n\n\n\nTechnology Policy\nThe course uses technology on a regular basis during both instruction and assessments (e.g., homework assignments, exams, etc.). Student difficulty with obtaining or operating the various software programs and technologies—including printer trouble—will not be acceptable as an excuse for late work. Due to the variation in computer types and systems, the instructor or TA may not be able to assist in trouble shooting all problems you may have.\n\n\n\n\nCEHD Policy on Recording Classes\nAll class sessions may be recorded by the instructor using the procedures in the CEHD Policy on Recording Classes, with or without prior notice. Students should assume that a class session is being recorded unless otherwise notified. No person (student or otherwise) may record a class without express written permission from the instructor or an authorized administrator implementing a disability accommodation. All permitted recordings are governed by this policy’s limits on distribution and redistribution of recordings."
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments and Grading",
+    "section": "",
+    "text": "Students will complete six homework assignments. The homework assignments and due dates are posted below. These assignments include problems that will help you learn the course material through reflection and practice. Submit each assignment as a PDF file via email to the TA."
+  },
+  {
+    "objectID": "assignments.html#assignment-due-dates",
+    "href": "assignments.html#assignment-due-dates",
+    "title": "Assignments and Grading",
+    "section": "Assignment Due Dates",
+    "text": "Assignment Due Dates\nBelow are the due dates for the assignments, as well as links to each assignment. All assignments are due by 5:00 PM on the due date. The due dates may change at the instructor’s discretion. Any revised due dates will be announced in class and posted to the website.\n\n\n\n\n\nAssignment\n\n\nDue Date (M/W)\n\n\nDue Date (T/R)\n\n\nHTML\n\n\n\n\n\n\nAssignment #1: Introduction to Statistical Computing \n\n\nSpt. 25\n\n\nSpt. 24\n\n\n\n\n\n\n\nAssignment #2: Introduction to Regression\n\n\nOct. 14\n\n\nOct. 10\n\n\n\n\n\n\n\nAssignment #3: Regression Inference\n\n\n\nNov. 06\n\n\nNov. 05\n\n\n\n\n\n\n\nAssignment #4: Multiple Regression\n\n\nNov. 25\n\n\nNov. 21\n\n\n\n\n\n\n\nAssignment #5: Categorical Predictors \n\n\nDec. 04\n\n\nDec. 03\n\n\n\n\n\n\n\nAssignment #6: Interaction Models\n\n\nDec. 16 (due at 12:00pm)\n\n\n\n\n\n\n\n\n\nStress Management\nStress management is an important piece of the skill set needed for success in graduate school. Pet Away Worry & Stress (PAWS) is one of the many resources available to students. Find out more at https://boynton.umn.edu/paws.\n\nYou can follow Tilly the Therapy Chicken on Twitter (@TherapyChicken)."
+  },
+  {
+    "objectID": "assignments.html#work-collaboratively-or-individually",
+    "href": "assignments.html#work-collaboratively-or-individually",
+    "title": "Assignments and Grading",
+    "section": "Work Collaboratively or Individually",
+    "text": "Work Collaboratively or Individually\nTo foster cooperation and collaboration, you are permitted to form groups of no larger than three to work on the homework. Submit only one assignment per group, and list the names of each group member on the assignment. Each assignment will be scored and this score will be given to all individuals in the group. If you work alone on the assignments, you need to truly work alone. To protect against running afoul of the scholastic dishonesty policy, students working alone are not permitted to interact with any other student in regards to the assignment, including discussion, obtaining help, etc.\n\nTips for Successful Collaborations\nFrom past experience, student collaborations work most fluidly when everyone in the group is on the same page. Whether it be grade and working expectations, commitment to the course during the semester, or process for getting the work done, it is important to explicitly lay out and communicate your expectations to your group members. The most successful groups communicate with one another. The more you can anticipate issues and communicate about them, the better the experience for everyone. Here are some questions you may want to address as you form your groups:\n\nWhat process works best for our group for working together towards the assignment?\nDo we want to each complete individually and share with each other?\nWould we want to meet and work on it together at the same time?\nDo we want to rotate who submits the assignment?\nHow will we deal with the possibility that one member of the group is falling behind?"
+  },
+  {
+    "objectID": "assignments.html#evaluation-of-student-performance",
+    "href": "assignments.html#evaluation-of-student-performance",
+    "title": "Assignments and Grading",
+    "section": "Evaluation of Student Performance",
+    "text": "Evaluation of Student Performance\nCourse grades will be based entirely on performance on the homework assignments. The points from the six homework assignment will be pooled to compute a percentage in the class, which will be converted to a final course grade using:\n\n\n\n\n\n\n\n\nCutoff\nGrade\nDefinition for Graduate Credit\n\n\n\n\n93%–100%\nA\nFor exceptional work, well above the minimum criteria\n\n\n90%–92%\nA–\nFor outstanding work, well above the minimum criteria\n\n\n87%–89%\nB+\nFor excellent work, significant above the minimum criteria\n\n\n83%–86%\nB\nFor work above the minimum criteria\n\n\n80%–82%\nB–\n\n\n\n77%–79%\nC+\n\n\n\n73%–76%\nC\nFor work which meets the course requirements in every respect\n\n\n70%–72%\nC–\n\n\n\n63%–69%\nD\nWorthy of credit even though it fails to meet the course requirements\n\n\n0%–62%\nF\nFailed to meet minimum course requirements\n\n\n\nIf you are taking the course S/N, the minimum criterion to receive an S is 80% (the equivalent of a B– letter grade). The S grade does not carry grade points and is not part of the GPA calculation, but the credits will count toward the student’s degree program if allowed by the college, campus, or program.\nAny student who does not complete all homework assignments without making prior arrangements with the instructor will receive a grade of F/N.\n\n\nIncomplete\nInstructors may assign the registration symbol “I” for Incomplete if, at the time the incomplete is requested: (1) the student has successfully completed a substantial portion of the work of the course; and (2) due to extraordinary circumstances (as determined by the instructor), the student was prevented from completing the work of the course on time. The assignment of an “I” requires a written agreement with the student specifying the time and manner in which the student will complete the course requirements. For more information see Grading and Transcripts.\n\n\n\nAccessing Course Grades\nShortly after the course, you may access your grades online at myU. Assignments will be handed back in class or during office hours. Uncollected assignments will be retained for six weeks after the course and then discarded."
+  },
+  {
+    "objectID": "assignments.html#assignment-faqs",
+    "href": "assignments.html#assignment-faqs",
+    "title": "Assignments and Grading",
+    "section": "Assignment FAQs",
+    "text": "Assignment FAQs\nHow do I submit the assignment?\nCreate a PDF of your responses and submit the PDF via email to both the instructor and TA. Also cc any group members. Before you submit the assignment check that:\n\nAll group members’ names are on the assignment.\nAll tables are numbered and have a caption.\nAll figures are numbered and have a caption.\nAll figures are re-sized to not take up more page space than is necessary to read them.\nNo R syntax is included unless the question specifically asked for the syntax to be included. If there is R syntax included, be sure that it is typeset in a monospaced font (e.g., Courier, Inconsolata).\nDo not submit the script file you used unless the directions specifically ask you to submit it.\n\nDo I need to turn in the script file?\nNo…unless the directions specifically ask you to submit the script file. The script file is for your reference. Future assignments will sometimes have questions that reference older assignments, so an organized and well-commented script file is a good idea. Moreover, the TA or myself may ask you to submit your syntax after you submit the assignment to help us interpret mistakes you made on the assignment so that we can provide more thorough feedback.\nWill you provide answer keys to the assignments?\nNo. You will get back several comments on your assignments that address what you did wrong. The educational research is pretty clear that feedback is more helpful to student learning than providing correct answers. If you have further questions or need additional clarification, you are welcome to come to office hours or make an appointment with the instructor or TA.\nWill you go over the answers in class?\nNo. I will address broad concepts if several students/groups made the same mistake, but otherwise, since each student/group makes unique mistakes going over the assignments more broadly is not a good use of our limited class time. The feedback should be helpful in understanding any mistakes you made, but if it isn’t, you are welcome to come to office hours or make an appointment with the instructor or TA.\nWill you look at our assignment prior to us submitting it?\nThe instructor or TA will not “pre-grade” your assignment. If there is a “Preparation” part of the assignment we can ensure that you did that part correctly, and we can also give you feedback about syntax, but we will not tell you if an answer is correct or not. We can also answer clarifying questions (e.g., ‘I know Question 8 is asking about […], but I’m not sure what this question is looking for. Is there another way to restate this question?’). If you completed the assignment without any trouble, then be confident in your work and simply submit the assignment! 😄 If you are unsure about something specific, then ask about that specific thing rather than a general ‘did I do this right’!\nWill we be able to re-do the assignment?\nGenerally no. Since you have the opportunity to work in groups on the assignments, you should be able offset any of the issues that come up that would necessitate a re-submission. The exception to this is that we may allow you to re-do Assignment 1. If we do this, we will send you an email requesting that you resubmit part, or all of Assignment 1. You will not receive much feedback on your assignment prior to your re-submission. This is because during the first assignment you are learning not only content, but also expectations around how to respond to the questions we ask."
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "All the data sets and data codebooks used in the notes, scripts, and assignments can be found in Zieffler (2024)."
+  },
+  {
+    "objectID": "data.html#how-to-download-a-csv-file-to-your-computer",
+    "href": "data.html#how-to-download-a-csv-file-to-your-computer",
+    "title": "Data",
+    "section": "How to Download a CSV File to Your Computer",
+    "text": "How to Download a CSV File to Your Computer\nTo download a data (CSV) file, click on the data set. Then click the RAW button. Now you should be able to right-click the dataset and save it. If you are using Safari on a Mac, make sure that the downloaded data does not have an extra .txt appended to it when it downloads. If it does, just delete the extra .txt suffix."
+  },
+  {
+    "objectID": "mission-statements.html",
+    "href": "mission-statements.html",
+    "title": "Mission Statements",
+    "section": "",
+    "text": "Quantitative Methods in Education Mission Statement\nQME strives to be a premier program recognized for leadership, innovation, and excellence, and to enable human potential through the advancement of education. QME prepares students to become cutting-edge professionals in educational measurement, evaluation, statistics, and statistics education, through excellence in teaching, research, and service; and through investigating and developing research methodology in education.\n\n\n\nDepartment of Educational Psychology Mission Statement\nEducational psychology involves the study of cognitive, emotional, and social learning processes that underlie education and human development across the lifespan. Research in educational psychology advances scientific knowledge of those processes and their application in diverse educational and community settings. The department provides training in the psychological foundations of education, research methods, and the practice and science of counseling psychology, school psychology, and special education. Faculty and students provide leadership and consultation to the state, the nation, and the international community in each area of educational psychology. The department’s scholarship and teaching enhance professional practice in schools and universities, community mental health agencies, business and industrial organizations, early childhood programs, and government agencies. Adopted by the Department. of Educational Psychology faculty October 27, 2004\n\n\n\nCollege of Education + Human Development Mission Statement\nThe mission of the University of Minnesota College of Education and Human Development is to contribute to a just and sustainable future through engagement with the local and global communities to enhance human learning and development at all stages of the life span."
+  },
+  {
+    "objectID": "worksheets/worksheet-01-01-using-R.html",
+    "href": "worksheets/worksheet-01-01-using-R.html",
+    "title": "Using RStudio Worksheet",
+    "section": "",
+    "text": "Complete the problems on this worksheet with 2–3 other students. You may want to refer to the Getting Started with R and Data Structures in R chapters in the Computational Toolkit for Educational Scientists."
+  },
+  {
+    "objectID": "worksheets/worksheet-01-01-using-R.html#directions",
+    "href": "worksheets/worksheet-01-01-using-R.html#directions",
+    "title": "Using RStudio Worksheet",
+    "section": "",
+    "text": "Complete the problems on this worksheet with 2–3 other students. You may want to refer to the Getting Started with R and Data Structures in R chapters in the Computational Toolkit for Educational Scientists."
+  },
+  {
+    "objectID": "worksheets/worksheet-01-01-using-R.html#problem-set-i",
+    "href": "worksheets/worksheet-01-01-using-R.html#problem-set-i",
+    "title": "Using RStudio Worksheet",
+    "section": "Problem Set I",
+    "text": "Problem Set I\nUse R to compute the answer to the following problems. You can (for now) work in the console or use a script file. This problem set will focus on skills and ideas you learn in the section Getting Started with R.\n\nCompute: \\(2 + 3 \\times 5\\). Does R follow order of operations or not?\nCompute: \\((3 \\times5^2 \\div 15)-(5-2^2)\\)\nCompute: \\(\\sqrt{~\\left\\vert3-4\\right\\vert~}\\)\nCreate a sequence of the numbers 1 and 5. Store this in an object called one_five.\nCreate a sequence of all integers between 10 and 1. This sequence should begin at 10 and end at 1. (e.g., \\(10,9,8,7,\\ldots,1\\)). Store this in an object called my_num.\nUse the length() function to count the number of elements in the one_five object. Also use it to count the number of elements in my_num.\nCompute \\(\\mathtt{one\\_five}+\\mathtt{my\\_num}\\). Explain how R is using the two objects to obtain the result it did.\nInstall the following three packages from CRAN: dplyr, ggplot2 and remotes.\nLoad the remotes package.\nInstall the educate package from GitHub."
+  },
+  {
+    "objectID": "worksheets/worksheet-01-01-using-R.html#problem-set-ii",
+    "href": "worksheets/worksheet-01-01-using-R.html#problem-set-ii",
+    "title": "Using RStudio Worksheet",
+    "section": "Problem Set II",
+    "text": "Problem Set II\nUse R to compute the answer to the following problems. For these problems, please work in a script file. This problem set will focus on skills and ideas you learn in Data Structures in R.\n\nCreate a new script file. Save it on your computer. When you do this give it a name other than Untitled.\nUse the c() function to create a vector that includes the number of pets each person in your group has. Name this vector pets. (If you have 2 or fewer people in your group, combine your results with another group so that you have at least 3 values.)\nCreate a data frame that includes two columns. The first column will be the first names of everyone in your group (or combined groups). Call this column first_name. The second column will be the number of credits each person in your breakout room is taking this semester. Call this column credits. Assign this data frame a name so that you can compute on it later. (Feel free to make it a three column data frame by adding the pets column.)"
+  },
+  {
+    "objectID": "worksheets/worksheet-01-01-using-R.html#problem-set-iii",
+    "href": "worksheets/worksheet-01-01-using-R.html#problem-set-iii",
+    "title": "Using RStudio Worksheet",
+    "section": "Problem Set III",
+    "text": "Problem Set III\nUse R to compute the answer to the following problems. For these problems, please continue to work in the script file. This problem set will focus on skills and ideas you learn in Data Structures in R.\n\nImport the comic-characters.csv data into R. Assign this to an object called comics. If you use the Import button to do this, make sure you copy the syntax into your script file.\nExamine the codebook for the comic-characters.csv data.\nRun the syntax View(comics). This should display the imported data in a tab in RStudio. Use the search bar in the tab to search for “Hobgoblin”. How many Hobgoblin characters are there?\nUse the search bar in the tab to search for “Skrull”. How many Skrull characters are female? (Hint: Click the arrows in the sex heading to sort by sex.) How many Skrull characters have brown eyes? What years were Skrull characters part of the Marvel storyline?\nRun the syntax mean(appearances). You should get an error. Try to figure out why you are getting this error. (Hint: Look at the objects in your environment.) Can you figure out the syntax to find the average number of appearances for a comic character? (Hint: Because there are missing values in this column, you will need to add the argument na.rm=TRUE in the mean() function.)"
+  },
+  {
+    "objectID": "worksheets/worksheet-02-03-z-scores.html",
+    "href": "worksheets/worksheet-02-03-z-scores.html",
+    "title": "z-Scores",
+    "section": "",
+    "text": "Complete the problems on this worksheet with your break out group. You will have no more than 20 minutes."
+  },
+  {
+    "objectID": "worksheets/worksheet-02-03-z-scores.html#directions",
+    "href": "worksheets/worksheet-02-03-z-scores.html#directions",
+    "title": "z-Scores",
+    "section": "",
+    "text": "Complete the problems on this worksheet with your break out group. You will have no more than 20 minutes."
+  },
+  {
+    "objectID": "worksheets/worksheet-02-03-z-scores.html#problem-set-i",
+    "href": "worksheets/worksheet-02-03-z-scores.html#problem-set-i",
+    "title": "z-Scores",
+    "section": "Problem Set I",
+    "text": "Problem Set I\nConsider the distribution of the following six observations: \\(X = \\{1, 2, 2,3,4,12\\}\\).\n\nPlot these values. (Don’t bother using R, just create a dot plot by hand.)\nDescribe the shape of the distribution.\nCompute the mean of the distribution. (You can enter these observation into R using the c() function.)\nCompute the standard deviation of the distribution."
+  },
+  {
+    "objectID": "worksheets/worksheet-04-03-interactions.html",
+    "href": "worksheets/worksheet-04-03-interactions.html",
+    "title": "Interactions",
+    "section": "",
+    "text": "Use the fertility.csv data to fit an interaction model that uses the effects of female education level and the dummy-coded GNI predictor (high_gni) to explain variation in infant mortality rates. Remember, to fit an interaction model you need to create the interaction term and then include the constituent main effects AND the interaction term in the lm()."
+  },
+  {
+    "objectID": "worksheets/worksheet-04-03-interactions.html#directions",
+    "href": "worksheets/worksheet-04-03-interactions.html#directions",
+    "title": "Interactions",
+    "section": "",
+    "text": "Use the fertility.csv data to fit an interaction model that uses the effects of female education level and the dummy-coded GNI predictor (high_gni) to explain variation in infant mortality rates. Remember, to fit an interaction model you need to create the interaction term and then include the constituent main effects AND the interaction term in the lm()."
+  },
+  {
+    "objectID": "worksheets/worksheet-04-03-interactions.html#questions",
+    "href": "worksheets/worksheet-04-03-interactions.html#questions",
+    "title": "Interactions",
+    "section": "Questions",
+    "text": "Questions\n\nFit the interaction model and write out the fitted equation.\nGive a general interpretation about what it means to have an interaction effect between female education level and GNI on infant mortality rates. (No need to look at any output for this.)\nBased on the coefficient-level output, is there an interaction effect between female education level and GNI on infant mortality rates?\nWrite out the fitted equation for low GNI countries.\nWrite out the fitted equation for high GNI countries.\nPlot the two fitted equations.\nIs this an ordinal or disordinal interaction? Explain.\nUse the plot and the coefficient estimates to add to the general interpretation of the interaction effect you gave previously in Question 3. You should be able to give a more nuanced interpretation, including quantifying some findings.\nRemember that every interaction can be interpreted in two manners. You gave one of those interpretations in Question 3 (and 8). What is another way we can interpret the interaction effect between female education level and GNI on infant mortality rates."
+  },
+  {
+    "objectID": "assignments/assignment-02-introduction-to-regression.html",
+    "href": "assignments/assignment-02-introduction-to-regression.html",
+    "title": "Assignment 02",
+    "section": "",
+    "text": "Should more money be spent on public schools or should that money be spent elsewhere? Both sides of this ongoing public debate have been argued passionately, using a multitude of anecdotal evidence. Although we will not settle this debate, we will examine data akin to the types of data that policy makers use to make funding decisions. Specifically, you will use the data from the file state-education.csv to examine whether teacher salaries are related to SAT scores at the state level.\nSubmit a PDF document of your responses to the following questions. Please adhere to the following guidelines for further formatting your assignment:"
+  },
+  {
+    "objectID": "assignments/assignment-02-introduction-to-regression.html#preparation",
+    "href": "assignments/assignment-02-introduction-to-regression.html#preparation",
+    "title": "Assignment 02",
+    "section": "Preparation",
+    "text": "Preparation\nBefore carrying out any analyses, create a predictor called salary_thousand that indicates the average 2020–21 state salary in thousands of dollars (e.g., salary = 52143; salary_thousand = 52.143). This variable (not salary) should be used in all analyses in the assignment."
+  },
+  {
+    "objectID": "assignments/assignment-02-introduction-to-regression.html#questions",
+    "href": "assignments/assignment-02-introduction-to-regression.html#questions",
+    "title": "Assignment 02",
+    "section": "Questions",
+    "text": "Questions\n\nCreate a density plot of the distribution of total SAT scores. Make sure your plot has a caption.\nExamine the structure and formatting of Table 1 at https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html. Mimic the format and structure of this table to create a table to present the numerical summary information for the distributions of SAT total scores and salaries. Provide the same measures for these variables as is given in Table 1 in the article. Re-create the formatting of Table 1 as closely as you can. Finally, make sure the table you create also has an appropriate caption.\nCreate a scatterplot of the distribution of SAT total scores (Y) conditioned on teacher salaries (X). Make sure your plot has a caption.\nDescribe the relationship between teacher salaries and SAT total scores. Be sure to comment on the structural form, direction and strength of the relationship. Also comment on any potential observations that deviate from following this relationship (unusual observations or clusters of observations).\nCompute and report the correlation coefficient.\nIs the correlation coefficient and appropriate measure for this relationship? Explain by referring to the functional form you described in Question 4.\nRegress total SAT scores on teacher salaries. Write the fitted equation using Equation Editor (or some other program that correctly types mathematical expressions).\nInterpret the value of the intercept from the regression equation using the context of the data.\nInterpret the value of the slope from the regression equation using the context of the data.\nCompute, report, and interpret the value for \\(R^2\\) based on values from the ANOVA decomposition. Show your work for full credit.\nCompute and report the predicted mean SAT score for Minnesota students based on the average teacher salary in the state using the fitted regression equation. Show your work for full credit.\nCompute and report the residual for Minnesota. Show your work for full credit.\nExplain what the sign and magnitude of the residual value you computed in Question 12 tells you about how Minnesota’s mean SAT score compares to the mean SAT score for states having the same average teacher salary as Minnesota."
   },
   {
     "objectID": "assignments/assignment-05-categorical-predictors.html",
@@ -411,27 +502,6 @@
     "title": "Assignment 05",
     "section": "Pairwise Differences and Adjusted Means",
     "text": "Pairwise Differences and Adjusted Means\nUse the results from comparing the pairwise differences between the conditions of caught_by in the ANCOVA model to answer the questions in this section.\n\nCreate a table (suitable for publication) that presents each of the possible pairwise contrasts (null hypotheses) of interest, the unadjusted p-values from the controlled model, and the Benjamini–Hochberg adjusted p-values for the controlled differences. (Note: To obtain all of these, you may need to fit additional models.)\nCreate a visualization to show the adjusted mean engagement levels for different members of Mystery Inc that caught the villain. This visualization should mimic that of Figure 20.2 in the textbook. (This should be based on the Benjamini–Hochberg adjusted p-values.) Feel free to use any software tool you want to create this visualization."
-  },
-  {
-    "objectID": "class-policies.html",
-    "href": "class-policies.html",
-    "title": "Class Policies",
-    "section": "",
-    "text": "Policy for Missing Class and Making up Missed/Late Work\nStudents are responsible for planning their schedules to avoid excessive conflicts with course requirements and must notify the instructor of unavoidable scheduling conflicts as early as possible. For circumstances where absences are unavoidable, accommodations for makeup work will be made according to University Policy. If you miss class:\n\nEmail the instructor as soon as you know you will be missing class.\nStudents are expected to obtain notes from a classmate of class material missed.\nPlease note that I will not be recording class sessions at the request of individual students, nor will I be Zooming students in to the class. Although, if you can arrange it with a classmate, they can Zoom you in.\n\nIf you are zooming in a classmate, please let the instructor know.\n\nIf you will be gone the day an assignment is due, you will need to make arrangements with the instructor about when you will turn in the assignment.\n\nIf you do not communicate with the instructor and make arrangements for turning in work when you are absent, the assignment will receive a 0.\n\n\n\nChatGPT and Other AI Policy\nArtificial intelligence (AI) language models, such as ChatGPT, are emerging tools that we will all need to consider in the next few years. These tools may be used to help you write R syntax, but not for answering any of the other questions on the assignment. If you are in doubt as to whether you are using AI language models appropriately in this course, I encourage you to discuss your situation with me or the TA. If you do use any AI to help write syntax for any of the assignment questions you need to do the following:\n\nCite this in the assignment; failure to do so is in violation of the academic integrity policy at UMN. Please include a paragraph at the end of any assignment that uses AI explaining what you used the AI for and what prompts you used to get the results. More examples of citing AI language models are available at: https://libguides.umn.edu/chatgpt.\nInclude a statement about what you will do to offset the environmental impact of the energy use incurred by using the AI. Be specific in this statement. For example: I will bike to school for the next week (Jan. 01–Jan 07) rather than drive or bus.\n\nYou are also responsible for ensuring any syntax composed by AI is correct. I would not trust anything AI says. If it gives you a number, fact, or code, assume it is wrong unless you either know the answer or can check in with another source. For this reason, using AI works best for topics you understand and can quality check. Here are a couple of other things to be aware of if you decide to use AI:\n\nThe environmental impact of AI should not be ignored. The building and usage of AI tools consumes a lot of energy (see here and here).\nThe development of AI has been associated with labor abuse and other dicey ethical issues (see here and here).\n\nIf you are caught using AI to answer questions on any of the assignments, you will be given a 0 on that assignment and a Scholastic Dishonesty Report Form will be filled out and reported to the Office of Community Standards. Depending on the severity of the offense, the instructor also reserves the right to give you an “F” in the course.\n\n\n\nTechnology Policy\nThe course uses technology on a regular basis during both instruction and assessments (e.g., homework assignments, exams, etc.). Student difficulty with obtaining or operating the various software programs and technologies—including printer trouble—will not be acceptable as an excuse for late work. Due to the variation in computer types and systems, the instructor or TA may not be able to assist in trouble shooting all problems you may have.\n\n\n\n\nCEHD Policy on Recording Classes\nAll class sessions may be recorded by the instructor using the procedures in the CEHD Policy on Recording Classes, with or without prior notice. Students should assume that a class session is being recorded unless otherwise notified. No person (student or otherwise) may record a class without express written permission from the instructor or an authorized administrator implementing a disability accommodation. All permitted recordings are governed by this policy’s limits on distribution and redistribution of recordings."
-  },
-  {
-    "objectID": "files/00-welcome-to-8251.html",
-    "href": "files/00-welcome-to-8251.html",
-    "title": "📖 Welcome to EPsy 8251",
-    "section": "",
-    "text": "Here are some things to do before the first class:\nRequired\n\nRead through and familiarize yourself with the course website. This website acts as the syllabus for the course. \nInstall R and RStudio:\n\nDownload and install the most recent version of R (version 4.4.1; Race for Your Life) on your computer.\nDownload and install the most recent version of and RStudio Desktop (version 2024.04.2+764) on your computer."
-  },
-  {
-    "objectID": "mission-statements.html",
-    "href": "mission-statements.html",
-    "title": "Mission Statements",
-    "section": "",
-    "text": "Quantitative Methods in Education Mission Statement\nQME strives to be a premier program recognized for leadership, innovation, and excellence, and to enable human potential through the advancement of education. QME prepares students to become cutting-edge professionals in educational measurement, evaluation, statistics, and statistics education, through excellence in teaching, research, and service; and through investigating and developing research methodology in education.\n\n\n\nDepartment of Educational Psychology Mission Statement\nEducational psychology involves the study of cognitive, emotional, and social learning processes that underlie education and human development across the lifespan. Research in educational psychology advances scientific knowledge of those processes and their application in diverse educational and community settings. The department provides training in the psychological foundations of education, research methods, and the practice and science of counseling psychology, school psychology, and special education. Faculty and students provide leadership and consultation to the state, the nation, and the international community in each area of educational psychology. The department’s scholarship and teaching enhance professional practice in schools and universities, community mental health agencies, business and industrial organizations, early childhood programs, and government agencies. Adopted by the Department. of Educational Psychology faculty October 27, 2004\n\n\n\nCollege of Education + Human Development Mission Statement\nThe mission of the University of Minnesota College of Education and Human Development is to contribute to a just and sustainable future through engagement with the local and global communities to enhance human learning and development at all stages of the life span."
   },
   {
     "objectID": "umn-policies.html",
@@ -539,171 +609,45 @@
     "text": "Footnotes\n\n\nLanguage adapted from the American Association of University Professors “Joint Statement on Rights and Freedoms of Students”.↩︎"
   },
   {
-    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html",
-    "href": "worksheets/worksheet-01-04-learning-dplyr.html",
-    "title": "Learning dplyr Worksheet",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Instructor/TA",
     "section": "",
-    "text": "Work with one or more other students to complete each of the tasks in this document. As you work through these tasks, you may want to refer to the following:\n\nData Wrangling with dplyr\n\nAs part of this, include the syntax you use to complete each tasks in a script file. As you write your script file, adhere to good coding practices:\n\nInclude comments\nInclude spaces\nInclude a line break after every pipe operator you use.\n\nYou can check in with Andy or the TA at the completion of each task to check your work."
+    "text": "Instructor: Andrew Zieffler  Email: zief0002@umn.edu  Office: Education Sciences Building 178  Office Hours: Tuesday 1:00 PM–2:00 PM; and by appointment  Virtual Office: If you want to meet virtually, send me a Google calendar invite and include a Zoom link in the invite.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTA: Xinyue Zhang  Email: zhan6764@umn.edu  Office: Education Sciences Building 197  Office Hours: Thursday 2:30 PM–3:30 PM; and by appointment Virtual Office: If you want to meet Xinyue virtually, send her a Google calendar invite and include a Zoom link in the invite."
   },
   {
-    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#directions",
-    "href": "worksheets/worksheet-01-04-learning-dplyr.html#directions",
-    "title": "Learning dplyr Worksheet",
-    "section": "",
-    "text": "Work with one or more other students to complete each of the tasks in this document. As you work through these tasks, you may want to refer to the following:\n\nData Wrangling with dplyr\n\nAs part of this, include the syntax you use to complete each tasks in a script file. As you write your script file, adhere to good coding practices:\n\nInclude comments\nInclude spaces\nInclude a line break after every pipe operator you use.\n\nYou can check in with Andy or the TA at the completion of each task to check your work."
+    "objectID": "index.html#welcome-to-epsy-8251-statistical-methods-in-education-i",
+    "href": "index.html#welcome-to-epsy-8251-statistical-methods-in-education-i",
+    "title": "EPsy 8251",
+    "section": "Welcome to EPsy 8251: Statistical Methods in Education I",
+    "text": "Welcome to EPsy 8251: Statistical Methods in Education I\nEPsy 8251: Statistical Methods in Education I is the first course in an entry-level, doctoral sequence for students in education. The two semester sequence provides in-depth coverage of widely used statistical methods and models and prepares students for advanced statistical coursework. EPsy 8251 provides rigorous coverage of estimation and hypothesis testing with a particular focus on the General Linear Model. The roadmap for the course is:\n\n\n\n\n\n\n\n\n\nEPsy 8251 is a 3 credit course. It is expected that the academic work required of Graduate School and professional school students will exceed three hours per credit per week (see Expected Time per Course Credit Policy). In my experience, it is typical for students to spend 10–15 hours a week on this course. As with every class, some students will spend more time than that on this course, while others will spend less time than that—it all depends on your prior experiences with statistics and computing. If you find yourself consistently spending more than 20 hours a week on the course, please make an appointment to see the instructor so that we can strategize about how to best optimize how you are devoting time to the course."
   },
   {
-    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-1-import-data",
-    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-1-import-data",
-    "title": "Learning dplyr Worksheet",
-    "section": "Task 1: Import Data",
-    "text": "Task 1: Import Data\nImport the comic-characters.csv data into an object named comics. Also, examine the data codebook so you are familiar with the different variables."
+    "objectID": "index.html#classroom",
+    "href": "index.html#classroom",
+    "title": "EPsy 8251",
+    "section": "Classroom",
+    "text": "Classroom\n\nMonday/Wednesday (2:30pm–3:45pm): Scott Hall 4\nTuesday/Thursday (11:15am–12:30pm): Appleby Hall 103"
   },
   {
-    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-2-arranging",
-    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-2-arranging",
-    "title": "Learning dplyr Worksheet",
-    "section": "Task 2: Arranging",
-    "text": "Task 2: Arranging\nUse the arrange() function to determine whether Marvel and DC introduced LGBTQ characters around the same time, or whether one company was more progressive?"
+    "objectID": "index.html#textbooks",
+    "href": "index.html#textbooks",
+    "title": "EPsy 8251",
+    "section": "Textbooks",
+    "text": "Textbooks\nThe course textbook is available online.\n\nRequired: Zieffler, A. (2024). Statistical modeling and computation for educational scientists.\n\nThe optional course textbook is available via the University of Minnesota library.\n\nOptional: Lewis-Beck, C., & Lewis-Beck, M. (2016). Applied regression: An introduction. Thousand Oaks, CA: Sage. doi: 10.4135/9781483396774"
   },
   {
-    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-3-more-arranging",
-    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-3-more-arranging",
-    "title": "Learning dplyr Worksheet",
-    "section": "Task 3: More Arranging",
-    "text": "Task 3: More Arranging\nUse the arrange() function to determine the first appearance of an LGBTQ female character in DC comics."
+    "objectID": "index.html#statistical-computing",
+    "href": "index.html#statistical-computing",
+    "title": "EPsy 8251",
+    "section": "Statistical Computing",
+    "text": "Statistical Computing\nStatistical computing is an integral part of statistical work, and subsequently, EPsy 8251. To support your learning in this area, this course will emphasize the use of R. R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS. You can install R onto your local machine. (There are instructions for how to do this in the course textbook.) You are responsible for getting things to work on your computer. While it should be straightforward, each OS and computer has their quirks. I can try to help you with this if you are having trouble.\nIt should be noted that while some R syntax and programming is taught during class time, there is also a fair amount that you may need to learn on your own outside of class. There are several tutorials and resources linked from the course website to help you learn R.\n\n\nA Note on Inclusion and Respect\nIn this class, we will work together to develop a learning community that is inclusive and respectful, and where every student is supported in the learning process. As a class full of diverse individuals (reflected by differences in race, culture, age, religion, gender identity, sexual orientation, socioeconomic background, abilities, professional goals, and other social identities and life experiences) I expect that different students may need different things to support and promote their learning. The TAs and I will do everything we can to help with this, but as we only know what we know, we need you to communicate with us if things are not working for you or you need something we are not providing. I hope you all feel comfortable in helping to promote an inclusive classroom through respecting one another’s individual differences, speaking up, and challenging oppressive/problematic ideas. Finally, I look forward to learning from each of you and the experiences you bring to the class."
   },
   {
-    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-4-filtering-rows",
-    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-4-filtering-rows",
-    "title": "Learning dplyr Worksheet",
-    "section": "Task 4: Filtering Rows",
-    "text": "Task 4: Filtering Rows\nUse the filter() function and nrow() to determine the percentage of female comic characters."
-  },
-  {
-    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-5-more-filtering",
-    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-5-more-filtering",
-    "title": "Learning dplyr Worksheet",
-    "section": "Task 5: More Filtering",
-    "text": "Task 5: More Filtering\nUse the filter() function and nrow() to determine the percentage of LGBTQ comic characters introduced in 1970 or later. Based on the result is there evidence that the Pride Movement may have had an impact on LGBTQ representation?"
-  },
-  {
-    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-6-selecting-columns",
-    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-6-selecting-columns",
-    "title": "Learning dplyr Worksheet",
-    "section": "Task 6: Selecting Columns",
-    "text": "Task 6: Selecting Columns\nThe Selecting a Subset of Columns section of Data Wrangling with dplyr included syntax for selecting a subset of data and exporting it to a directory on your computer. Modify the syntax to export a CSV of the LGBTQ character data to the desktop on your computer.\nAlso try modifying the syntax to export the CSV file to another folder/directory on your computer."
-  },
-  {
-    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-7-mutating-columns",
-    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-7-mutating-columns",
-    "title": "Learning dplyr Worksheet",
-    "section": "Task 7: Mutating Columns",
-    "text": "Task 7: Mutating Columns\nCreate a new column called first_appearance_pride that indicates how many years before or after the Pride Movement (1970) the character’s first appearance happened. For example a character that first appeared in 1980 would have a value of 10, and a character that first appeared in 1968 would have a value of -2. Assign the data that includes this column into an object called comics2."
-  },
-  {
-    "objectID": "worksheets/worksheet-01-04-learning-dplyr.html#task-8-grouping-and-summarizing",
-    "href": "worksheets/worksheet-01-04-learning-dplyr.html#task-8-grouping-and-summarizing",
-    "title": "Learning dplyr Worksheet",
-    "section": "Task 8: Grouping and Summarizing",
-    "text": "Task 8: Grouping and Summarizing\nModify the syntax in the Computations on Groups section of Data Wrangling with dplyr to determine the average number of appearances for both DC and Marvel LGBTQ and non-LGBTQ characters (as well as the standard deviation and sample size) before and after the Pride Movement."
-  },
-  {
-    "objectID": "worksheets/worksheet-02-03-z-scores.html",
-    "href": "worksheets/worksheet-02-03-z-scores.html",
-    "title": "z-Scores",
-    "section": "",
-    "text": "Complete the problems on this worksheet with your break out group. You will have no more than 20 minutes."
-  },
-  {
-    "objectID": "worksheets/worksheet-02-03-z-scores.html#directions",
-    "href": "worksheets/worksheet-02-03-z-scores.html#directions",
-    "title": "z-Scores",
-    "section": "",
-    "text": "Complete the problems on this worksheet with your break out group. You will have no more than 20 minutes."
-  },
-  {
-    "objectID": "worksheets/worksheet-02-03-z-scores.html#problem-set-i",
-    "href": "worksheets/worksheet-02-03-z-scores.html#problem-set-i",
-    "title": "z-Scores",
-    "section": "Problem Set I",
-    "text": "Problem Set I\nConsider the distribution of the following six observations: \\(X = \\{1, 2, 2,3,4,12\\}\\).\n\nPlot these values. (Don’t bother using R, just create a dot plot by hand.)\nDescribe the shape of the distribution.\nCompute the mean of the distribution. (You can enter these observation into R using the c() function.)\nCompute the standard deviation of the distribution."
-  },
-  {
-    "objectID": "worksheets/worksheet-04-02-multiple-comparisons.html",
-    "href": "worksheets/worksheet-04-02-multiple-comparisons.html",
-    "title": "Hospitalizations and Astrological Sign",
-    "section": "",
-    "text": "Discuss the following study with your group. Do you believe the findings? Why or why not?\n\nMethods\nA study was conducted of 5,337,472 residents of Ontario aged between 18 and 100 years in 2000 using the Registered Person’s Database. These residents were classified according to their astrological sign. The researchers then searched through 223 of the most common diagnoses for hospitalization and identified 72 (32.3%) for which residents born under one astrological sign had a significantly higher probability of hospitalization compared to residents born under the other astrological signs combined. For example, Libras were 1.37 times more likely to be hospitalized for a fractured pelvis than people born under other astrological signs (\\(p=.0108\\)).\nThe p-values for the 72 significant associations ranged from 0.0003 to 0.0488. The two most frequently occurring diagnoses for which each astrological sign had a higher probability of hospitalization compared to the other astrological signs combined are described in Table 1."
-  },
-  {
-    "objectID": "worksheets/worksheet-04-02-multiple-comparisons.html#directions",
-    "href": "worksheets/worksheet-04-02-multiple-comparisons.html#directions",
-    "title": "Hospitalizations and Astrological Sign",
-    "section": "",
-    "text": "Discuss the following study with your group. Do you believe the findings? Why or why not?\n\nMethods\nA study was conducted of 5,337,472 residents of Ontario aged between 18 and 100 years in 2000 using the Registered Person’s Database. These residents were classified according to their astrological sign. The researchers then searched through 223 of the most common diagnoses for hospitalization and identified 72 (32.3%) for which residents born under one astrological sign had a significantly higher probability of hospitalization compared to residents born under the other astrological signs combined. For example, Libras were 1.37 times more likely to be hospitalized for a fractured pelvis than people born under other astrological signs (\\(p=.0108\\)).\nThe p-values for the 72 significant associations ranged from 0.0003 to 0.0488. The two most frequently occurring diagnoses for which each astrological sign had a higher probability of hospitalization compared to the other astrological signs combined are described in Table 1."
-  },
-  {
-    "objectID": "assignments/assignment-04-introduction-to-multiple-regression.html",
-    "href": "assignments/assignment-04-introduction-to-multiple-regression.html",
-    "title": "Assignment 04",
-    "section": "",
-    "text": "Human overpopulation is a growing concern and has been associated with depletion of Earth’s natural resources (water is a big one) and degredation of the environment. This, in turn, has social and economic consequences such as global tension over resources such as water and food, higher cost of living and higher unemployment rates.\nFertility rate is a measure directly linked to population and has been useful to explore hypotheses about factors related to combating overpopulation. For this assignment, you will use the file fertility.csv to examine the effects of the rate of contraception (a factor that can be manipulated through targeted intervention) on fertility rates.\nSubmit your responses to each of the questions below in a PDF document. All graphics should be resized so that they do not take up more room than necessary and also should have an appropriate caption. This assignment is worth 18 points. (Each question is worth 1 point unless otherwise noted.)"
-  },
-  {
-    "objectID": "assignments/assignment-04-introduction-to-multiple-regression.html#part-i-correlations",
-    "href": "assignments/assignment-04-introduction-to-multiple-regression.html#part-i-correlations",
-    "title": "Assignment 04",
-    "section": "Part I: Correlations",
-    "text": "Part I: Correlations\n\nCreate a path model of the correlations between fertility rate, contraception rate, infant mortality rate, and female education level.\n\nConsider the following hypotheses about different potential predictors of fertility rates:\n\nHypothesis 1: Countries with higher contraception rates tend to have lower fertility rates.\nHypothesis 2: Countries with lower infant mortality rates tend to have higher fertility rates.\nHypothesis 3: Countries with higher female education rates tend to have lower fertility rates.\n\n\nUse the correlations computed in Question 1 to evaluate each of the three hypotheses. For each hypothesis indicate whether the empirical results support that hypothesis or not by referencing the appropriate correlation(s)."
-  },
-  {
-    "objectID": "assignments/assignment-04-introduction-to-multiple-regression.html#part-ii-regression-analysis",
-    "href": "assignments/assignment-04-introduction-to-multiple-regression.html#part-ii-regression-analysis",
-    "title": "Assignment 04",
-    "section": "Part II: Regression Analysis",
-    "text": "Part II: Regression Analysis\nYou will fit three regression models to study the effect of contraceptive rates (focal predictor) on fertility rate (outcome). Because infant mortality rate and female education level (our two covariates) are related to both the focal predictor and outcome, they may confound the effect of contraceptive rates on fertility rate (see hypothesized path model).\n\n\n\n\n\n\n\n\n\n\nBased on the corrlations you produced in Question 1, indicate whether it is reasonable to be worried that the two covariates may confound the relationship between contraceptive rates and fertility rates. Explain by referring to the correlations.\n\nTo remove the confounding and evaluate the effect of contraceptive rates on fertility rate, you will fit a series of regression models.\n\nModel 1: Contraceptive rate as the sole predictor of variation in fertility rate.\nModel 2: Contraceptive rate and infant mortality rate as predictors of variation in fertility rate.\nModel 3: Contraceptive rate and female education level as predictors of variation in fertility rate.\nModel 4: Contraceptive rate, infant mortality rate, and female education level as predictors of variation in fertility rate.\n\n\nExamine the structure and formatting of Table 9 at https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html. Mimic the format and structure of this table to create a table to present the numerical information from the three models you fitted. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to “Landscape”, rather than changing the size of the font. (2pts.)"
-  },
-  {
-    "objectID": "assignments/assignment-04-introduction-to-multiple-regression.html#model-3-interpreting-results-from-the-final-model",
-    "href": "assignments/assignment-04-introduction-to-multiple-regression.html#model-3-interpreting-results-from-the-final-model",
-    "title": "Assignment 04",
-    "section": "Model 3: Interpreting Results from the “Final” Model",
-    "text": "Model 3: Interpreting Results from the “Final” Model\nThe research literature suggests that all three predictors are substantively important in predicting variation in fertility rates. Moreover, from the CIs produced in Model 3, we see that all three effects included in the model are statistically relevant (none of the CIs span 0). Because of this, we will adopt Model 3 as our “final” model. Use the results from Model 3 to answer the remainder of the questions on this assignment.\n\nReport the regression equation from fitting Model 3. Use Equation Editor (or some other program that correctly types mathematical expressions) to typeset the equation correctly.\nReport and interpret the value of the model \\(R^2\\) using the context of the data.\nUsing symbols, write the omnibus null hypothesis that is tested by the model-level F-statistic in this analysis in two different manners: (1) using the coefficient parameters used in the regression model, and (2) using the variance accounted for parameter.\nBased on the results of the model-level F-test, does the model seem to explain variation in fertility rates? Explain. Note: Here you can use the p-value as evidence, but do not compare this to 0.05.\nInterpret the estimated coefficient value associated with the partial effect of contraception rate.\nBased on the 95% confidence interval for the partial effect of contraception rate on fertility rate, which parameter values are reasonably compatible with the empirical data? Explain what this implies about the magnitude of the partial effect.\nCreate a publication quality plot that displays the results from Model 3. For this plot, put the contraception predictor on the x-axis. Control out the effect of education level by setting this to the mean level of education. Display two separate lines to show the effect of infant mortality rate; a small and large rate based on the data. The two lines should be displayed using different linetypes or colors (or both) so that they can be easily differentiated in the plot. Be sure that the figure is appropriately captioned. (2pts.)"
-  },
-  {
-    "objectID": "assignments/assignment-06-interaction-models.html#part-i-correlations-and-interactions",
-    "href": "assignments/assignment-06-interaction-models.html#part-i-correlations-and-interactions",
-    "title": "Assignment 06",
-    "section": "Part I: Correlations and Interactions",
-    "text": "Part I: Correlations and Interactions\n\nCreate and report a table of pairwise correlations between engagement, each of the three dummy variables you created to represent caught_by, IMDb rating, number of catchphrases uttered, and the media format dummy variable. To create this table mimic the formatting of Table 4 in the “Presenting Correlation Coefficients” section here.\nBased on the correlation table, can you infer whether or not there will be a sample interaction between between IMDb rating and number of catchphrases uttered? Explain."
-  },
-  {
-    "objectID": "assignments/assignment-06-interaction-models.html#part-ii-table-of-regression-results",
-    "href": "assignments/assignment-06-interaction-models.html#part-ii-table-of-regression-results",
-    "title": "Assignment 06",
-    "section": "Part II: Table of Regression Results",
-    "text": "Part II: Table of Regression Results\n\n(2pts.) Examine the structure and formatting of Table 9 in the “Presenting Results from Many Fitted Regression Models” section here. Mimic the format and structure of this table to create a table to present the numerical information from the three models you fitted in this assignment. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to ``Landscape’’, rather than changing the size of the font."
-  },
-  {
-    "objectID": "assignments/assignment-06-interaction-models.html#part-iii-model-b",
-    "href": "assignments/assignment-06-interaction-models.html#part-iii-model-b",
-    "title": "Assignment 06",
-    "section": "Part III: Model B",
-    "text": "Part III: Model B\n\nWrite the fitted regression equation for Model B.\nBased on the inferential results from fitting this model, is there an interaction effect between media format and IMDb rating? Explain.\nInterpret the coefficient associated with the interaction effect between media format and IMDb rating.\nRe-write the fitted regression equation, by writing two fitted equations: one for TV episodes and one for movies. Be sure each equation is identified with the appropriate subgroup.\nCreate and include a plot of the fitted model showing the pertinent results from Model B. Be sure to appropriately differentiate between lines that you include in the plot (e.g., do not differentiate by color unless you plan to print in color). If you partial out any variables, be sure to note this in the caption."
-  },
-  {
-    "objectID": "assignments/assignment-06-interaction-models.html#part-iv-model-c",
-    "href": "assignments/assignment-06-interaction-models.html#part-iv-model-c",
-    "title": "Assignment 06",
-    "section": "Part IV: Model C",
-    "text": "Part IV: Model C\n\nWrite the fitted regression equation for Model C.\nBased on the inferential results from fitting this model, is there an interaction effect between number of catchphrases uttered and IMDb rating? Explain.\nCreate and include a plot of the fitted model showing the pertinent results from Model C. Be sure to appropriately differentiate between lines that you include in the plot (e.g., do not differentiate by color unless you plan to print in color). If you partial out any variables, be sure to note this in the caption.\nUse the plot you created in Question 11 to help interpret the interaction effect between number of catchphrases uttered and IMDb rating."
-  },
-  {
-    "objectID": "assignments.html#work-collaboratively-or-individually",
-    "href": "assignments.html#work-collaboratively-or-individually",
-    "title": "Assignments and Grading",
-    "section": "Work Collaboratively or Individually",
-    "text": "Work Collaboratively or Individually\nTo foster cooperation and collaboration, you are permitted to form groups of no larger than three to work on the homework. Submit only one assignment per group, and list the names of each group member on the assignment. Each assignment will be scored and this score will be given to all individuals in the group. If you work alone on the assignments, you need to truly work alone. To protect against running afoul of the scholastic dishonesty policy, students working alone are not permitted to interact with any other student in regards to the assignment, including discussion, obtaining help, etc.\n\nTips for Successful Collaborations\nFrom past experience, student collaborations work most fluidly when everyone in the group is on the same page. Whether it be grade and working expectations, commitment to the course during the semester, or process for getting the work done, it is important to explicitly lay out and communicate your expectations to your group members. The most successful groups communicate with one another. The more you can anticipate issues and communicate about them, the better the experience for everyone. Here are some questions you may want to address as you form your groups:\n\nWhat process works best for our group for working together towards the assignment?\nDo we want to each complete individually and share with each other?\nWould we want to meet and work on it together at the same time?\nDo we want to rotate who submits the assignment?\nHow will we deal with the possibility that one member of the group is falling behind?"
+    "objectID": "index.html#image-attribution",
+    "href": "index.html#image-attribution",
+    "title": "EPsy 8251",
+    "section": "Image Attribution",
+    "text": "Image Attribution\n\nThe icon in the Inclusion Note is from Lambiek Comiclopedia.\nThe icon of Tilly the Therapy Chicken in the Stress Management note is used with permission of the PAWS program.\nThe icon in the Missing Class Policy is from the Warner Brothers Entertainment Wiki.\nThe icon in the ChatGPT and Other AI Policy is from Wikipedia.\nThe icon in the Technology Policy is from the Trends International Amazon Store.\nThe icon in the CEHD Policy on Recording note is from Writeups.org."
   }
 ]

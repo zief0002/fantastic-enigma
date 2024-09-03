@@ -18,8 +18,8 @@ knitr::include_graphics("../img/assign-02.png")
 
 Should more money be spent on public schools or should that money be spent elsewhere? Both sides of this ongoing public debate have been argued passionately, using a multitude of anecdotal evidence. Although we will not settle this debate, we will examine data akin to the types of data that policy makers use to make funding decisions. Specifically, you will use the data from the file *state-education.csv* to examine whether teacher salaries are related to SAT scores at the state level.
 
-- [[CSV]](https://raw.githubusercontent.com/zief0002/fantastic-enigma/main/data/state-education.csv)
-- [[Data Codebook]](https://zief0002.github.io/fantastic-enigma/codebooks/state-education.html)
+- [[CSV]](https://raw.githubusercontent.com/zief0002/modeling/main/data/state-education.csv)
+- [[Data Codebook]](https://zief0002.github.io/modeling/07-11-state-education.html)
 
 
 Submit a PDF document of your responses to the following questions. Please adhere to the following guidelines for further formatting your assignment:
