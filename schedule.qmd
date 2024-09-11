@@ -90,7 +90,7 @@ The readings indicate chapters in the [Zieffler, A. (2024)](https://zief0002.git
 </td>
 <td>[Data Wrangling with dplyr](worksheets/worksheet-01-04-learning-dplyr.html)</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/01-04-data-wrangling-with-dplyr.R) -->
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/01-04-data-wrangling-with-dplyr.R)
 </td>
 </tr>
 
