@@ -77,7 +77,7 @@ The readings indicate chapters in the [Zieffler, A. (2024)](https://zief0002.git
 <td>[Introduction to R and RStudio](worksheets/worksheet-01-01-using-R.html)</td>
 
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/01-01-introduction-to-r.R) -->
+  [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/01-01-introduction-to-r.R)
 </td>
 </tr>
 
