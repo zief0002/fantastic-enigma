@@ -123,7 +123,7 @@ The readings indicate chapters in the [Zieffler, A. (2024)](https://zief0002.git
 <td>Spt. 18</td>
 <td>Spt. 17</td>
 <td align="center" style="vertical-align:middle;" rowspan="2">
-  [Ch. 6--7](scripts/02-02-simple-regression-and-correlation.html)
+  [Ch. 6--7](https://zief0002.github.io/modeling/02-02-simple-regression-and-correlation.html)
 </td>
 <td style="vertical-align:middle;" rowspan="2">Data Exploration for Regression<br />Simple Linear Regression and Correlation
 <td align="center" style="vertical-align:middle;" rowspan="2">
