@@ -9,7 +9,7 @@
 <meta name="author" content="Small Group">
 <meta name="dcterms.date" content="2024-09-26">
 
-<title>Hospitalizations and Astrological Sign – EPsy 8251</title>
+<title>Simple Regression Worksheet – EPsy 8251</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,35 +70,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <script src="https://kit.fontawesome.com/e5da75ca36.js" crossorigin="anonymous"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../assets/sticky-notes.css">
 </head>
@@ -169,6 +140,15 @@ window.Quarto = {
    
   <ul>
   <li><a href="#directions" id="toc-directions" class="nav-link active" data-scroll-target="#directions">Directions</a></li>
+  <li><a href="#task-1-import-data" id="toc-task-1-import-data" class="nav-link" data-scroll-target="#task-1-import-data">Task 1: Import Data</a></li>
+  <li><a href="#task-2-marginal-distribution-of-seniority-level" id="toc-task-2-marginal-distribution-of-seniority-level" class="nav-link" data-scroll-target="#task-2-marginal-distribution-of-seniority-level">Task 2: Marginal Distribution of Seniority-level</a></li>
+  <li><a href="#task-3-relationship-between-seniority-level-and-income" id="toc-task-3-relationship-between-seniority-level-and-income" class="nav-link" data-scroll-target="#task-3-relationship-between-seniority-level-and-income">Task 3: Relationship between Seniority-level and Income</a></li>
+  <li><a href="#task-4-compute-the-correlation-coefficient" id="toc-task-4-compute-the-correlation-coefficient" class="nav-link" data-scroll-target="#task-4-compute-the-correlation-coefficient">Task 4: Compute the Correlation Coefficient</a></li>
+  <li><a href="#task-5-fit-the-regression-model" id="toc-task-5-fit-the-regression-model" class="nav-link" data-scroll-target="#task-5-fit-the-regression-model">Task 5: Fit the Regression Model</a></li>
+  <li><a href="#task-6-coefficient-interpretations" id="toc-task-6-coefficient-interpretations" class="nav-link" data-scroll-target="#task-6-coefficient-interpretations">Task 6: Coefficient Interpretations</a></li>
+  <li><a href="#task-7-compute-the-sum-of-squared-error-sse-for-the-fitted-model" id="toc-task-7-compute-the-sum-of-squared-error-sse-for-the-fitted-model" class="nav-link" data-scroll-target="#task-7-compute-the-sum-of-squared-error-sse-for-the-fitted-model">Task 7: Compute the Sum of Squared Error (SSE) for the Fitted Model</a></li>
+  <li><a href="#task-8-fit-an-intercept-only-model-and-compute-the-sse-for-it" id="toc-task-8-fit-an-intercept-only-model-and-compute-the-sse-for-it" class="nav-link" data-scroll-target="#task-8-fit-an-intercept-only-model-and-compute-the-sse-for-it">Task 8: Fit an Intercept-Only Model and Compute the SSE for It</a></li>
+  <li><a href="#task-9-compute-the-proportion-reduction-in-error-pre" id="toc-task-9-compute-the-proportion-reduction-in-error-pre" class="nav-link" data-scroll-target="#task-9-compute-the-proportion-reduction-in-error-pre">Task 9: Compute the Proportion Reduction in Error (PRE)</a></li>
   </ul>
 </nav>
     </div>
@@ -177,7 +157,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hospitalizations and Astrological Sign</h1>
+<h1 class="title">Simple Regression Worksheet</h1>
 </div>
 
 
@@ -208,20 +188,58 @@ window.Quarto = {
 
 <section id="directions" class="level2">
 <h2 class="anchored" data-anchor-id="directions">Directions</h2>
-<p>Discuss the following study with your group. Do you believe the findings? Why or why not?</p>
+<p>Work with one or more other students to complete each of the tasks in this document. As part of this, include the syntax you use to complete each tasks in a script file. As you write your script file, adhere to good coding practices:</p>
+<ul>
+<li>Include comments</li>
+<li>Include spaces</li>
+<li>Include a line break after every pipe operator you use.</li>
+</ul>
+<p>You will also need to answer some questions in a Word or Google document.</p>
 <p><br></p>
-<p><strong>Methods</strong></p>
-<p>A study was conducted of 5,337,472 residents of Ontario aged between 18 and 100 years in 2000 using the Registered Person’s Database. These residents were classified according to their astrological sign. The researchers then searched through 223 of the most common diagnoses for hospitalization and identified 72 (32.3%) for which residents born under one astrological sign had a significantly higher probability of hospitalization compared to residents born under the other astrological signs combined. For example, Libras were 1.37 times more likely to be hospitalized for a fractured pelvis than people born under other astrological signs (<span class="math inline">\(p=.0108\)</span>).</p>
-<p>The <em>p</em>-values for the 72 significant associations ranged from 0.0003 to 0.0488. The two most frequently occurring diagnoses for which each astrological sign had a higher probability of hospitalization compared to the other astrological signs combined are described in Table 1.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="../img/worksheet-06-table-01.png" class="img-fluid figure-img" width="823"></p>
-</figure>
-</div>
-</div>
-</div>
+</section>
+<section id="task-1-import-data" class="level2">
+<h2 class="anchored" data-anchor-id="task-1-import-data">Task 1: Import Data</h2>
+<p>Import the <a href="https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/riverview.csv">riverview.csv</a> data into an object named <code>city</code>. Also, examine the <a href="https://zief0002.github.io/rustic-penguin/codebooks/riverview.html">data codebook</a> so you are familiar with the different attributes.</p>
+<p><br></p>
+</section>
+<section id="task-2-marginal-distribution-of-seniority-level" class="level2">
+<h2 class="anchored" data-anchor-id="task-2-marginal-distribution-of-seniority-level">Task 2: Marginal Distribution of Seniority-level</h2>
+<p>Create a density plot of the years of seniority attribute (<code>seniority</code>). You may also want to produce summary statistics for this attribute. Describe the shape, center (i.e., typical value), and variability. Be sure to use the data context in this description.</p>
+<p><br></p>
+</section>
+<section id="task-3-relationship-between-seniority-level-and-income" class="level2">
+<h2 class="anchored" data-anchor-id="task-3-relationship-between-seniority-level-and-income">Task 3: Relationship between Seniority-level and Income</h2>
+<p>Create a scatterplot of the relationship between seniority-level and income. In this plot assume income is the outcome and seniority-level is the predictor. Describe this relationship by indicating the functional form, direction, magnitude, strength, and any potential outliers. Be sure to use the data context in this description.</p>
+<p><br></p>
+</section>
+<section id="task-4-compute-the-correlation-coefficient" class="level2">
+<h2 class="anchored" data-anchor-id="task-4-compute-the-correlation-coefficient">Task 4: Compute the Correlation Coefficient</h2>
+<p>Compute and report the correlation coefficient between seniority-level and income.</p>
+<p><br></p>
+</section>
+<section id="task-5-fit-the-regression-model" class="level2">
+<h2 class="anchored" data-anchor-id="task-5-fit-the-regression-model">Task 5: Fit the Regression Model</h2>
+<p>Fit the regression model that uses seniority-level to predict variation in income. Write the fitted equation. Be sure you can write the fitted equation using Equation Editor in Microsoft Word/Google Docs. (This includes adding any hats, or subscripts!)</p>
+<p><br></p>
+</section>
+<section id="task-6-coefficient-interpretations" class="level2">
+<h2 class="anchored" data-anchor-id="task-6-coefficient-interpretations">Task 6: Coefficient Interpretations</h2>
+<p>Interpret the intercept and slope from the fitted equation.</p>
+<p><br></p>
+</section>
+<section id="task-7-compute-the-sum-of-squared-error-sse-for-the-fitted-model" class="level2">
+<h2 class="anchored" data-anchor-id="task-7-compute-the-sum-of-squared-error-sse-for-the-fitted-model">Task 7: Compute the Sum of Squared Error (SSE) for the Fitted Model</h2>
+<p>Compute the SSE for the model. Include the syntax you used to compute this.</p>
+<p><br></p>
+</section>
+<section id="task-8-fit-an-intercept-only-model-and-compute-the-sse-for-it" class="level2">
+<h2 class="anchored" data-anchor-id="task-8-fit-an-intercept-only-model-and-compute-the-sse-for-it">Task 8: Fit an Intercept-Only Model and Compute the SSE for It</h2>
+<p>Fit an intercept-only model predicting variation in incomes. Use that model to compute the SSE. Include the syntax you used to compute this.</p>
+<p><br></p>
+</section>
+<section id="task-9-compute-the-proportion-reduction-in-error-pre" class="level2">
+<h2 class="anchored" data-anchor-id="task-9-compute-the-proportion-reduction-in-error-pre">Task 9: Compute the Proportion Reduction in Error (PRE)</h2>
+<p>Use the two SSE measures to compute the PRE. Show your work. Also interpret the value using the data’s context.</p>
 <p><br></p>
 
 
