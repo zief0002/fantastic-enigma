@@ -171,7 +171,8 @@ The readings indicate chapters in the [Zieffler, A. (2024)](https://zief0002.git
 <td align="center" style="vertical-align:middle;">
   <!-- [Ch. 1--3](https://zief0002.github.io/modeling/01-01-r-and-rstudio-installation.html) -->
 </td>
-<td>[Simple Regression Practice](worksheets/worksheet-02-01-simple-regression.html)</td>
+<td>[Simple Regression Practice](worksheets/worksheet-02-01-simple-regression.html)<br />
+[Simple Regression Practice -- KEY](worksheets/worksheet-02-01-simple-regression-ak.html)</td>
 
 <td align="center" style="vertical-align:middle;">
   <!-- [<span class="fa fa-code" style="font-size: 20px;"></span>](scripts/01-01-introduction-to-r.R) -->
