@@ -64,7 +64,8 @@ Below are the due dates for the assignments, as well as links to each assignment
 <td>Nov. 25</td>
 <td>Nov. 21</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="font-size: 20px;"></span>](assignments/assignment-04-introduction-to-multiple-regression.html)
+  [<span class="fas fa-link" style="font-size: 20px;"></span>](assignments/assignment-04-introduction-to-multiple-regression.html)<br />
+  <span style="margin-left:20px; color:red;">*[Updated 11-07-2024]*</span>
 </td>
 </tr>
 

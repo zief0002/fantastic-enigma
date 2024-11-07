@@ -52,7 +52,7 @@ Consider the following hypotheses about different potential predictors of fertil
 
 ## Part II: Regression Analysis
 
-You will fit three regression models to study the effect of contraceptive rates (focal predictor) on fertility rate (outcome). Because infant mortality rate and female education level (our two covariates) are related to both the focal predictor and outcome, they may confound the effect of contraceptive rates on fertility rate (see hypothesized path model).
+You will fit four regression models to study the effect of contraceptive rates (focal predictor) on fertility rate (outcome). Because infant mortality rate and female education level (our two covariates) are related to both the focal predictor and outcome, they may confound the effect of contraceptive rates on fertility rate (see hypothesized path model).
 
 ```{r}
 #| fig-align: center
@@ -73,7 +73,7 @@ To remove the confounding and evaluate the effect of contraceptive rates on fert
 - **Model 3:** Contraceptive rate and female education level as predictors of variation in fertility rate.
 - **Model 4:** Contraceptive rate, infant mortality rate, and female education level as predictors of variation in fertility rate.
 
-4. Examine the structure and formatting of Table 9 at <https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html>. Mimic the format and structure of this table to create a table to present the numerical information from the three models you fitted. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to "Landscape", rather than changing the size of the font. **(2pts.)**
+4. Examine the structure and formatting of Table 9 at <https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html>. Mimic the format and structure of this table to create a table to present the numerical information from the four models you fitted. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to "Landscape", rather than changing the size of the font. **(2pts.)**
 
 
 
@@ -83,11 +83,11 @@ To remove the confounding and evaluate the effect of contraceptive rates on fert
 <br />
 
 
-## Model 3: Interpreting Results from the "Final" Model
+## Model 4: Interpreting Results from the "Final" Model
 
-The research literature suggests that all three predictors are substantively important in predicting variation in fertility rates. Moreover, from the CIs produced in Model 3, we see that all three effects included in the model are statistically relevant (none of the CIs span 0). Because of this, we will adopt Model 3 as our "final" model. **Use the results from Model 3 to answer the remainder of the questions on this assignment.**
+The research literature suggests that all three predictors are substantively important in predicting variation in fertility rates. Moreover, from the CIs produced in Model 4, we see that all three effects included in the model are statistically relevant (none of the CIs span 0). Because of this, we will adopt Model 4 as our "final" model. **Use the results from Model 4 to answer the remainder of the questions on this assignment.**
 
-5. Report the regression equation from fitting Model 3. Use Equation Editor (or some other program that correctly types mathematical expressions) to typeset the equation correctly.
+5. Report the regression equation from fitting Model 4. Use Equation Editor (or some other program that correctly types mathematical expressions) to typeset the equation correctly.
 
 6. Report and interpret the value of the model $R^2$ using the context of the data.
 
@@ -99,7 +99,7 @@ The research literature suggests that all three predictors are substantively imp
 
 10. Based on the 95% confidence interval for the partial effect of contraception rate on fertility rate, which parameter values are reasonably compatible with the empirical data? Explain what this implies about the magnitude of the partial effect. 
 
-11. Create a publication quality plot that displays the results from Model 3. For this plot, put the contraception predictor on the *x*-axis. Control out the effect of education level by setting this to the mean level of education. Display two separate lines to show the effect of infant mortality rate; a small and large rate based on the data. The two lines should be displayed using different linetypes or colors (or both) so that they can be easily differentiated in the plot. Be sure that the figure is appropriately captioned. **(2pts.)**
+11. Create a publication quality plot that displays the results from Model 4. For this plot, put the contraception predictor on the *x*-axis. Control out the effect of education level by setting this to the mean level of education. Display two separate lines to show the effect of infant mortality rate; a small and large rate based on the data. The two lines should be displayed using different linetypes or colors (or both) so that they can be easily differentiated in the plot. Be sure that the figure is appropriately captioned. **(2pts.)**
 
 
 

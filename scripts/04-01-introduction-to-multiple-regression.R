@@ -43,7 +43,7 @@ keith
 
 lm.a = lm(gpa ~ 1 + homework, data = keith)
 
-glance(lm.a) # Model-level results
+glance(lm.a) |> print(width = Inf) # Model-level results
 tidy(lm.a)   # Coefficient-level results
 
 
@@ -76,7 +76,7 @@ keith |>
 
 # Scatterplot
 ggplot(data = keith, aes(x = parent_ed, y = gpa)) +
-  geom_point() +
+  geom_point(size = 5) +
   theme_bw() +
   xlab("Parent education level") +
   ylab("GPA")
@@ -95,7 +95,7 @@ keith |>
 
 lm.b = lm(gpa ~ 1 + parent_ed, data = keith)
 
-glance(lm.b) # Model-level results
+glance(lm.b) |> print(widyth = Inf) # Model-level results
 tidy(lm.b)   # Coefficient-level results
 
 
@@ -107,10 +107,14 @@ tidy(lm.b)   # Coefficient-level results
 
 lm.c = lm(gpa ~ 1 + parent_ed + homework, data = keith)
 
-glance(lm.c) # Model-level results
+
+glance(lm.c) |> print(width = Inf) # Model-level results
 tidy(lm.c)   # Coefficient-level results
 
 
+#lm.d = lm(gpa ~ 1 + homework  + parent_ed, data = keith)
+glance(lm.d) |> print(width = Inf) # Model-level results
+tidy(lm.d)   # Coefficient-level results
 
 ##################################################
 ### Residuals

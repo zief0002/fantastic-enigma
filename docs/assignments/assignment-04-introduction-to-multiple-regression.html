@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-09-26">
+<meta name="dcterms.date" content="2024-11-07">
 <meta name="description" content="This goal of this assignment is to give you experience fitting and interpreting multiple regression models. This assignment is worth 13 points. Each question is worth 1 point unless otherwise noted.   Copyright EPSY 8251, 2024">
 
 <title>Assignment 04 – EPsy 8251</title>
@@ -170,7 +170,7 @@ window.Quarto = {
   <ul>
   <li><a href="#part-i-correlations" id="toc-part-i-correlations" class="nav-link active" data-scroll-target="#part-i-correlations">Part I: Correlations</a></li>
   <li><a href="#part-ii-regression-analysis" id="toc-part-ii-regression-analysis" class="nav-link" data-scroll-target="#part-ii-regression-analysis">Part II: Regression Analysis</a></li>
-  <li><a href="#model-3-interpreting-results-from-the-final-model" id="toc-model-3-interpreting-results-from-the-final-model" class="nav-link" data-scroll-target="#model-3-interpreting-results-from-the-final-model">Model 3: Interpreting Results from the “Final” Model</a></li>
+  <li><a href="#model-4-interpreting-results-from-the-final-model" id="toc-model-4-interpreting-results-from-the-final-model" class="nav-link" data-scroll-target="#model-4-interpreting-results-from-the-final-model">Model 4: Interpreting Results from the “Final” Model</a></li>
   </ul>
 </nav>
     </div>
@@ -196,7 +196,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 26, 2024</p>
+      <p class="date">November 7, 2024</p>
     </div>
   </div>
   
@@ -243,7 +243,7 @@ window.Quarto = {
 </section>
 <section id="part-ii-regression-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="part-ii-regression-analysis">Part II: Regression Analysis</h2>
-<p>You will fit three regression models to study the effect of contraceptive rates (focal predictor) on fertility rate (outcome). Because infant mortality rate and female education level (our two covariates) are related to both the focal predictor and outcome, they may confound the effect of contraceptive rates on fertility rate (see hypothesized path model).</p>
+<p>You will fit four regression models to study the effect of contraceptive rates (focal predictor) on fertility rate (outcome). Because infant mortality rate and female education level (our two covariates) are related to both the focal predictor and outcome, they may confound the effect of contraceptive rates on fertility rate (see hypothesized path model).</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -264,21 +264,21 @@ window.Quarto = {
 <li><strong>Model 4:</strong> Contraceptive rate, infant mortality rate, and female education level as predictors of variation in fertility rate.</li>
 </ul>
 <ol start="4" type="1">
-<li>Examine the structure and formatting of Table 9 at <a href="https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html" class="uri">https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html</a>. Mimic the format and structure of this table to create a table to present the numerical information from the three models you fitted. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to “Landscape”, rather than changing the size of the font. <strong>(2pts.)</strong></li>
+<li>Examine the structure and formatting of Table 9 at <a href="https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html" class="uri">https://zief0002.github.io/musings/creating-tables-to-present-statistical-results.html</a>. Mimic the format and structure of this table to create a table to present the numerical information from the four models you fitted. Make sure the table you create also has an appropriate caption. If the table is too wide, change the page orientation in your word processing program to “Landscape”, rather than changing the size of the font. <strong>(2pts.)</strong></li>
 </ol>
 <p><br></p>
 </section>
-<section id="model-3-interpreting-results-from-the-final-model" class="level2">
-<h2 class="anchored" data-anchor-id="model-3-interpreting-results-from-the-final-model">Model 3: Interpreting Results from the “Final” Model</h2>
-<p>The research literature suggests that all three predictors are substantively important in predicting variation in fertility rates. Moreover, from the CIs produced in Model 3, we see that all three effects included in the model are statistically relevant (none of the CIs span 0). Because of this, we will adopt Model 3 as our “final” model. <strong>Use the results from Model 3 to answer the remainder of the questions on this assignment.</strong></p>
+<section id="model-4-interpreting-results-from-the-final-model" class="level2">
+<h2 class="anchored" data-anchor-id="model-4-interpreting-results-from-the-final-model">Model 4: Interpreting Results from the “Final” Model</h2>
+<p>The research literature suggests that all three predictors are substantively important in predicting variation in fertility rates. Moreover, from the CIs produced in Model 4, we see that all three effects included in the model are statistically relevant (none of the CIs span 0). Because of this, we will adopt Model 4 as our “final” model. <strong>Use the results from Model 4 to answer the remainder of the questions on this assignment.</strong></p>
 <ol start="5" type="1">
-<li><p>Report the regression equation from fitting Model 3. Use Equation Editor (or some other program that correctly types mathematical expressions) to typeset the equation correctly.</p></li>
+<li><p>Report the regression equation from fitting Model 4. Use Equation Editor (or some other program that correctly types mathematical expressions) to typeset the equation correctly.</p></li>
 <li><p>Report and interpret the value of the model <span class="math inline">\(R^2\)</span> using the context of the data.</p></li>
 <li><p>Using symbols, write the omnibus null hypothesis that is tested by the model-level <em>F</em>-statistic in this analysis in two different manners: (1) using the coefficient parameters used in the regression model, and (2) using the variance accounted for parameter.</p></li>
 <li><p>Based on the results of the model-level <em>F</em>-test, does the model seem to explain variation in fertility rates? Explain. <em>Note:</em> Here you can use the <em>p</em>-value as evidence, but do not compare this to 0.05.</p></li>
 <li><p>Interpret the estimated coefficient value associated with the partial effect of contraception rate.</p></li>
 <li><p>Based on the 95% confidence interval for the partial effect of contraception rate on fertility rate, which parameter values are reasonably compatible with the empirical data? Explain what this implies about the magnitude of the partial effect.</p></li>
-<li><p>Create a publication quality plot that displays the results from Model 3. For this plot, put the contraception predictor on the <em>x</em>-axis. Control out the effect of education level by setting this to the mean level of education. Display two separate lines to show the effect of infant mortality rate; a small and large rate based on the data. The two lines should be displayed using different linetypes or colors (or both) so that they can be easily differentiated in the plot. Be sure that the figure is appropriately captioned. <strong>(2pts.)</strong></p></li>
+<li><p>Create a publication quality plot that displays the results from Model 4. For this plot, put the contraception predictor on the <em>x</em>-axis. Control out the effect of education level by setting this to the mean level of education. Display two separate lines to show the effect of infant mortality rate; a small and large rate based on the data. The two lines should be displayed using different linetypes or colors (or both) so that they can be easily differentiated in the plot. Be sure that the figure is appropriately captioned. <strong>(2pts.)</strong></p></li>
 </ol>
 <p><br></p>
 
